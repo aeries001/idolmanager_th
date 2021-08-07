@@ -54,7 +54,7 @@
   {
     "id": 4,
     "type": "genre",
-    "title": "ฮิพฮอพ",
+    "title": "ฮิปฮอป",
     "unlocked": true,
     "level": 0,
     "appeal": {
@@ -91,7 +91,7 @@
   {
     "id": 7,
     "type": "genre",
-    "title": "อวอง-การ์ด",
+    "title": "แหวกแนว",
     "unlocked": true,
     "level": 0,
     "appeal": {
@@ -102,7 +102,7 @@
   {
     "id": 8,
     "type": "genre",
-    "title": "เอนคา",
+    "title": "ลูกกรุง",
     "unlocked": true,
     "level": 0,
     "appeal": {
