@@ -210,7 +210,7 @@
 		text: "คะแนนชื่อเสียงสำหรับบทบาทละคร"
 	},{
 		id: "ACTIVITIES__TOUREVERY",
-		text: "ให้คอนเสิร์ตทุกประเทศ"
+		text: "จัดคอนเสิร์ตทุกประเทศ"
 	},{
 		id: "ACTIVITIES__IDOLSLEVEL",
 		text: "ไอดอลที่มีเลเวล"
@@ -1676,19 +1676,19 @@
 		text: "โตเกียวโคลีเซียม"
 	},{
 		id: "CONCERT__CARD_STAMINA",
-		text: "เซ็นเตอร์\nพลังงาน"
+		text: "เพิ่มสตามิน่า\nเซ็นเตอร์"
 	},{
 		id: "CONCERT__CARD_HYPE",
 		text: "ไฮป์"
 	},{
 		id: "CONCERT__CARD_ACC_SUCC",
-		text: "อุบัติเหตุ\nความสำเร็จ\nโอกาส"
+		text: "ลดโอกาส\nในการเกิด\nอุบัติเหตุ"
 	},{
 		id: "CONCERT__CARD_ACC",
-		text: "อุบัติเหตุ\nโอกาส"
+		text: "โอกาสเกิด\nอุบัติเหตุ"
 	},{
 		id: "CONCERT__CARD_NO_CRIT",
-		text: "ไม่\nมี\nข้อผิดพลาด"
+		text: "ไม่มี\nข้อผิดพลาด\nร้ายแรง"
 	},{
 		id: "CONCERT__C_S_1",
 		text: "เพิ่มพลังงานร่างกายของเซ็นเตอร์ปัจจุบันทันที"
