@@ -1,0 +1,91 @@
+﻿[
+	{
+		"id": 0,
+		"title": "การเปิดตัวแบบดิจิทัลเท่านั้น",
+		"unlocked": true,
+		"cost": -1,
+		"physical": false,
+		"digital_only": true,
+		"max_level": 1,
+		"description": "{green}ลดค่าใช้จ่ายที่เกี่ยวข้องกับการเปิดตัว{/color}{linebreak}{red}แฟนๆ ไม่สามารถซื้อได้มากกว่า 1 ชุด\nไม่มีแพ็กเกจสิทธิประโยชน์{/color}"
+	},
+
+	{
+		"id": 1,
+		"title": "งานจับมือเดี่ยว",
+		"unlocked": true,
+		"cost": 0.5,
+		"physical": true,
+		"cost_stamina": 50,
+		"girl_multiplier": true,
+		"individual_handshake": true,
+		"description": "แฟนๆ รับบัตรจับมือกับหนึ่งในไอดอล{linebreak}แฟนพันธุ์แท้ซื้ออีก {hardcore_multi} ชุด\n({hardcore} ต่อไอดอล){linebreak}พลังงาน: {cost_stamina} สำหรับทุกไอดอลในกรุ๊ป\nราคาต่อซีดี: {cost_CD}",
+		"appeal": {
+			"hardcore": [0.05, 0.06, 0.07, 0.08, 0.09, 0.1, 0.11, 0.12, 0.13, 0.15]
+		}
+	},{
+		"id": 2,
+		"title": "งานจับมือกลุ่ม",
+		"unlocked": true,
+		"cost": 0.5,
+		"physical": true,
+		"cost_stamina": 20,
+		"group_handshake": true,
+		"description": "แฟนๆ ได้บัตรไปจับมือกับเหล่าไอดอล{linebreak}แฟนพันธุ์แท้ซื้ออีก {hardcore} ชุด{linebreak}พลังงาน: {cost_stamina} สำหรับทุกไอดอลในกรุ๊ป\nราคาต่อซีดี: {cost_CD}",
+		"appeal": {
+			"hardcore": [0.3, 0.32, 0.34, 0.36, 0.38, 0.4, 0.42, 0.44, 0.48, 0.5]
+		}
+	},
+
+
+
+	{
+		"id": 3,
+		"title": "MARKETING__AD_CAMPAIGN",
+		"unlocked": true,
+		"cost": 0.5,
+		"minimal_cost": 100000,
+		"physical": true,
+		"description": "MARKETING__AD_CAMPAIGN_DESCRIPTION"
+	},{
+		"id": 4,
+		"title": "MARKETING__VIRAL_CAMPAIGN",
+		"unlocked": true,
+		"cost": 0.05,
+		"minimal_cost": 50000,
+		"physical": true,
+		"description": "MARKETING__VIRAL_CAMPAIGN_DESCRIPTION"
+	},{
+		"id": 5,
+		"title": "MARKETING__FAKE_SCANDAL",
+		"unlocked": true,
+		"cost": 0.01,
+		"physical": true,
+		"description": "MARKETING__FAKE_SCANDAL_DESCRIPTION"
+	},{
+		"id": 6,
+		"title": "MARKETING__LEWD_PV",
+		"unlocked": true,
+		"cost": 0.25,
+		"minimal_cost": 100000,
+		"physical": false,
+		"description": "MARKETING__LEWD_PV_DESCRIPTION"
+	},{
+		"id": 7,
+		"title": "MARKETING__EDGY_PV",
+		"unlocked": true,
+		"cost": 0.25,
+		"minimal_cost": 100000,
+		"physical": false,
+		"description": "MARKETING__EDGY_PV_DESCRIPTION"
+	},{
+		"id": 8,
+		"title": "MARKETING__ARTSY_PV",
+		"unlocked": true,
+		"cost": 0.25,
+		"minimal_cost": 100000,
+		"physical": false,
+		"description": "MARKETING__ARTSY_PV_DESCRIPTION"
+	}
+]
+

@@ -1,0 +1,4648 @@
+[
+	{
+		id: "CONTINUE",
+		text: "ดำเนินการต่อ"
+	},{
+		id: "CANCEL",
+		text: "ยกเลิก"
+	},{
+		id: "CLOSE",
+		text: "ปิด"
+	},{
+		id: "START",
+		text: "เริ่ม"	
+	},{
+		id: "DELETE",
+		text: "ลบ"	
+	},{
+		id: "LOAD",
+		text: "โหลด"	
+	},{
+		id: "SAVE",
+		text: "เซฟ"	
+	},{
+		id: "BACK",
+		text: "กลับ"	
+	},{
+		id: "APPLY",
+		text: "ใช้"	
+	},{
+		id: "FINISH",
+		text: "เสร็จ"
+	},
+
+
+	{
+		id: "MM_NEW_GAME",
+		text: "เกมใหม่"	
+	},{
+		id: "MM_LOAD_GAME",
+		text: "โหลดเกม"	
+	},{
+		id: "MM_MODS",
+		text: "ม็อด"	
+	},{
+		id: "MM_OPTIONS",
+		text: "ตัวเลือก"	
+	},{
+		id: "MM_QUIT",
+		text: "ออก"	
+	},{
+		id: "MM_FIRST_NAME",
+		text: "ชื่อ"	
+	},{
+		id: "MM_LAST_NAME",
+		text: "นามสกุล"	
+	},{
+		id: "MM_GROUP_NAME",
+		text: "ชื่อกรุ๊ป"	
+	},{
+		id: "MM_INTRO",
+		text: "บทนำ"	
+	},{
+		id: "MM_POLICIES_DIALOGUE",
+		text: "บทสนทนานโยบาย"	
+	},{
+		id: "MM_SUBSTORIES",
+		text: "เนื้อเรื่องย่อย"	
+	},{
+		id: "MM_RANDOM_EVENTS",
+		text: "อีเว้นท์สุ่ม"	
+	},{
+		id: "MM_DATING_SCANDALS",
+		text: "เรื่องอื้อฉาวการออกเดท"	
+	},
+
+	{
+		id: "MM_RUN_IN_BACKGROUND",
+		text: "ทำงานในพื้นหลัง"
+	},{
+		id: "MM_BG_MUSIC",
+		text: "เพลงประกอบ"
+	},{
+		id: "MM_STORY_MUSIC",
+		text: "เพลงเนื้อเรื่อง"
+	},{
+		id: "MM_AMBIENT",
+		text: "สภาพแวดล้อม"
+	},{
+		id: "MM_SOUND",
+		text: "เสียงเอฟเฟค"
+	},{
+		id: "MM_LANGUAGE",
+		text: "ภาษา"
+	}
+
+	{
+		id: "MM_NEW_SAVE",
+		text: "เซฟใหม่"
+	},{
+		id: "MM_OVERWRITE",
+		text: "คุณแน่ใจหรือว่าต้องการเขียนทับไฟล์บันทึกนี้?"	
+	},{
+		id: "MM_DELETE",
+		text: "คุณแน่ใจหรือว่าต้องการลบไฟล์บันทึกนี้?"	
+	},{
+		id: "MM_NO_SCREENSHOT",
+		text: "ไม่มีภาพหน้าจอ"	
+	},
+
+	{
+		id: "MM_NEW_PLAYER_WARNING",
+		text: "ยินดีต้อนรับสู่ Idol Manager เบต้า!\n\nเบต้านี้ยังขาดคุณสมบัติบางอย่างที่เราวางแผนที่จะรวมไว้ในเกมตัวเต็ม แม้ว่าจะมีระบบการเล่นเกมหลักหลายระบบ แต่ส่วนสำคัญของเนื้อเรื่องยังไม่รวมอยู่ด้วย และเรายังคงทำงานเกี่ยวกับคุณสมบัติและเนื้อหาใหม่ที่จะเพิ่มเข้ามาในการอัพเดทในอนาคต\n\nคุณสมบัติต่อไปนี้ยังไม่ได้เป็นส่วนหนึ่งของ Idol Manager แต่จะถูกเพิ่มในการอัพเดทที่จะเกิดขึ้น:\n\n- ความสัมพันธ์ระหว่างไอดอล (รวมถึงการกลั่นแกล้งและกลุ่ม)\n- ขยายระบบความสัมพันธ์ไอดอล/ผู้เล่นด้วยการออกเดท\n- การแสดงรางวัล (กิจกรรมพิเศษรูปแบบใหม่)\n- ชาร์ตยอดขายสำหรับซิงเกิ้ล\n- เนื้อหาเนื้อเรื่องหลัก: เนื้อเรื่องที่เกี่ยวข้องมากขึ้น รวมถึงบางเหตุการณ์ที่จะส่งผลต่อการเล่นเกม\n- เนื้อหาอื่นๆ มากมาย (รวมถึงการเพิ่มจำนวนเนื้อเรื่องย่อยและเหตุการณ์ที่เป็นไปได้เมื่อเนื้อเรื่องขยายออกไป)\n\nมีการเพิ่มคุณสมบัติใหม่ ระบบการเล่นเกม และเนื้อหาในเกมในการอัปเดตรายเดือน เนื่องจากเกมยังอยู่ในระหว่างการพัฒนา ในเวอร์ชันเบต้านี้ <b>คุณอาจพบข้อบกพร่องหรือปัญหาด้านประสิทธิภาพ และการอัปเดตในอนาคตอาจใช้งานไม่ได้กับไฟล์บันทึกเก่า</b>\n\nสำหรับข้อมูลเพิ่มเติมเกี่ยวกับการอัพเดทที่วางแผนไว้ในอนาคตสำหรับ Idol Manager และแพตช์โน้ตแบบเต็มที่มีรายละเอียดว่ามีอะไรใหม่ในเวอร์ชันนี้ โปรดไปที่ <link=\"https://www.kickstarter.com/projects/kuiper/idol-manager/updates\"><color=#777BBA>หน้าอัปเดตของเรา</color></link>"
+	},{
+		id: "MM_UNDERSTAND",
+		text: "เข้าใจแล้ว มาเล่นกันเถอะ!"
+	},
+
+
+	{
+		id: "LP_TITLE__ACTIVITIES",
+		text: "กิจกรรมฯ"
+	},{
+		id: "LP_TITLE__IDOLS",
+		text: "ไอดอลฯ"
+	},{
+		id: "LP_TITLE__STAFF",
+		text: "พนักงานฯ"
+	},{
+		id: "LP_TITLE__SINGLES",
+		text: "ซิงเกิ้ลฯ"
+	},{
+		id: "LP_TITLE__MEDIA",
+		text: "สื่อฯ"
+	},{
+		id: "LP_TITLE__SPECIALEVENTS",
+		text: "อีเว้นท์พิเศษฯ"
+	},{
+		id: "LP_TITLE__RESEARCH",
+		text: "การวิจัยฯ"
+	},{
+		id: "LP_TITLE__POLICIES",
+		text: "นโยบายฯ"
+	},{
+		id: "LP_TITLE__SNS",
+		text: "SNS"
+	},{
+		id: "LP_TITLE__SETTINGS",
+		text: "การตั้งค่า"
+	},
+
+	{
+		id: "ACTIVITIES__PERFORMANCE",
+		text: "งานแสดง"
+	},{
+		id: "ACTIVITIES__PROMOTION",
+		text: "โปรโมท"
+	},{
+		id: "ACTIVITIES__SPATREATMENT",
+		text: "สปาทรีตเมนต์"
+	},{
+		id: "ACTIVITIES__HIRE_IDOLS",
+		text: "จ้างไอดอล"
+	},{
+		id: "ACTIVITIES__RELEASEASINGLE",
+		text: "ปล่อยซิงเกิ้ล"
+	},{
+		id: "ACTIVITIES__SINGLESALES",
+		text: "ขายซิงเกิ้ล"
+	},{
+		id: "ACTIVITIES__HOLDCONCERT",
+		text: "จัดงานคอนเสิร์ต"
+	},{
+		id: "ACTIVITIES__GENRELEVEL",
+		text: "ระดับประเภท [ซิงเกิ้ล] สูงสุด"
+	},{
+		id: "ACTIVITIES__CONCERTHYPE",
+		text: "จบคอนเสิร์ตด้วย"
+	},{
+		id: "ACTIVITIES__ELECTIONVOTES",
+		text: "[เลือกตั้ง] โหวตให้ไอดอลอันดับ #1 ของคุณ"
+	},{
+		id: "ACTIVITIES__CONCERTAUDIENCE",
+		text: "[คอนเสิร์ต] ผู้ชมสูงสุด: "
+	},{
+		id: "ACTIVITIES__WORLDTOUR",
+		text: "[เวิลด์ทัวร์] ระดับประเทศสูงสุด"
+	},{
+		id: "ACTIVITIES__WORLDTOUR",
+		text: "[เวิลด์ทัวร์] ระดับประเทศสูงสุด"
+	},{
+		id: "ACTIVITIES__MAGAZINES",
+		text: "ปรากฏในนิตยสาร"
+	},{
+		id: "ACTIVITIES__INTERNETSHOW",
+		text: "เปิดการแสดงอินเทอร์เน็ต"
+	},{
+		id: "ACTIVITIES__INTERNETPEAK",
+		text: "ผู้ชมสูงสุดของการแสดงทางอินเทอร์เน็ต"
+	},{
+		id: "ACTIVITIES__RADIOSHOW",
+		text: "เปิดตัวรายการวิทยุ"
+	},{
+		id: "ACTIVITIES__TVSHOW",
+		text: "เปิดตัวรายการทีวี"
+	},{
+		id: "ACTIVITIES__FAMEVARIETY",
+		text: "คะแนนชื่อเสียงในรายการวาไรตี้"
+	},{
+		id: "ACTIVITIES__FAMEDRAMA",
+		text: "คะแนนชื่อเสียงสำหรับบทบาทละคร"
+	},{
+		id: "ACTIVITIES__TOUREVERY",
+		text: "ให้คอนเสิร์ตทุกประเทศ"
+	},{
+		id: "ACTIVITIES__IDOLSLEVEL",
+		text: "ไอดอลที่มีเลเวล"
+	},{
+		id: "ACTIVITIES__IDOLSWITH",
+		text: "ไอดอลกับ"
+	},{
+		id: "ACTIVITIES__MAXEDOUT",
+		text: "สถิติสูงสุด"
+	}, {
+		id: "ACTIVITIES__ALLIDOLS",
+		text: "ไอดอลทั้งหมด"
+	},{
+		id: "ACTIVITIES__SPA_1",
+		text: "ไอดอลที่มีความแข็งแกร่งทางร่างกายน้อยที่สุดฟื้นฟู"
+	},{
+		id: "ACTIVITIES__SPA_2",
+		text: "ของมัน"
+	},{
+		id: "ACTIVITIES__PRODUCER",
+		text: "เพิ่มระดับผู้ผลิตของคุณ (พารามิเตอร์การผลิตและอิทธิพล) เพื่อให้สามารถจัดคิวกิจกรรมได้"
+	},{
+		id: "ACTIVITIES__MAXQUEUE",
+		text: "ความยาวคิวสูงสุด"
+	},{
+		id: "ACTIVITIES__PRODUCER_LEVELUP",
+		text: "เพิ่มระดับผู้ผลิตของคุณ (พารามิเตอร์การผลิตและอิทธิพล) เพื่อให้สามารถจัดคิวกิจกรรมได้มากขึ้น"
+	},
+
+	{
+		id: "AUDITION",
+		text: "ออดิชั่น"
+	},{
+		id: "AUDITIONS",
+		text: "ออดิชั่น"
+	},{
+		id: "AUDITION__LOCAL",
+		text: "ท้องถิ่น"
+	},{
+		id: "AUDITION__REGIONAL",
+		text: "ภูมิภาค"
+	},{
+		id: "AUDITION__NATIONWIDE",
+		text: "ทั่วประเทศ"
+	},{
+		id: "AUDITION__HINT",
+		text: "ลากไอดอลมาวางในห้องนี้\n เพื่อเปลี่ยนเงินเดือนและ\n ชื่อเล่น"
+	},{
+		id: "AUDITION__CAN_PRODUCE_AGAIN",
+		text: "ผลิตได้อีกใน @ วัน"
+	},{
+		id: "AUDITION__REGIONAL_GRNT",
+		text: "รับประกันไอดอลเงิน 1 คน"
+	},{
+		id: "AUDITION__NATIONWIDE_GRNT",
+		text: "รับประกันไอดอลทอง 1 คน"
+	},{
+		id: "AUDITION__DROP_RATES",
+		text: "อัตราดรอปมีผลกับไอดอลแต่ละคนในการออดิชั่น"
+	},{
+		id: "AUDITION__HIRE",
+		text: "จ้าง"
+	},
+	
+	{
+		id: "BIZ",
+		text: "ธุรกิจ"
+	},{
+		id: "BIZ__PROPOSAL",
+		text: "ข้อเสนอทางธุรกิจ"
+	},{
+		id: "BIZ__PROPOSALS",
+		text: "ข้อเสนอทางธุรกิจ"
+	},{
+		id: "BIZ__TASK_COMPLETE",
+		text: "การยอมรับข้อเสนอนี้ทำให้ภารกิจเสร็จสิ้น"
+	},{
+		id: "BIZ__WISH_FULFILL_1",
+		text: "การยอมรับข้อเสนอนี้ทำให้สำเร็จ"
+	},{
+		id: "BIZ__WISH_FULFILL_2",
+		text: "'s wish"
+	},{
+		id: "BIZ__DURATION",
+		text: "ระยะเวลา"
+	},{
+		id: "BIZ__PAYMENT",
+		text: "การชำระเงิน"
+	},{
+		id: "BIZ__LIABILITY",
+		text: "หนี้"
+	},{
+		id: "BIZ__NEW_FANS",
+		text: "แฟนๆเพิ่ม"
+	},{
+		id: "BIZ__NEGOTIATIONS",
+		text: "การเจรจา"
+	},{
+		id: "BIZ__AD_SHORT",
+		text: "AD"
+	},{
+		id: "BIZ__PHOTOSHOOT",
+		text: "ถ่ายแบบ"
+	},{
+		id: "BIZ__DRAMA_SHORT",
+		text: "ทีวี"
+	},{
+		id: "BIZ__VARIETY",
+		text: "ความหลากหลาย"
+	},{
+		id: "BIZ__DURATION_ONE",
+		text: "ระยะเวลา: งานครั้งเดียว"
+	},{
+		id: "BIZ__DURATION",
+		text: "ระยะเวลา"
+	},{
+		id: "BIZ__AVG",
+		text: "ค่าเฉลี่ย"
+	},{
+		id: "BIZ__CONTACTS",
+		text: "ติดต่อทางธุรกิจ"
+	},{
+		id: "BIZ__CONTRACT_TERMINATED",
+		text: "สัญญาสิ้นสุดลงด้วย"
+	},{
+		id: "BIZ__CONTRACT_TERMINATED_2",
+		text: "สัญญาสิ้นสุดลง"
+	},{
+		id: "BIZ__DAMAGES",
+		text: "ความเสียหาย"
+	},{
+		id: "BIZ__BROKEN_CONTRACTS",
+		text: "ผิดสัญญา"
+	},{
+		id: "BIZ__SUCCESS_RATE",
+		text: "โอกาสสำเร็จ"
+	},{
+		id: "BIZ__NEGOT_SUCCESS",
+		text: "ความสำเร็จในการเจรจา"
+	},{
+		id: "BIZ__NEGOT_FAILURE",
+		text: "การเจรจาล้มเหลว"
+	},{
+		id: "BIZ__NEGOT_COEFF",
+		text: "@% เพื่อชำระเงิน"
+	},{
+		id: "BIZ__DEALS_FASTER",
+		text: "รับข้อเสนอทางธุรกิจเร็วขึ้น 25%"
+	},{
+		id: "BIZ__PROD_FASTER",
+		text: "งานการผลิตเร็วขึ้น 25%"
+	},{
+		id: "BIZP__IDOL",
+		text: "ไอดอล"
+	},{
+		id: "BIZP__TYPE",
+		text: "ประเภท"
+	},{
+		id: "BIZP__PAYMENT",
+		text: "การชำระเงิน /w"
+	},{
+		id: "BIZP__NEW_FANS",
+		text: "แฟนๆเพิ่ม /w"
+	},{
+		id: "BIZP__STAMINA",
+		text: "ความแข็งแกร่ง /w"
+	},{
+		id: "BIZP__WEEKS_LEFT",
+		text: "สัปดาห์ที่เหลือ"
+	},{
+		id: "BIZP__LIABILITY",
+		text: "หนี้"
+	},{
+		id: "BIZ__ACCEPT",
+		text: "ยอมรับ"
+	},{
+		id: "BIZ__DECLINE",
+		text: "ปฏิเสธ"
+	},{
+		id: "BIZ__NEGOTIATIONS",
+		text: "การเจรจา"
+	},
+
+	{
+		id: "POLICY__FREE_1",
+		text: "คุณสามารถเปลี่ยนนโยบายนี้ได้ฟรีจนถึง"
+	},{
+		id: "POLICY__FREE_2",
+		text: "หรือจนกว่าคุณจะปล่อยซิงเกิ้ลแรกของคุณ"
+	},
+
+	{
+		id: "SINGLE",
+		text: "ซิงเกิ้ล"
+	},{
+		id: "SINGLES",
+		text: "ซิงเกิ้ลฯ"
+	},{
+		id: "SINGLE__LYRICS",
+		text: "แนวเพลง"
+	},{
+		id: "SINGLE__CHOREO",
+		text: "ท่าเต้น"
+	},{
+		id: "SINGLE__CHOREO_SHORT",
+		text: "ท่าเต้น"
+	},{
+		id: "SINGLE__SONG",
+		text: "เพลง"
+	},{
+		id: "SINGLE__MARKETING",
+		text: "ตลาด"
+	},{
+		id: "SINGLE__GENRE",
+		text: "ประเภท"
+	},{
+		id: "SINGLE__PROFIT",
+		text: "กำไร"
+	},{
+		id: "SINGLE__BUZZ_ON_RELEASE",
+		text: "เรื่องที่ปล่อย"
+	},{
+		id: "SINGLE__PROD_COST",
+		text: "ต้นทุนการผลิต"
+	},{
+		id: "SINGLE__NO_MONEY",
+		text: "เงินไม่พอ"
+	},{
+		id: "SINGLE__NO_IDOLS",
+		text: "คุณไม่สามารถเปิดตัวซิงเกิ้ลที่ไม่มีไอดอลในวงได้"
+	},{
+		id: "SINGLE__INJURED",
+		text: "มีไอดอลในกลุ่มที่ได้รับบาดเจ็บ / อยู่ในช่วงพัก คุณต้องลบพวกเขาออกจากรูปแบบหรือรอจนกว่าพวกเขาจะฟื้นตัว"
+	},{
+		id: "SINGLE__TOO_OFTEN",
+		text: "การปล่อยซิงเกิ้ลบ่อยเกินไปทำให้ยอดขายลดลงอย่างมาก"
+	},{
+		id: "SINGLE__CANCELING",
+		text: "ยกเลิกซิงเกิ้ลยังยกเลิกงานเลือกตั้ง!"
+	},{
+		id: "SINGLE__TITLE",
+		text: "ชื่อ"
+	},{
+		id: "SINGLE__SALES",
+		text: "ยอดขาย"
+	},{
+		id: "SINGLE__PROFIT",
+		text: "กำไร"
+	},{
+		id: "SINGLE__PREV_SALES",
+		text: "ยอดขายซิงเกิลก่อนหน้า"
+	},{
+		id: "SINGLE__COST",
+		text: "ค่าใช้จ่าย"
+	},{
+		id: "SINGLE__REVENUE",
+		text: "รายได้"
+	},{
+		id: "SINGLE__PER_CD",
+		text: "ต่อ CD"
+	},{
+		id: "SINGLE__OTHER_EXP",
+		text: "ค่าใช้จ่ายอื่นๆ"
+	},{
+		id: "SINGLE__ENTER_NUMBER",
+		text: "ใส่จำนวนซีดีที่จะผลิต"
+	},{
+		id: "SINGLE__APPEAL",
+		text: "ความดึงดูด"
+	},{
+		id: "SINGLE__QTY",
+		text: "จำนวนซีดีที่ผลิต"
+	},{
+		id: "SINGLE__FORMATION",
+		text: "รูปแบบ"
+	},
+
+	{
+		id: "MEDIA",
+		text: "สื่อ"
+	},{
+		id: "MEDIA__CONCEPT",
+		text: "แนวคิด"
+	},{
+		id: "MEDIA__PREPROD",
+		text: "ก่อนการผลิต"
+	},{
+		id: "MEDIA__PROD",
+		text: "การผลิต"
+	},{
+		id: "MEDIA__PRODUCTION",
+		text: "การผลิต"
+	},
+
+	{
+		id: "SEVENT",
+		text: "อีเว้นท์พิเศษ"
+	},{
+		id: "SEVENTS",
+		text: "อีเว้นท์พิเศษฯ"
+	},
+
+	{
+		id: "AGENCY__NOT_ENOUGH_STAMINA",
+		text: "พลังงานไม่พอ"
+	},{
+		id: "AGENCY__LOAN_TAKEN",
+		text: "รับเงินกู้"
+	},{
+		id: "AGENCY__CHOREO_DONE",
+		text: "เรียนรู้การออกแบบท่าเต้น"
+	},{
+		id: "AGENCY__SONG_DONE",
+		text: "เพลงที่บันทึก"
+	},{
+		id: "AGENCY__MARKETING_DONE",
+		text: "การวางแผนการตลาดการพัฒนา"
+	},{
+		id: "AGENCY__LYRICS_DONE",
+		text: "แนวเพลงที่เขียน"
+	},{
+		id: "AGENCY__SHOW_PROD_DONE",
+		text: "รวมทีม"
+	},{
+		id: "AGENCY__CONCEPT_DONE",
+		text: "เกิดแนวคิด"
+	},{
+		id: "AGENCY__SSK_PROD_DONE",
+		text: "เซ็นสัญญา"
+	},{
+		id: "AGENCY__SSK_CONCEPT_DONE",
+		text: "แนวคิดการพัฒนา"
+	},{
+		id: "AGENCY__PRODUCTION",
+		text: "การผลิต"
+	},{
+		id: "AGENCY__LOGISTICS",
+		text: "โลจิสติกส์"
+	},{
+		id: "AGENCY__DANCE_DONE",
+		text: "ซ้อมเต้น"
+	},{
+		id: "AGENCY__REHEARSAL",
+		text: "ซ้อม"
+	},{
+		id: "AGENCY__BIZ_FAILED",
+		text: "ข้อเสนอทางธุรกิจล้มเหลว"
+	},{
+		id: "AGENCY__YOUR_OFFICE",
+		text: "สำนักงานของคุณ"
+	},{
+		id: "AGENCY__REC_STUDIO",
+		text: "สตูดิโอบันทึกเสียง"
+	},{
+		id: "AGENCY__DANCE_ROOM",
+		text: "ห้องซ้อมเต้น"
+	},{
+		id: "AGENCY__OFFICE",
+		text: "สำนักงาน"
+	},{
+		id: "AGENCY__BREAK_ROOM",
+		text: "ห้องพัก"
+	},{
+		id: "AGENCY__DOCTORS_OFFICE",
+		text: "สำนักงานแพทย์"
+	},{
+		id: "AGENCY__DRESSING_ROOM",
+		text: "ห้องแต่งตัว"
+	},{
+		id: "AGENCY__CAFE",
+		text: "คาเฟ่"
+	},{
+		id: "AGENCY__THEATER",
+		text: "เธียเตอร์"
+	},{
+		id: "AGENCY__COACHING",
+		text: "การฝึกสอน"
+	},{
+		id: "AGENCY__STYLING",
+		text: "จัดแต่งทรงผมส่วนตัว"
+	},{
+		id: "AGENCY__DESIGN_PROJECT",
+		text: "โครงการออกแบบ"
+	},{
+		id: "AGENCY__DESIGN_PROJECT_HINT",
+		text: "เพิ่มความน่าดึงดูดของพารามิเตอร์ภาพให้กับกลุ่มประชากร"
+	},{
+		id: "AGENCY__HIATUS_HINT_1",
+		text: "เมื่อไอดอลบาดเจ็บหรือซึมเศร้า ต้องส่งตัวไปพักฟื้น"
+	},{
+		id: "AGENCY__HIATUS_HINT_2",
+		text: "การรักษาของแพทย์ช่วยลดระยะเวลาที่หายไปและมีโอกาสที่ไอดอลจะฟื้นตัวอย่างสมบูรณ์หลังการรักษาโดยไม่ต้องพัก"
+	},{
+		id: "AGENCY__LOWEST_STAMINA",
+		text: "ไอดอลที่มีความแข็งแกร่งทางร่างกายน้อยที่สุด"
+	},{
+		id: "AGENCY__RESTORE_1",
+		text: "ฟื้นฟู"
+	},{
+		id: "AGENCY__RESTORE_2",
+		text: "มันวันละครั้ง"
+	},{
+		id: "AGENCY__RESTORE_3",
+		text: "อนุญาตให้สร้างห้องพักได้มากขึ้น"
+	},{
+		id: "AGENCY__RESTORE_4",
+		text: "ไอดอลของคุณมากขึ้นเพื่อฟื้นฟูความแข็งแกร่ง"
+	},{
+		id: "AGENCY__RENT",
+		text: "เช่า"
+	},{
+		id: "AGENCY__FLOOR_NO_RENT",
+		text: "ชั้นนี้ให้เช่าฟรี"
+	},{
+		id: "AGENCY__DAYS_LEFT",
+		text: "@ วันที่เหลือ"
+	},{
+		id: "AGENCY__DAY_LEFT",
+		text: "เหลืออีก 1 วัน"
+	},{
+		id: "AGENCY__TREATMENT",
+		text: "การรักษา"
+	},{
+		id: "AGENCY__STYLING_SHORT",
+		text: "จัดแต่งทรงผม"
+	},{
+		id: "AGENCY__MAX_LEVEL",
+		text: "เลเวลสูงสุด"
+	},
+
+	{
+		id: "CM__DEFAULT",
+		text: "ค่าเริ่มต้น"
+	},{
+		id: "CM__AGE",
+		text: "อายุ"
+	},{
+		id: "CM__MENTAL_STAMINA_COST",
+		text: "ค่าความแข็งแกร่งทางจิตใจ"
+	},{
+		id: "CM__INJURED_IDOLS",
+		text: "ไอดอลที่ได้รับบาดเจ็บไม่สามารถกลับมาจากพักก่อนเวลาได้"
+	},{
+		id: "CM__HIATUS",
+		text: "พัก"
+	},{
+		id: "CM__HIATUS_NOT_NEEDED",
+		text: "ไม่จำเป็นต้องพัก"
+	},{
+		id: "CM__CANCEL_HIATUS",
+		text: "ยกเลิกการพัก"
+	},{
+		id: "CM__DAYS",
+		text: "@ วัน"
+	},{
+		id: "CM__FANS_TO_UNLOCK",
+		text: "@ แฟนๆ ที่จะปลดล็อค"
+	},{
+		id: "CM__SELL_CDS",
+		text: "ขาย @ ซีดีเพื่อปลดล็อค"
+	},{
+		id: "CM__BY_TYPE",
+		text: "ตามประเภท"
+	},{
+		id: "CM__BY_LEVEL",
+		text: "ตามเลเวล"
+	},{
+		id: "CM__CLICK_LMB",
+		text: "คลิกปุ่มซ้ายของเมาส์เพื่อดูเมนูบริบท"
+	},
+
+	{
+		id: "SALARIES",
+		text: "เงินเดือน"
+	},{
+		id: "SALARIES__NAME",
+		text: "ไอดอล"
+	},{
+		id: "SALARIES__SALARY",
+		text: "เงินเดือน"
+	},{
+		id: "SALARIES__SATISFACTION",
+		text: "ความพึงพอใจ"
+	},{
+		id: "SALARIES__RELATIONSHIP",
+		text: "ความสัมพันธ์"
+	},
+
+	{
+		id: "TIP__CAFE",
+		text: "คาเฟ่"
+	},{
+		id: "TIP__THEATER",
+		text: "เธียเตอร์"
+	},{
+		id: "TIP__CONTRACTS",
+		text: "สัญญาทางธุรกิจ"
+	},{
+		id: "TIP__IDOL_SALARIES",
+		text: "เงินเดือนไอดอล"
+	},{
+		id: "TIP__STAFF_SALARIES",
+		text: "เงินเดือนพนักงาน"
+	},{
+		id: "TIP__RENT",
+		text: "เช่า"
+	},{
+		id: "TIP__BANK_1",
+		text: "ล้มละลายใน 1 วัน"
+	},{
+		id: "TIP__BANK_ANY",
+		text: "ล้มละลายใน @ วัน"
+	},{
+		id: "TIP__TAKE_LOAN",
+		text: "คลิกที่สำนักงานของคุณเพื่อขอสินเชื่อ"
+	},{
+		id: "TIP__APPEAL",
+		text: "ความดึงดูด"
+	},{
+		id: "TIP__OPINION",
+		text: "ความคิดเห็น"
+	},{
+		id: "TIP__DEMOGRAPHIC",
+		text: "ข้อมูลประชากร"
+	},{
+		id: "TIP__NUM_OF_FANS",
+		text: "จำนวนแฟน"
+	},{
+		id: "TIP__NEXT_LEVEL_AT",
+		text: "เลเวลต่อไปที่"
+	},{
+		id: "TIP__PROGRESS",
+		text: "ความคืบหน้า"
+	},
+
+	{
+		id: "WIDGET__LOW_ON_PHYS",
+		text: "สภาพร่างกายต่ำ"
+	},{
+		id: "WIDGET__LOW_ON_MENT",
+		text: "สภาพจิตใจต่ำ"
+	},{
+		id: "WIDGET__INJURED",
+		text: "ได้รับบาดเจ็บ"
+	},{
+		id: "WIDGET__DEPRESSED",
+		text: "หดหู่"
+	},{
+		id: "WIDGET__IDOLS",
+		text: "ไอดอล"
+	},{
+		id: "WIDGET__SINGLES_WAITING",
+		text: "กำลังรอซิงเกิ้ล"
+	},{
+		id: "WIDGET__MEDIA_WAITING",
+		text: "กำลังรอสื่อ"
+	},{
+		id: "WIDGET__NO_TASKS",
+		text: "คุณไม่มีงานใดๆ"
+	},{
+		id: "WIDGET__DETAILS",
+		text: "รายละเอียด"
+	},{
+		id: "WIDGET__TASKS",
+		text: "งาน"
+	},
+
+	{
+		id: "DATE__MEN",
+		text: "men"
+	},{
+		id: "DATE__GUYS",
+		text: "guys"
+	},{
+		id: "DATE__HANDSOME",
+		text: "handsome"
+	},{
+		id: "DATE__WOMEN",
+		text: "women"
+	},{
+		id: "DATE__GIRLS",
+		text: "girls"
+	},{
+		id: "DATE__PRETTY",
+		text: "pretty"
+	},{
+		id: "DATE__OFFER_STAFFER",
+		text: "เสนอตำแหน่งพนักงาน"
+	},{
+		id: "DATE__SUCCESSOR",
+		text: "ถามหาผู้สืบทอด"
+	},{
+		id: "DATE__GOODBYE",
+		text: "ลาก่อน"
+	},{
+		id: "DATE__CAS_CONV",
+		text: "พูดคุยสบายๆ "
+	},{
+		id: "DATE__FLIRT",
+		text: "จีบ"
+	},{
+		id: "DATE__KNOWN_WISH",
+		text: "คุณรู้อยู่แล้วว่าความปรารถนาของ@ ตรวจสอบโปรไฟล์ของเธอเพื่อดูว่ามันคืออะไร"
+	},{
+		id: "DATE__TALK_WISH",
+		text: "พูดถึงความปรารถนาของเธอ"
+	},{
+		id: "DATE__TALK_GROUP",
+		text: "พูดถึงกรุ๊ป"
+	},{
+		id: "DATE__TALK_GRAD",
+		text: "พูดคุยเกี่ยวกับการสำเร็จการศึกษา"
+	},{
+		id: "DATE__END_CONV",
+		text: "จบการสนทนา"
+	},{
+		id: "DATE__END_DATE",
+		text: "จบการเดท"
+	},{
+		id: "DATE__GOSSIP",
+		text: "ซุบซิบ"
+	},{
+		id: "DATE__NO_KOHAI",
+		text: "@ ไม่มีรุ่นน้องที่สอน"
+	},{
+		id: "DATE__ASK_TO_MENTOR",
+		text: "ขอคำปรึกษา"
+	},{
+		id: "DATE__STOP_MENTORING",
+		text: "ขอให้หยุดการให้คำปรึกษา @"
+	},{
+		id: "DATE__ASK_GRAD",
+		text: "ถามเธอวางแผนที่จะจบการศึกษา"
+	},{
+		id: "DATE__FIRE",
+		text: "ไล่ @"
+	},{
+		id: "DATE__FIRE_NOW",
+		text: "ไล่ทันที"
+	},{
+		id: "DATE__LET_GRADUATE",
+		text: "ขอให้เธอสำเร็จการศึกษาอย่างสง่างาม"
+	},{
+		id: "DATE__NOT_GOOD",
+		text: "ไม่ดีพอ"
+	},{
+		id: "DATE__TOO_OLD",
+		text: "แก่เกินไป"
+	},{
+		id: "DATE__RECENT_SCANDAL",
+		text: "เรื่องอื้อฉาวล่าสุด"
+	},{
+		id: "DATE__SHORT_ON_MONEY",
+		text: "ขาดเงิน"
+	},{
+		id: "DATE__PERSONAL",
+		text: "ส่วนตัว"
+	},
+
+	{
+		id: "PROFILE__BIRTHDATE",
+		text: "วันเกิด"
+	},{
+		id: "PROFILE__AGE",
+		text: "(@ ปี)"
+	},{
+		id: "PROFILE__DEMOGRAPHIC",
+		text: "ข้อมูลประชากร"
+	},{
+		id: "PROFILE__PERC_OF_TOTAL",
+		text: "% ของทั้งหมด"
+	},{
+		id: "PROFILE__STATS_APPEAL",
+		text: "สถิติความดึงดูดใจ"
+	},{
+		id: "PROFILE__OPINION",
+		text: "ความคิดเห็น"
+	},{
+		id: "PROFILE__CLIQUE",
+		text: "@ของกลุ่ม"
+	},{
+		id: "PROFILE__BULLIES",
+		text: "รังแก"
+	},{
+		id: "PROFILE__BULLIED_BY",
+		text: "รังแกโดย"
+	},{
+		id: "PROFILE__BEST_FRIENDS",
+		text: "เพื่อนที่ดีที่สุด"
+	},{
+		id: "PROFILE__FRIENDS",
+		text: "เพื่อนฯ"
+	},{
+		id: "PROFILE__DISLIKES",
+		text: "ไม่ชอบ "
+	},{
+		id: "PROFILE__HATES",
+		text: "เกลียด"
+	},{
+		id: "PROFILE__NO_INFO",
+		text: "คุณไม่รู้อะไรเกี่ยวกับความสัมพันธ์ของเธอเลย"
+	},{
+		id: "PROFILE__STATS",
+		text: "สถิติ"
+	},{
+		id: "PROFILE__FANS",
+		text: "แฟนคลับ"
+	},{
+		id: "PROFILE__JOBS",
+		text: "งานฯ"
+	},{
+		id: "PROFILE__BONDS",
+		text: "ความสัมพันธ์"
+	},{
+		id: "PROFILE__EXTRAS",
+		text: "ความสามารถ"
+	},{
+		id: "PROFILE__APPEAL",
+		text: "ความดึงดูดใจ"
+	},{
+		id: "PROFILE__PHYSICAL_STAMINA",
+		text: "สภาพ\nร่างกาย "
+	},{
+		id: "PROFILE__MENTAL_STAMINA",
+		text: "สภาพ\nจิตใจ"
+	},
+
+	{
+		id: "LOAN",
+		text: "ยืม"
+	},{
+		id: "LOANS",
+		text: "กู้ยืม"
+	},{
+		id: "LOANS__PROD_BUSY",
+		text: "โปรดิวเซอร์ของคุณกำลังทำ @ งานนี้จะถูกยกเลิก"
+	},{
+		id: "LOANS__FUJIMOTO_TASK",
+		text: "คุณไม่สามารถกู้เงินจาก ฟูจิโมโตะ ได้อีกจนกว่าคุณจะทำงานเสร็จ"
+	},{
+		id: "LOANS__IN_DEV",
+		text: "เงินกู้ของคุณอยู่ในระหว่างการพัฒนา"
+	},{
+		id: "LOANS__BANKRUPTCY",
+		text: "ล้มละลาย"
+	},{
+		id: "LOANS__RED_FINANCES",
+		text: "การเงินของคุณอยู่ในสีแดง ลองใช้เงินกู้โดยคลิกที่สำนักงานของคุณ "
+	},{
+		id: "LOANS__NO_GAME_OVER",
+		text: "ยังไม่มีเกมที่จบจริงในเบต้า ดังนั้นเราจะรบกวนคุณด้วยข้อความนี้จนกว่าคุณจะแก้ไขการเงินของคุณ :^)"
+	},{
+		id: "LOANS__BANKRUPTCY_DAYS",
+		text: "@ วันจะล้มละลาย"
+	},{
+		id: "LOANS__CURRENT_BALANCE",
+		text: "ยอดเงินปัจจุบัน"
+	},{
+		id: "LOANS__DAYS_TO_GET",
+		text: "วันรับเงินกู้"
+	},{
+		id: "LOANS__INTEREST_RATE",
+		text: "อัตราดอกเบี้ย"
+	},{
+		id: "LOANS__INTEREST",
+		text: "ดอกเบี้ย"
+	},{
+		id: "LOANS__WEEKLY_PAYMENT",
+		text: "ชำระรายสัปดาห์"
+	},{
+		id: "LOANS__AVAILABLE",
+		text: "กู้ได้"
+	},{
+		id: "LOANS__TAKE",
+		text: "กู้"
+	},{
+		id: "LOANS__FUJIMOTO",
+		text: "ฟูจิโมโตะ"
+	},{
+		id: "LOANS__BANK",
+		text: "ธนาคาร"
+	},{
+		id: "LOANS__INVESTOR",
+		text: "นักลงทุน"
+	},{
+		id: "LOANS__1_MONTH",
+		text: "1 เดือน"
+	},{
+		id: "LOANS__3_MONTHS",
+		text: "3 เดือน"
+	},{
+		id: "LOANS__6_MONTHS",
+		text: "6 เดือน"
+	},
+
+	{
+		id: "NOTIF__FAN_OP",
+		text: "เปลี่ยนความคิดเห็นของแฟนๆ"
+	},{
+		id: "NOTIF__IDOL_REL",
+		text: "ไอดอลเปลี่ยนความสัมพันธ์ "
+	},{
+		id: "NOTIF__IDOL_STATUS",
+		text: "เปลี่ยนสถานะไอดอล (ซึมเศร้า บาดเจ็บ ฯลฯ) "
+	},{
+		id: "NOTIF__IDOL_STAT",
+		text: "การเปลี่ยนแปลงสถานะไอดอล (ทักษะ ความแข็งแกร่ง ชื่อเสียง ฯลฯ) "
+	},{
+		id: "NOTIF__OTHER",
+		text: "อื่นๆ"
+	},{
+		id: "NOTIF__RES",
+		text: "การเปลี่ยนแปลงทรัพยากร"
+	},{
+		id: "NOTIF__STAFF_STAT",
+		text: "เปลี่ยนสถานะพนักงาน"
+	},{
+		id: "NOTIF__TASK_STATUS",
+		text: "เปลี่ยนสถานะงาน (แนวเพลงที่เสร็จสำหรับซิงเกิ้ล ฯลฯ)"
+	},
+
+	{
+		id: "RESEARCH__PRODUCER",
+		text: "โปรดิวเซอร์"
+	},{
+		id: "RESEARCH__MANAGERS",
+		text: "ผู้จัดการ"
+	},{
+		id: "RESEARCH__CHOREO",
+		text: "นักออกแบบท่าเต้น"
+	},{
+		id: "RESEARCH__MUSIC",
+		text: "โปรดิวเซอร์เพลง"
+	},{
+		id: "RESEARCH__PT_DAY",
+		text: "pt / วัน"
+	},
+
+	{
+		id: "SAVE__AUTO",
+		text: "[Auto]"
+	},
+
+	{
+		id: "SHOW",
+		text: "โชว์"
+	},{
+		id: "SHOWS",
+		text: "โชว์ฯ"
+	},{
+		id: "SHOW__CAST_GROUP_1",
+		text: "ค่าพลังงานแบ่งเท่าๆกันแต่ไม่ต่ำกว่า @ ทุกไอดอลในกลุ่ม"
+	},{
+		id: "SHOW__CAST_GROUP_2",
+		text: "คะแนนชื่อเสียงที่ได้รับจะถูกแบ่งตาม"
+	},{
+		id: "SHOW__CAST_GROUP_3",
+		text: "และ"
+	},{
+		id: "SHOW__CAST_GROUP_4",
+		text: "ทักษะฯ"
+	},{
+		id: "SHOW__CAST_PERMA",
+		text: "ค่าชื่อเสียงที่ได้รับและค่าความแข็งแกร่งจะถูกแบ่งเท่าๆ กัน "
+	},{
+		id: "SHOW__CAST_ROT_1",
+		text: "สุ่มสามไอดอลทุกสัปดาห์"
+	},{
+		id: "SHOW__CAST_ROT_2",
+		text: "ค่าชื่อเสียงที่ได้รับและค่าความแข็งแกร่งจะถูกแบ่งเท่าๆ กัน"
+	},{
+		id: "SHOW__CAST_ROT_3",
+		text: "เนื่องจากความแตกต่างในสถิติของไอดอล คุณภาพของการแสดงจึงไม่สอดคล้องกัน"
+	},{
+		id: "SHOW__TITLE",
+		text: "ชื่อ"
+	},{
+		id: "SHOW__TITLE_ENTER",
+		text: "กรุณาใส่ชื่อ"
+	},{
+		id: "SHOW__AUDIENCE",
+		text: "ผู้ชม"
+	},{
+		id: "SHOW__NEW_FANS",
+		text: "แฟนคลับใหม่"
+	},{
+		id: "SHOW__REVENUE",
+		text: "รายได้"
+	},{
+		id: "SHOW__WEEKLY_BUDGET",
+		text: "งบประมาณรายสัปดาห์"
+	},{
+		id: "SHOW__NO_MONEY",
+		text: "เงินไม่พอ"
+	},{
+		id: "SHOW__HIATUS_IDOLS",
+		text: "มีไอดอลในทีมนักแสดงที่ได้รับบาดเจ็บ / พักงาน คุณไม่สามารถเปิดรายการนี้ได้จนกว่าพวกเขาจะฟื้นตัว"
+	},{
+		id: "SHOW__PROFIT",
+		text: "กำไร"
+	},{
+		id: "SHOW__CANCEL_SHOW",
+		text: "ยกเลิก"
+	},{
+		id: "SHOW__DONT_CANCEL",
+		text: "อย่ายกเลิก"
+	},{
+		id: "SHOW__CANCELED",
+		text: "ยกเลิกแล้ว"
+	},{
+		id: "SHOW__NEXT_EPISODE",
+		text: "ตอนต่อไป"
+	},{
+		id: "SHOW__AVG_VALUES",
+		text: "ค่าเฉลี่ย"
+	},{
+		id: "SHOW__TOTAL_VALUES",
+		text: "มูลค่ารวม"
+	},{
+		id: "SHOW__NEW_FANS_TIP",
+		text: "* \"สถิติแฟนคลับใหม่\" ไม่รวมแฟนที่เพิ่มเนื่องจากเสียงกระหึ่ม"
+	},{
+		id: "SHOW__CANCEL_DATE",
+		text: "การแสดงนี้จะถูกยกเลิกที่ @"
+	},{
+		id: "SHOW__CANCEL_NOW",
+		text: "ยกเลิกรายการนี้ทันที"
+	},{
+		id: "SHOW__CANCEL_SEASON",
+		text: "ยกเลิกรายการนี้เมื่อสิ้นสุดซีซั่น"
+	},{
+		id: "SHOW__HOST",
+		text: "โฮสต์"
+	},{
+		id: "SHOW__CAST",
+		text: "นักแสดง"
+	},{
+		id: "SHOW__ENTIRE_GROUP",
+		text: "ทั้งกลุ่ม"
+	},{
+		id: "SHOW__ROTATING_CAST",
+		text: "หมุนนักแสดง"
+	},{
+		id: "SHOW__UPDATE_CONCEPT_1",
+		text: "อัปเดตแนวคิดของรายการและรีเซ็ตความเหนื่อยล้า"
+	},{
+		id: "SHOW__UPDATE_CONCEPT_2",
+		text: "ความเร็วของความล้าจะเพิ่มขึ้นหลังจากเปิดใหม่แต่ละครั้ง"
+	},{
+		id: "SHOW__PREV_VALUES",
+		text: "ค่าก่อนหน้า"
+	},{
+		id: "SHOW__RELAUNCH_TIP",
+		text: "* คุณจะสูญเสียผู้ชมบางส่วนหากคุณภาพลดลง"
+	},{
+		id: "SHOW__RADIO",
+		text: "วิทยุ"
+	},{
+		id: "SHOW__INTERNET",
+		text: "อินเทอร์เน็ต"
+	},{
+		id: "SHOW__TV",
+		text: "ทีวี"
+	},{
+		id: "SHOW__GENRE",
+		text: "ประเภท"
+	},{
+		id: "SHOW__HOST",
+		text: "โฮสต์"
+	},{
+		id: "SHOW__CAST",
+		text: "ผู้แสดง"
+	},{
+		id: "SHOW__NO_HOST",
+		text: "ไม่มีโฮสต์"
+	},{
+		id: "SHOW__NEWCOMER",
+		text: "มาใหม่ "
+	},{
+		id: "SHOW__SEASONED",
+		text: "กลาง"
+	},{
+		id: "SHOW__TRENDY",
+		text: "อินเทรนด์"
+	},{
+		id: "SHOW__VETERAN",
+		text: "มีประสบการณ์"
+	},{
+		id: "SHOW__LEGEND",
+		text: "ตำนาน"
+	},{
+		id: "SHOW__WEEKLY_BUDGET",
+		text: "งบประมาณรายสัปดาห์ "
+	},
+
+	{
+		id: "REL",
+		text: "ความสัมพันธ์"
+	},{
+		id: "RELS",
+		text: "ความสัมพันธ์ฯ"
+	},{
+		id: "REL__SENPAI",
+		text: "รุ่นพี่"
+	},{
+		id: "REL__TRAINING_SPEED",
+		text: "ความเร็วในการฝึก"
+	},{
+		id: "REL__TRAINING_SPEED_2",
+		text: "เร็ว"
+	},{
+		id: "REL__BULLIED_BY_CLIQUE",
+		text: "โดนรังแกจาก @ ของกลุ่ม"
+	},{
+		id: "REL__BULLIED_BY_SOMEONE",
+		text: "โดนใครรังแก"
+	},{
+		id: "REL__MINUS_POINTS",
+		text: "-10 คะแนนความแข็งแกร่งทางจิตใจ /w"
+	},{
+		id: "REL__BULLYING_LOST",
+		text: " แพ้ @ แต้มความแข็งแกร่งทางจิตใจเนื่องจากการกลั่นแกล้ง"
+	},
+
+	{
+		id: "WISH__HIATUS",
+		text: "อยากพักบ้าง"
+	},{
+		id: "WISH__SSK_ANY",
+		text: "อยากติดอันดับในการเลือกตั้ง"
+	},{
+		id: "WISH__SSK_1",
+		text: "อยากติดอันดับ 1 ในการเลือกตั้ง"
+	},{
+		id: "WISH__SSK_2",
+		text: "อยากติดอันดับ 2 ในการเลือกตั้ง"
+	},{
+		id: "WISH__SSK_3",
+		text: "อยากติดอันดับ 3 ในการเลือกตั้ง"
+	},{
+		id: "WISH__SSK_OTHER",
+		text: "อยากติดอันดับ @ ในการเลือกตั้ง"
+	},{
+		id: "WISH__CONCERT",
+		text: "อยากจัดเพลงกลางคอนเสิร์ต"
+	},{
+		id: "WISH__CONCERT_OTHER",
+		text: "ต้องการเซ็นเตอร์ @ เพลงในคอนเสิร์ต"
+	},{
+		id: "WISH__JOB_1",
+		text: "อยากได้"
+	},{
+		id: "WISH__JOB_2",
+		text: "งาน"
+	},{
+		id: "WISH__SHOW",
+		text: "ต้องการโฮสต์การแสดงของเธอเอง"
+	},{
+		id: "WISH__SHOW_1",
+		text: "ต้องการเป็นโฮสต์"
+	},{
+		id: "WISH__SHOW_2",
+		text: "แสดง"
+	},{
+		id: "WISH__SHOW_3",
+		text: "ด้วย"
+	},{
+		id: "WISH__SHOW_4",
+		text: "ร่วมโฮสต์"
+	},{
+		id: "WISH__SINGLE_ANY",
+		text: "ต้องการอยู่ในซิงเกิ้ล"
+	},{
+		id: "WISH__SINGLE_4",
+		text: "ต้องการอยู่ในแถวที่ 4 ของซิงเกิ้ล"
+	},{
+		id: "WISH__SINGLE_3",
+		text: "ต้องการอยู่ในแถวที่ 3 ของซิงเกิ้ล"
+	},{
+		id: "WISH__SINGLE_2",
+		text: "ต้องการอยู่ในแถวที่ 2 ของซิงเกิ้ล"
+	},{
+		id: "WISH__SINGLE_CENTER",
+		text: "ต้องการเป็นเซ็นเตอร์ซิงเกิ้ล"
+	},{
+		id: "WISH__SINGLE_CENTER_1",
+		text: "ต้องการเป็นเซ็นเตอร์"
+	},{
+		id: "WISH__SINGLE_CENTER_2",
+		text: "ซิงเกิ้ล"
+	},{
+		id: "WISH__SINGLE_CENTER_3",
+		text: "เกี่ยว"
+	},{
+		id: "WISH__SINGLE_CENTER_4",
+		text: "กับ"
+	},{
+		id: "WISH__SINGLE_CENTER_5",
+		text: "ท่าเต้น"
+	},
+
+	{
+		id: "FANS__SWITCHED",
+		text: "เปลี่ยนเป็นไอดอลคนอื่น"
+	},{
+		id: "FANS__ABANDONED",
+		text: "ทิ้งกรุ๊ป"
+	},{
+		id: "OPINION",
+		text: "ความคิดเห็น"
+	},{
+		id: "FAN_OPINION",
+		text: "ความคิดเห็นของแฟนๆ"
+	},{
+		id: "FANS_OPINION",
+		text: "ความคิดเห็นของแฟนๆ"
+	},{
+		id: "ACTORS_FANS",
+		text: "@ของแฟนคลับ"
+	},
+
+	{
+		id: "SNS__MCT",
+		text: "kazubuta"
+	},{
+		id: "SNS__MCYA",
+		text: "satoshi_cars"
+	},{
+		id: "SNS__MCA",
+		text: "takuya_nozawa_72"
+	},{
+		id: "SNS__MHCT",
+		text: "pizzakk"
+	},{
+		id: "SNS__MHCYA",
+		text: "shinji1602"
+	},{
+		id: "SNS__MHCA",
+		text: "heihachiro1960"
+	},{
+		id: "SNS__FCT",
+		text: "ICECREAMNAKAI"
+	},{
+		id: "SNS__FCYA",
+		text: "machi_panpkn"
+	},{
+		id: "SNS__FCA",
+		text: "wanitamaru"
+	},{
+		id: "SNS__FHCT",
+		text: "kazunyan_dm"
+	},{
+		id: "SNS__FHCYA",
+		text: "sakisuki69"
+	},{
+		id: "SNS__FHCA",
+		text: "wakana_1967"
+	},{
+		id: "SNS__FUJIMOCCHI",
+		text: "Fujimocchi"
+	},{
+		id: "SNS__SOCIAL_MEDIA",
+		text: "โซเชียลมีเดีย"
+	},{
+		id: "SNS__NEW_MESSAGE",
+		text: "ข้อความใหม่"
+	},
+
+	{
+		id: "STAFF__HIRED",
+		text: "จ้าง"
+	},{
+		id: "STAFF__NICKNAME",
+		text: "ชื่อเล่น "
+	},{
+		id: "STAFF__SPEED",
+		text: "ความเร็ว"
+	},{
+		id: "STAFF__COACHING",
+		text: "การฝึกสอน"
+	},{
+		id: "STAFF__PRODUCTION",
+		text: "โปรดักชั่น"
+	},{
+		id: "STAFF__DEALS",
+		text: "ดีล"
+	},{
+		id: "STAFF__PHYS_HEALTH",
+		text: "รักษาสุขภาพกาย"
+	},{
+		id: "STAFF__MENT_HEALTH",
+		text: "รักษาสุขภาพใจ"
+	},{
+		id: "STAFF__STYLING",
+		text: "จัดแต่งทรงผมส่วนตัว"
+	},{
+		id: "STAFF__DESIGN",
+		text: "ดีไซน์"
+	},{
+		id: "STAFF__INFLUENCE",
+		text: "อิทธิพล"
+	},{
+		id: "STAFF__DANCE_COACH",
+		text: "โค้ชสอนเต้น"
+	},{
+		id: "STAFF__CHOREO",
+		text: "นักออกแบบท่าเต้น"
+	},{
+		id: "STAFF__VOICE",
+		text: "โค้ชเสียง"
+	},{
+		id: "STAFF__MUSIC",
+		text: "โปรดิวเซอร์เพลง"
+	},{
+		id: "STAFF__PROD_MANAGER",
+		text: "ผู้จัดการฝ่ายผลิต"
+	},{
+		id: "STAFF__SALES_MANAGER",
+		text: "ผู้จัดการฝ่ายขาย"
+	},{
+		id: "STAFF__PHYSICIAN",
+		text: "แพทย์"
+	},{
+		id: "STAFF__PSYCHIATRIST",
+		text: "จิตแพทย์"
+	},{
+		id: "STAFF__STYLIST",
+		text: "สไตลิสต์"
+	},{
+		id: "STAFF__DESIGNER",
+		text: "ดีไซเนอร์"
+	},{
+		id: "STAFF__PRODUCER",
+		text: "โปรดิวเซอร์"
+	},{
+		id: "STAFF__MAX_COACH",
+		text: "ระดับการฝึกเต็ม"
+	},{
+		id: "STAFF__PHYS_RECOVERY",
+		text: "ฟื้นฟูสภาพร่างกาย"
+	},{
+		id: "STAFF__MENT_RECOVERY",
+		text: "ฟื้นฟูสภาพจิตใจ"
+	},{
+		id: "STAFF__INJURIES",
+		text: "ได้รับบาดเจ็บ"
+	},{
+		id: "STAFF__INSTANT_CHANCE",
+		text: "โอกาสฟื้นตัวทันที"
+	},{
+		id: "STAFF__HIATUS_REDUCTION",
+		text: "ลดเวลาพัก"
+	},{
+		id: "STAFF__DEPRESSIONS",
+		text: "อาการซึมเศร้า"
+	},{
+		id: "STAFF__HIATUS_INFO",
+		text: "แพทย์สามารถลดเวลาพักของไอดอลที่บาดเจ็บหรือซึมเศร้าให้ฟื้นตัวได้ นอกจากนี้ยังมีโอกาสที่ไอดอลจะฟื้นตัวทันทีโดยไม่ต้องพัก"
+	},{
+		id: "STAFF__NOT_ASSIGNED",
+		text: "ไม่ได้กำหนดให้กับห้อง"
+	},{
+		id: "STAFF__IDLE",
+		text: "ว่าง"
+	},{
+		id: "STAFF__RESEARCH",
+		text: "งานวิจัย"
+	},{
+		id: "STAFF__AUDITION_READY",
+		text: "ออดิชั่นพร้อมแล้ว"
+	},{
+		id: "STAFF__BIZ_READY",
+		text: "ข้อเสนอทางธุรกิจพร้อมแล้ว"
+	},{
+		id: "STAFF__READY_FOR_DATE",
+		text: "พร้อมออกเดทกับ @"
+	},{
+		id: "STAFF__PLANNING_DATE",
+		text: "วางแผนเดทกับ @"
+	},{
+		id: "STAFF__DEPRESSION_TREATMENT",
+		text: "รักษาอาการซึมเศร้า"
+	},{
+		id: "STAFF__INJURY_TREATMENT",
+		text: "รักษาอาการบาดเจ็บ"
+	},{
+		id: "STAFF__FOR",
+		text: " ของ "
+	},{
+		id: "STAFF__FOR_THE",
+		text: " ของ "
+	},{
+		id: "STAFF__SCANDAL_PT",
+		text: "เรื่องอื้อฉาว pt"
+	},{
+		id: "STAFF__FIRE_HINT",
+		text: "ในการไล่พนักงานออก คุณต้องเตรียมเงินชดเชยให้หรือโทษเรื่องอื้อฉาวบางอย่างกับพวกเขา"
+	},{
+		id: "STAFF__DAYS_TO_FIRE",
+		text: "คุณมีเวลา @ วันในการไล่พนักงานคนนี้ออกโดยไม่มีค่าชดเชย"
+	},{
+		id: "STAFF__SEVERANCE",
+		text: "แพ็คเกจชดเชย"
+	},{
+		id: "STAFF__NOVICE",
+		text: "ฝึกหัด"
+	},{
+		id: "STAFF__PROFESSIONAL",
+		text: "มืออาชีพ"
+	},{
+		id: "STAFF__EXPERT",
+		text: "ผู้เชี่ยวชาญ"
+	},{
+		id: "STAFF__REMOVE_NICKNAME",
+		text: "ลบชื่อเล่น"
+	},
+
+	{
+		id: "TASK__SINGLE_1",
+		text: "ปล่อย @ ซิงเกิ้ล"
+	},{
+		id: "TASK__SINGLE_2",
+		text: "เกี่ยวกับ @"
+	},{
+		id: "TASK__SHOW",
+		text: "เปิดตัว @"
+	},{
+		id: "TASK__BIZ_1",
+		text: "ได้ "
+	},{
+		id: "TASK__BIZ_2",
+		text: ""
+	},{
+		id: "TASK__BIZ_3",
+		text: ""
+	},{
+		id: "TASK__BIZ_4",
+		text: "ถ่ายแบบ"
+	},{
+		id: "TASK__BIZ_5",
+		text: "สัญญาโฆษณา"
+	},{
+		id: "TASK__BIZ_6",
+		text: "การแสดงวาไรตี้โชว์"
+	},{
+		id: "TASK__BIZ_7",
+		text: "บทละคร"
+	},{
+		id: "TASK__BIZ_8",
+		text: " ใน @"
+	},{
+		id: "TASK__BIZ_9",
+		text: " เพื่อ @"
+	},{
+		id: "TASK__COMPLETED",
+		text: "เสร็จงาน"
+	},
+
+	{
+		id: "SEVENT__WORLD_TOUR",
+		text: "เวิลด์ทัวร์"
+	},{
+		id: "SEVENT__CONCERT",
+		text: "คอนเสิร์ต"
+	},{
+		id: "SEVENT__ELECTION",
+		text: "เลือกตั้ง"
+	},{
+		id: "SEVENT__REVERCE_JANKEN",
+		text: "กลับ Janken ทัวร์นาเมนต์"
+	},{
+		id: "SEVENT__LOCKED",
+		text: "ถูกล็อค"
+	},{
+		id: "SEVENT__READY_FOR_PROD",
+		text: "พร้อมสำหรับการผลิต"
+	},{
+		id: "SEVENT__PROD",
+		text: "การผลิต"
+	},{
+		id: "SEVENT__DAYS_LEFT",
+		text: "@ วันที่เหลือ"
+	},{
+		id: "SEVENT__NO_IDOLS",
+		text: "ไม่มีไอดอลที่กระตือรือร้น"
+	},{
+		id: "SEVENT__IN_PROD",
+		text: "ในการผลิต"
+	},{
+		id: "SEVENT__RELEASE_SINGLES",
+		text: "ปล่อย 5 ซิงเกิ้ลเพื่อปลดล็อก"
+	},{
+		id: "SEVENT__HOLD_CONCERTS",
+		text: "จัด 3 คอนเสิร์ตเพื่อปลดล็อค"
+	},{
+		id: "SEVENT__HIRE_IDOLS",
+		text: "จ้างไอดอลอย่างน้อย 5 คน"
+	},
+
+	{
+		id: "SEVENT__CD_1",
+		text: "คูลดาวน์: 1 เดือน"
+	},{
+		id: "SEVENT__CD_3",
+		text: "คูลดาวน์: 3 เดือน"
+	},{
+		id: "SEVENT__CD_6",
+		text: "คูลดาวน์: 6 เดือน"
+	},
+
+	{
+		id: "SEVENT__CONCERT_DESC",
+		text: "วางแผนคอนเสิร์ตของคุณด้วยการตั้งค่ารายการ\nสถานที่ และราคาตั๋ว\n\nเพลงทำให้คนดูตื่นเต้นขึ้น แต่ลดพลังงานของไอดอล\nที่เลือกให้เป็นเซ็นเตอร์ ระหว่างช่วงพักการสนทนา\nไอดอลที่เป็นเซ็นเตอร์ที่ไม่ได้มีส่วนร่วมในการสนทนา\nสามารถฟื้นความแข็งแกร่งทางร่างกายได้\n\nเมื่อพลังงานของไอดอลที่เป็นเซ็นเตอร์ไม่เพียงพอ\nโอกาสที่จะเกิดอุบัติเหตุก็จะเพิ่มขึ้น ซึ่งจะส่งผลต่อ\nความสัมพันธ์ระหว่างไอดอลกับไอดอลคนอื่นๆ ที่เข้า\nร่วมคอนเสิร์ต\n\nเมื่อต้องรับมือกับปัญหา ให้เลือกตัวเลือกที่ปลอดภัย\nเพื่อลดความไฮป์ของผู้ชมเล็กน้อย หรือตัวเลือกที่เสี่ยง\nอาจจะลดหรือเพิ่มระดับความไฮป์ได้\n\nการ์ดแอ็กชันสามารถใช้ก่อนแต่ละเพลงเพื่อทำสิ่งต่างๆ\nเช่น เพิ่มโฆษณาหรือลดโอกาสเกิดอุบัติเหตุระหว่างเพลงนั้น\n\nระดับการผลิตที่สูงขึ้นช่วยเพิ่มจำนวนผู้ชมที่ตื่นเต้นเร้าใจ\nในแต่ละเพลง ระดับการซ้อมที่สูงขึ้นช่วยลดโอกาสเกิดอุบัติเหตุ\nระดับลอจิสติกส์ที่สูงขึ้นจะใช้การ์ดการดำเนินการมากขึ้น"
+	},{
+		id: "SEVENT__ELECTION_DESC",
+		text: "การเลือกตั้งเป็นช่องทางให้แฟนๆ โหวตให้กับไอดอล\nที่พวกเขาชื่นชอบภายในกรุ๊ป ไอดอลที่ติดอันดับท็อป 10\nจะได้รับคะแนนชื่อเสียง และปฏิกิริยาของพวกเขาระหว่าง\nการเลือกตั้งจะส่งผลต่อความแข็งแกร่งทางจิตใจของพวกเขา\n\nเพื่อให้มีการเลือกตั้งทั่วไป คุณต้องมีทั้งซิงเกิลและคอนเสิร์ต\nในการผลิต ซึ่งทั้งคู่จะต้องติดอยู่กับการเลือกตั้ง บัตรลงคะแนน\nสำหรับการเลือกตั้งจะรวมอยู่ในการเปิดตัวซิงเกิลที่คุณเลือก\nซีดีแต่ละแผ่นมาพร้อมกับบัตรลงคะแนน ดังนั้นงานการเลือกตั้ง\nจะช่วยเพิ่มยอดขายให้กับซิงเกิลนั้น\n\nในระหว่างคอนเสิร์ตที่เกี่ยวข้อง การเลือกตั้งจะเพิ่มระดับโฆษณา\nขั้นต่ำ รับรองว่าโฆษณาของคุณจะไม่มีวันต่ำกว่าเกณฑ์เริ่มต้น\n\nผลการเลือกตั้งจะประกาศเมื่อสิ้นสุดคอนเสิร์ตที่เกี่ยวข้อง ทีละ\nรายการจากอันดับ #10 ถึงอันดับ #1 คุณสามารถโกงผลลัพธ์\nโดยการแลกเปลี่ยนซองจดหมาย แต่ระวังผลที่ตามมาหากคุณถูกจับได้!\n\nระดับการผลิตที่สูงขึ้นจะให้โบนัสการขายซิงเกิ้ลที่แนบมามากขึ้น\nและการขนส่งที่สูงขึ้นจะเพิ่มโบนัสความไฮป์คอนเสิร์ต"
+	},{
+		id: "SEVENT__WORLD_TOUR_DESC",
+		text: "เลือกประเทศที่คุณต้องการแสดงและเลือกประเภทของสถานที่\nขนาดสถานที่จัดงานมีตั้งแต่คลับขนาดเล็ก (1 ดาว) ไปจนถึง\nสนามกีฬาขนาดใหญ่\n\nการแสดงคอนเสิร์ตในสถานที่ที่ใหญ่ที่สุดของประเทศจะปลดล็อก\nสถานที่ขนาดใหญ่ขึ้นสำหรับทัวร์ครั้งต่อไปของคุณ แต่ต้องเต็ม\nอย่างน้อย 80% ของสถานที่\n\nการเข้าร่วมคอนเสิร์ตขึ้นอยู่กับระดับชื่อเสียงของกรุ๊ปมของคุณ\nทักษะของพนักงานฝ่ายผลิต และความเหนื่อยล้าของแฟนๆ ของประเทศ\n\nต้นทุนการผลิตและราคาตั๋วแตกต่างกันไปในแต่ละประเทศ\n\nทัวร์หลายประเทศภายในภูมิภาคเดียวกันเพื่อประหยัดค่าใช้จ่าย\nในการเดินทาง"
+	},
+
+	{
+		id: "CONCERT__CAPACITY",
+		text: "ความจุ"
+	},{
+		id: "CONCERT__VENUE_UNLOCK",
+		text: "จัด "
+	},{
+		id: "CONCERT__VENUE_UNLOCK_2",
+		text: " คอนเสิร์ตเพื่อปลดล็อกสถานที่แห่งนี้"
+	},{
+		id: "CONCERT__TARGET",
+		text: "เป้าหมาย"
+	},{
+		id: "CONCERT__HYPE",
+		text: "ไฮป์"
+	},{
+		id: "CONCERT__FANS_DIDNT_ENJOY",
+		text: "@\nแฟนๆไม่สนุกกับคอนเสิร์ตของคุณ"
+	},{
+		id: "CONCERT__FANS_LOVED",
+		text: "@\nแฟนๆชอบคอนเสิร์ตของคุณ"
+	},{
+		id: "CONCERT__DIDNT_LIKE_PRICE",
+		text: "@\nแฟนๆไม่ชอบราคาตั๋ว"
+	},{
+		id: "CONCERT__HATED_PRICE",
+		text: "@\nแฟนๆเกลียดราคาตั๋ว"
+	},{
+		id: "CONCERT__CLUB",
+		text: "คลับ"
+	},{
+		id: "CONCERT__CONCERT_HALL",
+		text: "คอนเสิร์ตฮอลล์"
+	},{
+		id: "CONCERT__OPEN_AIR",
+		text: "เวทีกลางแจ้ง"
+	},{
+		id: "CONCERT__STADIUM",
+		text: "สนามกีฬา"
+	},{
+		id: "CONCERT__COLISEUM",
+		text: "โตเกียวโคลีเซียม"
+	},{
+		id: "CONCERT__CARD_STAMINA",
+		text: "เซ็นเตอร์\nพลังงาน"
+	},{
+		id: "CONCERT__CARD_HYPE",
+		text: "ไฮป์"
+	},{
+		id: "CONCERT__CARD_ACC_SUCC",
+		text: "อุบัติเหตุ\nความสำเร็จ\nโอกาส"
+	},{
+		id: "CONCERT__CARD_ACC",
+		text: "อุบัติเหตุ\nโอกาส"
+	},{
+		id: "CONCERT__CARD_NO_CRIT",
+		text: "ไม่\nมี\nข้อผิดพลาด"
+	},{
+		id: "CONCERT__C_S_1",
+		text: "เพิ่มพลังงานร่างกายของเซ็นเตอร์ปัจจุบันทันที"
+	},{
+		id: "CONCERT__C_S_2",
+		text: "ค่าจะถูกแบ่งเท่าๆกัน หากมีหลายเซ็นเตอร์"
+	},{
+		id: "CONCERT__C_H",
+		text: "เพิ่มความไฮป์ทันที"
+	},{
+		id: "CONCERT__C_A_S",
+		text: "เพิ่มโอกาสในการได้รับผลลัพธ์ที่ดี ในอุบัติเหตุครั้งต่อไป"
+	},{
+		id: "CONCERT__C_A",
+		text: "เพิ่มโอกาสในการหลีกเลี่ยงอุบัติเหตุในเพลงนี้"
+	},{
+		id: "CONCERT__C_N_C",
+		text: "คุณจะไม่พบความล้มเหลวครั้งใหญ่ ในอุบัติเหตุครั้งต่อไป"
+	},{
+		id: "CONCERT__TALK_BREAK",
+		text: "พักพูดคุย"
+	},{
+		id: "CONCERT__CARD",
+		text: "การ์ด"
+	},{
+		id: "CONCERT__REHEARSAL",
+		text: "ซ้อม"
+	},{
+		id: "CONCERT__SUCC_CHANCE",
+		text: "โอกาสสำเร็จ"
+	},{
+		id: "CONCERT__SETLIST",
+		text: "เซ็ตลิส"
+	},{
+		id: "CONCERT__SETLIST_TIP",
+		text: "เป้าหมายของคุณคือรักษากระแสความนิยมให้สูงและไม่ให้เรี่ยวแรงของสาวๆ ตกต่ำเกินไป{separator}เซ็นเตอร์ของเพลงใช้สภาพร่างกาย 30pt{separator}การพักพูดคุยจะฟื้นฟูสภาพร่างกาย 15pt สำหรับเซ็นเตอร์ทั้งหมดที่ไม่ได้เข้าร่วมในการพูดคุย"
+	},{
+		id: "CONCERT__ADD_SONG",
+		text: "เพิ่มเพลง"
+	},{
+		id: "CONCERT__ADD_TALK_BREAK",
+		text: "เพิ่มการพูดคุยระหว่างพัก"
+	},{
+		id: "CONCERT__CENTER",
+		text: "เซ็นเตอร์"
+	},{
+		id: "CONCERT__STAMINA_COST",
+		text: "ค่า\nพลังงาน"
+	},{
+		id: "CONCERT__SKILL_VALUE",
+		text: "ค่า\nทักษะ"
+	},{
+		id: "CONCERT__MCS",
+		text: "MCs"
+	},{
+		id: "CONCERT__VENUE",
+		text: "สถานที่"
+	},{
+		id: "CONCERT__FANS_TIP",
+		text: "คุณจะได้รับหรือเสียคะแนนความคิดเห็นของแฟนๆ ตามรายการที่ตั้งไว้ โฆษณาเกินจริง และราคาตั๋ว"
+	},{
+		id: "CONCERT__AVG_PRICE",
+		text: "ราคาตั๋วเฉลี่ย"
+	},{
+		id: "CONCERT__AVG_PRICE_TIP",
+		text: "การเข้าร่วมขึ้นอยู่กับราคาตั๋วและจำนวนแฟนๆ ของคุณ{separator}แฟนตัวยงทั่วไปมักจะซื้อตั๋วมากกว่าแฟนทั่วๆไป"
+	},{
+		id: "CONCERT__VENUE_CAPACITY",
+		text: "ความจุของสถานที่"
+	},{
+		id: "CONCERT__PROJECTED_HYPE",
+		text: "ความไฮป์ที่คาดการณ์ไว้"
+	},{
+		id: "CONCERT__PROJECTED_HYPE_TIP",
+		text: "คุณจะได้รับคะแนนความไฮป์ สำหรับแต่ละเพลงและ MC break จำนวนขึ้นอยู่กับทักษะของเซ็นเตอร์ พลังงานของเธอ และมูลค่าการผลิตของคอนเสิร์ต{separator}ผลกำไรของคุณขึ้นอยู่กับปริมาณของความไฮป์ เมื่อสิ้นสุดคอนเสิร์ต ยิ่งโฆษณาเกินจริง คุณก็จะขายดีวีดี ลิขสิทธิ์ทีวี และอื่นๆ ได้มากเท่านั้น แต่ถ้าความไฮป์ ต่ำเกินไป แฟนๆ ของคุณจะเรียกร้องเงินคืนและคุณจะเสียเงิน"
+	},{
+		id: "CONCERT__PRODUCTION_COST",
+		text: "ต้นทุนการผลิต"
+	},{
+		id: "CONCERT__PROJECTED_REVENUE",
+		text: "รายได้ที่คาดการณ์ไว้"
+	},{
+		id: "CONCERT__PROJECTED_ATTENDANCE",
+		text: "ผู้เข้าร่วมที่คาดการณ์ไว้"
+	},{
+		id: "CONCERT__DRAW_ACTION_CARDS",
+		text: "หยิบการ์ดแอคชั่น"
+	},{
+		id: "CONCERT__START",
+		text: "เริ่ม"
+	},{
+		id: "CONCERT__NEXT_SONG",
+		text: "เพลงต่อไป:"
+	},{
+		id: "CONCERT__STAMINA_COST_2",
+		text: "ค่าพลังงาน:"
+	},{
+		id: "CONCERT__ACCIDENT_CHANCE",
+		text: "โอกาสเกิดอุบัติเหตุ:"
+	},{
+		id: "CONCERT__ACCIDENT_CHANCE_TIP",
+		text: ""
+	},{
+		id: "CONCERT__START_NEXT_SONG",
+		text: "เริ่มเพลงต่อไป"
+	},{
+		id: "CONCERT__PRODUCTION_COST_2",
+		text: "ต้นทุนการผลิต:"
+	},{
+		id: "CONCERT__REVENUE",
+		text: "รายได้:"
+	},{
+		id: "CONCERT__PROFIT",
+		text: "กำไร:"
+	},
+
+	{
+		id: "SSK__FAME_POINTS",
+		text: "คะแนนชื่อเสียง"
+	},{
+		id: "SSK__NA",
+		text: "n/a"
+	},{
+		id: "SSK__VOTES",
+		text: "โหวต"
+	},{
+		id: "SSK__NEED_SINGLE",
+		text: "คุณต้องมีซิงเกิ้ลในการผลิต"
+	},{
+		id: "SSK__NEED_CONCERT",
+		text: "คุณต้องมีคอนเสิร์ตในการผลิต"
+	},{
+		id: "SSK__LIVE_BLOG",
+		text: "ไลฟ์บล็อก"
+	},{
+		id: "SSK__WEB_STREAM",
+		text: "เว็บสตรีม"
+	},{
+		id: "SSK__LOCAL_TV",
+		text: "ทีวีท้องถิ่น"
+	},{
+		id: "SSK__NATIONAL_TV",
+		text: "ทีวีระดับประเทศ"
+	},{
+		id: "SSK__NO_MONEY",
+		text: "เงินไม่พอ"
+	},{
+		id: "SSK__NO_CONCERT",
+		text: "คอนเสิร์ตไม่พร้อม"
+	},{
+		id: "SSK__NO_SINGLE",
+		text: "ซิงเกิ้ลไม่พร้อม"
+	},{
+		id: "SSK__NO_ELECTION",
+		text: "ไม่พร้อมเลือกตั้ง"
+	},{
+		id: "SSK__AUTO",
+		text: "กิจกรรมนี้จะเริ่มโดยอัตโนมัติ"
+	},{
+		id: "SSK__TOTAL_COST",
+		text: "ต้นทุนการผลิตทั้งหมด"
+	},{
+		id: "SSK__CANCELED",
+		text: "แฟนๆ ของคุณโกรธมากที่คุณยกเลิกงานเลือกตั้งหลังจากเริ่มขายซิงเกิ้ล!"
+	},{
+		id: "SSK__CANCELING",
+		text: "ยกเลิกคอนเสิร์ตก็จะยกเลิกงานเลือกตั้งด้วย!"
+	},{
+		id: "SSK__IS",
+		text: "ด้วย "
+	},{
+		id: "SSK__HAPPY",
+		text: "ความสุข"
+	},{
+		id: "SSK__JEALOUS",
+		text: "ความอิจฉา"
+	},{
+		id: "SSK__WORRIED",
+		text: "ความกังวล"
+	},{
+		id: "SSK__ANXIOUS",
+		text: "ความกระวนกระวาย"
+	},{
+		id: "SSK__SCARED",
+		text: "ความกลัว"
+	},{
+		id: "SSK__EXCITED",
+		text: "ความตื่นเต้น"
+	},{
+		id: "SSK__ANGRY",
+		text: "ความโกรธ"
+	},{
+		id: "SSK__CONFUSED",
+		text: "ความสับสน"
+	},{
+		id: "SSK__SURPRISED",
+		text: "ความเซอร์ไพรส์"
+	},{
+		id: "SSK__SAD",
+		text: "ความเศร้า"
+	},{
+		id: "SSK__DESTROYED",
+		text: "ความถูกทำลาย"
+	},{
+		id: "SSK__INSPIRED",
+		text: "แรงบันดาลใจ"
+	},{
+		id: "SSK__DOESNT_CARE",
+		text: "ความไม่สนใจ"
+	},{
+		id: "SSK__ZONED_OUT",
+		text: "ได้แบ่งเขต"
+	},{
+		id: "SSK__INTRIGUED",
+		text: "ความทึ่ง"
+	},{
+		id: "SSK__PUZZLED",
+		text: "ความงง"
+	},{
+		id: "SSK__AMUSED",
+		text: "ความตลก"
+	},{
+		id: "SSK__HUNGRY",
+		text: "ความหิว"
+	},{
+		id: "SSK__BORED",
+		text: "ความเบื่อ"
+	},{
+		id: "SSK__ASLEEP",
+		text: "การนอนหลับ"
+	},{
+		id: "SSK__CRISIS",
+		text: "สูญเสียความเป็นตัวเอง"
+	},{
+		id: "SSK__SWEATING",
+		text: "เหงื่อออกมาก"
+	},{
+		id: "SSK__CRYING",
+		text: "ร้องไห้"
+	},{
+		id: "SSK__MEME",
+		text: "จำมีมตลกๆและพยายามจะไม่หัวเราะ"
+	},{
+		id: "SSK__SHITPOSTING",
+		text: "การเขียนคำหยาบ"
+	},{
+		id: "SSK__LYFE",
+		text: "ความคิดเกี่ยวกับชีวิต"
+	},{
+		id: "SSK__SINGLE_TIP",
+		text: "บัตรลงคะแนนสำหรับการเลือกตั้งจะรวมอยู่ในการเปิดตัวซิงเกิลที่คุณเลือก ซีดีแต่ละแผ่นจะมาพร้อมกับบัตรลงคะแนน ดังนั้นงานการเลือกตั้งจะช่วยเพิ่มยอดขายให้กับซิงเกิลนั้น"
+	},{
+		id: "SSK__CONCERT_TIP",
+		text: "ในระหว่างคอนเสิร์ตที่เกี่ยวข้อง การเลือกตั้งจะเพิ่มระดับโฆษณาขั้นต่ำ รับประกันว่าโฆษณาของคุณจะไม่มีวันต่ำกว่าเกณฑ์เริ่มต้น"
+	},{
+		id: "SSK__NEED_CONCERT_2",
+		text: "คุณต้องมีการจัดคอนเสิร์ตเพื่อสร้างกิจกรรมการเลือกตั้ง "
+	},{
+		id: "SSK__BROADCAST",
+		text: "ออกอากาศ"
+	},{
+		id: "SSK__BROADCAST_TIP",
+		text: "ตัวเลือกในการถ่ายทอดผลการเลือกตั้งมีตั้งแต่บล็อกสด (ระดับ 1) ไปจนถึงรายการโทรทัศน์ระดับประเทศ (ระดับ 4) การออกอากาศแต่ละประเภทจะปลดล็อกประเภทการออกอากาศระดับสูงสำหรับการเลือกตั้งในอนาคต"
+	},{
+		id: "SSK__PREVIOUS_ELECTION",
+		text: "ก่อน\nการเลือกตั้ง"
+	},
+
+	{
+		id: "TOUR__FATIGUE",
+		text: "ความเหนื่อยล้า"
+	},{
+		id: "TOUR__SAVING",
+		text: "ประหยัด @ ต้นทุนการผลิต"
+	},{
+		id: "TOUR__PROD_COST",
+		text: "ต้นทุนการผลิต"
+	},{
+		id: "TOUR__CANCELING",
+		text: "ยกเลิกคอนเสิร์ตก็จะยกเลิกงานเลือกตั้งด้วย!"
+	},{
+		id: "TOUR__EXPECTED_REVENUE",
+		text: "รายได้ที่คาดหวัง"
+	},{
+		id: "TOUR__ATTENDANCE",
+		text: "การเข้าร่วม"
+	},{
+		id: "TOUR__NEW_FANS",
+		text: "แฟนคลับเพิ่ม"
+	},{
+		id: "TOUR__REVENUE",
+		text: "รายได้"
+	},{
+		id: "TOUR__PROFIT",
+		text: "กำไร"
+	},{
+		id: "RUSSIA",
+		text: "รัสเซีย"
+	},{
+		id: "CHINA",
+		text: "จีน"
+	},{
+		id: "SOUTH_KOREA",
+		text: "เกาหลีใต้"
+	},{
+		id: "INDIA",
+		text: "อินเดีย"
+	},{
+		id: "THAILAND",
+		text: "ไทย"
+	},{
+		id: "PHILIPPINES",
+		text: "ฟิลิปปินส์"
+	},{
+		id: "INDONESIA",
+		text: "อินโดนีเซีย"
+	},{
+		id: "AUSTRALIA",
+		text: "ออสเตรเลีย"
+	},{
+		id: "SOUTH_AFRICA",
+		text: "แอฟริกาใต้"
+	},{
+		id: "CANADA",
+		text: "แคนาดา"
+	},{
+		id: "USA",
+		text: "สหรัฐอเมริกา"
+	},{
+		id: "BRAZIL",
+		text: "บราซิล"
+	},{
+		id: "ARGENTINA",
+		text: "อาร์เจนตินา"
+	},{
+		id: "UK",
+		text: "สหราชอาณาจักร"
+	},{
+		id: "FRANCE",
+		text: "ฝรั่งเศส"
+	},{
+		id: "GERMANY",
+		text: "เยอรมนี"
+	},{
+		id: "ITALY",
+		text: "อิตาลี"
+	},{
+		id: "SPAIN",
+		text: "สเปน"
+	},{
+		id: "ERROR",
+		text: "ข้อผิดพลาด"
+	},
+
+	{
+		id: "STORY__FUJIMOTO",
+		text: "ฟูจิโมโตะ"
+	},
+
+	{
+		id: "IDOL__AGE",
+		text: "อายุ"
+	},{
+		id: "IDOL__CONTRACTS",
+		text: "สัญญา"
+	},{
+		id: "IDOL__STAMINA_COST",
+		text: "ค่าพลังงาน"
+	},{
+		id: "IDOL__NOW_HATES",
+		text: " ตอนนี้เกลียด @"
+	},{
+		id: "IDOL__NOW_DISLIKES",
+		text: " ตอนนี้ไม่ชอบ @"
+	},{
+		id: "IDOL__NOW_NEUTRAL",
+		text: " ตอนนี้เป็นกลางกับ @"
+	},{
+		id: "IDOL__NOW_LIKES",
+		text: " ตอนนี้ชอบ @"
+	},{
+		id: "IDOL__FRIEND",
+		text: " ตอนนี้ถือว่า @ เป็นเพื่อน "
+	},{
+		id: "IDOL__MYST_REASON_LOST",
+		text: " สูญเสีย @ ค่าสภาพจิตใจด้วยเหตุผลลึกลับ"
+	},{
+		id: "IDOL__MYST_REASON_GAINED",
+		text: " ได้รับ @ ค่าสภาพจิตใจด้วยเหตุผลลึกลับ"
+	},{
+		id: "IDOL__TRAIT_RECOVERED",
+		text: "ฟื้น @ ค่าสภาพร่างกายเพราะนิสัยของเธอ"
+	},{
+		id: "IDOL__SALARY_NOT_HAPPY",
+		text: "@ ไม่พอใจกับเงินเดือนของเธอ"
+	},{
+		id: "IDOL__GOT_INJURED",
+		text: "@ ได้รับบาดเจ็บ!"
+	},{
+		id: "IDOL__IS_DEPRESSED",
+		text: "@ เป็นโรคซึมเศร้า"
+	},{
+		id: "IDOL__ON_HIATUS",
+		text: "พักจนถึง "
+	},{
+		id: "IDOL__DEPR_1",
+		text: "ไอดอลนี้ซึมเศร้า!\n"
+	},{
+		id: "IDOL__DEPR_2",
+		text: "ไอดอลซึมเศร้าไม่สามารถฝึกฝนได้และมี "
+	},{
+		id: "IDOL__DEPR_3",
+		text: "x0.5 การลงโทษ"
+	},{
+		id: "IDOL__DEPR_4",
+		text: " สถิติของพวกเขา"
+	},{
+		id: "IDOL__INJ_1",
+		text: "ไอดอลคนนี้ได้รับบาดเจ็บ!\n"
+	},{
+		id: "IDOL__INJ_2",
+		text: "ไอดอลที่บาดเจ็บไม่สามารถซ้อม รับข้อเสนอทางธุรกิจ เข้าร่วมงานเดี่ยว การแสดง และคอนเสิร์ตได้"
+	},{
+		id: "IDOL__HIATUS_TIME",
+		text: "ช่วงเวลาพักฟื้นที่จำเป็น: @ วัน"
+	},{
+		id: "IDOL__HIATUS_HINT",
+		text: "ส่งไอดอลนี้ไปพบแพทย์เพื่อลดเวลาพักที่จำเป็น"
+	},{
+		id: "IDOL__HIATUS_TIP_1",
+		text: "ค่าสภาพร่างกายและจิตใจจะกลับคืนสู่ 100 pt"
+	},{
+		id: "IDOL__HIATUS_TIP_2",
+		text: "สัญญาทั้งหมดของไอดอลนี้จะถูกฉีกทิ้ง คุณจะต้องจ่าย @ ในความเสียหาย"
+	},{
+		id: "IDOL__HIATUS_TIP_3",
+		text: "ส่งไอดอลนี้ไปพบแพทย์เพื่อลดเวลาพักที่จำเป็น"
+	},{
+		id: "IDOL__NO_DEPRESSED",
+		text: "@ ไม่ซึมเศร้าแล้ว"
+	},{
+		id: "IDOL__NO_INJURED",
+		text: "@ ไม่ได้รับบาดเจ็บแล้ว"
+	},{
+		id: "IDOL__HIATUS_RETURNED",
+		text: "@ กลับมาจากการพัก"
+	},{
+		id: "IDOL__WILL_GRADUATE",
+		text: "@ จะสำเร็จการศึกษาใน 3 เดือน"
+	},{
+		id: "IDOL__WISH_FULFILLED",
+		text: "สมหวังดั่งปรารถนา"
+	},{
+		id: "IDOL__SATISF",
+		text: "@% ความพึงพอใจ"
+	},{
+		id: "IDOL__IDLE",
+		text: "ว่าง"
+	},{
+		id: "IDOL__PHYS_REC",
+		text: "กำลังฟื้นฟูสภาพร่างกาย"
+	},{
+		id: "IDOL__MENT_REC",
+		text: "กำลังฟื้นฟูสภาพจิตใจ"
+	},{
+		id: "IDOL__DANCE",
+		text: "กำลังซ้อมเต้น"
+	},{
+		id: "IDOL__VOCAL",
+		text: "กำลังฝึกร้อง"
+	},{
+		id: "IDOL__COOL",
+		text: "สไตล์คูล"
+	},{
+		id: "IDOL__SEXY",
+		text: "สไตล์เซ็กซี่"
+	},{
+		id: "IDOL__PRETTY",
+		text: "สไตล์สวย"
+	},{
+		id: "IDOL__CUTE",
+		text: "สไตล์น่ารัก"
+	},{
+		id: "IDOL__PRACTICE",
+		text: "ฝึกฝน"
+	},{
+		id: "IDOL__GRAD",
+		text: "จบการศึกษาใน @ วัน"
+	},{
+		id: "IDOL__GRAD_SOON",
+		text: "จบการศึกษาในเร็วๆ นี้"
+	},{
+		id: "IDOL__POLICY_SNS",
+		text: "นโยบาย: โซเชียลมีเดีย"
+	},{
+		id: "IDOL__POLICY_STREAMING",
+		text: "นโยบาย: สตรีมมิ่ง"
+	},
+
+	{
+		id: "BD__TITLE_1",
+		text: "@มี"
+	},{
+		id: "BD__TITLE_2",
+		text: "วันเกิดครบ@ปี"
+	},{
+		id: "BD__AGE",
+		text: "อายุ @ ปี"
+	},{
+		id: "BD__HISTORY",
+		text: "วางแผนวันจบการศึกษา"
+	},{
+		id: "BD__GRADUATION",
+		text: "จบการศึกษา"
+	},
+
+	{
+		id: "IDOLS",
+		text: "ไอดอลฯ"
+	}, {
+		id: "STAMINA",
+		text: "พลังงาน"
+	}, {
+		id: "PHYSICAL_STAMINA",
+		text: "ค่าสภาพร่างกาย"
+	},{
+		id: "PHYSICAL_STAMINA_SHORT",
+		text: "ค่าร่างกาย"
+	}, {
+		id: "MENTAL_STAMINA",
+		text: "ค่าสภาพจิตใจ"
+	},{
+		id: "MENTAL_STAMINA_SHORT",
+		text: "ค่าจิตใจ"
+	}, {
+		id: "LEVEL",
+		text: "เลเวล"
+	}, {
+		id: "LVL",
+		text: "Lvl"
+	},{
+		id: "FAN",
+		text: "แฟนๆ"
+	}, {
+		id: "FANS",
+		text: "แฟนคลับฯ"
+	}, {
+		id: "HYPE",
+		text: "ความไฮป์"
+	},{
+		id: "FAME",
+		text: "ชื่อเสียง"
+	}, {
+		id: "CUTE",
+		text: "น่ารัก"
+	},{
+		id: "COOL",
+		text: "คูล"
+	},{
+		id: "SEXY",
+		text: "เซ็กซี่"
+	},{
+		id: "PRETTY",
+		text: "สวย"
+	},{
+		id: "DANCE",
+		text: "เต้น"
+	},{
+		id: "VOCAL",
+		text: "เสียง"
+	},{
+		id: "FUNNY",
+		text: "สนุกสนาน"
+	},{
+		id: "SMART",
+		text: "สมาร์ท"
+	},{
+		id: "TEAM_CHEMISTRY",
+		text: "ความสามัคคีของกลุ่ม"
+	},{
+		id: "COST",
+		text: "ค่า"
+	},{
+		id: "MONTHS",
+		text: "เดือน"
+	},{
+		id: "GIRL",
+		text: "เมมเบอร์"
+	},{
+		id: "GIRLS",
+		text: "เมมเบอร์ฯ"
+	},{
+		id: "BUZZ",
+		text: "Buzz"
+	},{
+		id: "PT",
+		text: "pt"
+	},{
+		id: "MONTH",
+		text: "เดือน"
+	},{
+		id: "MONTHS",
+		text: "เดือน"
+	},{
+		id: "MONEY",
+		text: "เงิน"
+	},{
+		id: "SCANDAL_POINTS",
+		text: "คะแนนเรื่องอื้อฉาว"
+	},{
+		id: "COST",
+		text: "ค่าใช้จ่าย"
+	},{
+		id: "RESOURCES",
+		text: "ทรัพยากร"
+	},{
+		id: "GROUP",
+		text: "กรุ๊ป"
+	},{
+		id: "MAN",
+		text: "ผู้ชาย"
+	},{
+		id: "WOMAN",
+		text: "ผู้หญิง"
+	},{
+		id: "BACK",
+		text: "กลับ"
+	},{
+		id: "SALARY",
+		text: "เงินเดือน"
+	},{
+		id: "SATISFIED",
+		text: "ความพึงพอใจ"
+	},{
+		id: "NICKNAME",
+		text: "ชื่อเล่น"
+	},{
+		id: "STATUS",
+		text: "สถานะ"
+	},{
+		id: "ENABLED",
+		text: "เปิด"
+	},{
+		id: "DISABLED",
+		text: "ปิด"
+	},{
+		id: "SELECT",
+		text: "เลือก"
+	},{
+		id: "PER_WEEK",
+		text: "/w"
+	},{
+		id: "TOTAL",
+		text: "ทั้งหมด"
+	},{
+		id: "OK",
+		text: "ตกลง"
+	},
+
+	{
+		id: "GUI__FULL",
+		text: "เต็ม"
+	},{
+		id: "GUI__COMPACT",
+		text: "ย่อ"
+	},
+
+	{
+		id: "FAME_REQUIRED",
+		text: "ชื่อเสียงที่ต้องการ"
+	},{
+		id: "FANS_REQUIRED",
+		text: "ต้องมีแฟนๆ"
+	},{
+		id: "TO_UNLOCK",
+		text: "เพื่อปลดล็อค"
+	},{
+		id: "TO_UPGRADE",
+		text: "เพื่ออัพเกรด"
+	},
+
+	{
+		id: "MS",
+		text: "คุณ @"
+	},{
+		id: "MR",
+		text: "คุณ @"
+	}
+
+	{
+		id: "FAN_M",
+		text: "ชาย"
+	},{
+		id: "FAN_F",
+		text: "หญิง"
+	},{
+		id: "FAN_C",
+		text: "ทั่วไป"
+	},{
+		id: "FAN_HC",
+		text: "ตัวยง"
+	},{
+		id: "FAN_T",
+		text: "วัยรุ่น"
+	},{
+		id: "FAN_YA",
+		text: "หนุ่มสาว"
+	},{
+		id: "FAN_A",
+		text: "ผู้ใหญ่"
+	},{
+		id: "FAN_M_SHORT",
+		text: "ชาย"
+	},{
+		id: "FAN_F_SHORT",
+		text: "หญิง"
+	},{
+		id: "FAN_C_SHORT",
+		text: "ทั่วไป"
+	},{
+		id: "FAN_HC_SHORT",
+		text: "ตัวยง"
+	},{
+		id: "FAN_T_SHORT",
+		text: "วัยรุ่น"
+	},{
+		id: "FAN_YA_SHORT",
+		text: "หนุ่มสาว"
+	},{
+		id: "FAN_A_SHORT",
+		text: "ผู้ใหญ่"
+	},
+
+	{
+		id: "MSG__NOT_ENOUGH_MONEY",
+		text: "เงินไม่พอ"
+	},{
+		id: "MSG__RMB_TO_CANCEL",
+		text: "คลิกปุ่มเมาส์ขวาเพื่อยกเลิก"
+	},{
+		id: "MSG__NOT_AVAILABLE",
+		text: "ไม่มีในรุ่นนี้"
+	},{
+		id: "MSG__ONE_ROOM",
+		text: "คุณสามารถมีห้องประเภทนี้ได้เพียงห้องเดียวเท่านั้น"
+	},{
+		id: "MSG__NO_SPACE",
+		text: "พื้นที่ไม่เพียงพอ"
+	},
+
+	///// Beta 9
+
+	{
+		id: "CM__MENT_RECOVERY",
+		text: "ฟื้นฟูสภาพจิตใจ"
+	},{
+		id: "CM__PHYS_RECOVERY",
+		text: "ฟื้นฟูสภาพร่างกาย"
+	},{
+		id: "CM__MENT_TREATMENT",
+		text: "รักษาอาการซึมเศร้า"
+	},{
+		id: "CM__PHYS_TREATMENT",
+		text: "รักษาอาการบาดเจ็บ"
+	},
+
+	{
+		id: "WIDGET__EVENTS_WAITING",
+		text: "อีเว้นท์ที่รออยู่"
+	},{
+		id: "NOTIFICATIONS",
+		text: "การแจ้งเตือน"
+	},
+
+	{
+		id: "IDOL__AVG_EARNINGS",
+		text: "เฉลี่ย รายได้ล่าสุด"
+	},{
+		id: "IDOL__TOTAL_EARNINGS",
+		text: "รายได้ทั้งหมด"
+	},{
+		id: "IDOL__EARNINGS_TIP",
+		text: "*ไอดอลรายนี้สร้างรายได้ให้กับกรุ๊ปของคุณมากน้อยเพียงใด\n(ซิงเกิ้ล โชว์ สัญญา การแสดง ฯลฯ) "
+	},
+
+	{
+		id: "LAUNCH",
+		text: "เปิดตัว"
+	},
+
+	{
+		id: "PLAYER_REL__INFLUENCE",
+		text: "อิทธิพล"
+	},{
+		id: "PLAYER_REL__FRIENDSHIP",
+		text: "มิตรภาพ"
+	},{
+		id: "PLAYER_REL__ROMANCE",
+		text: "โรแมนติก"
+	},
+
+	{
+		id: "MAX",
+		text: "เต็ม"
+	},{
+		id: "MIN",
+		text: "ต่ำ"
+	},
+
+
+	{
+		id: "DATE__STOP_BULLYING",
+		text: "หยุดรังแก"
+	},{
+		id: "DATE__FIND_BLACKMAIL_MATERIAL",
+		text: "ค้นหาเนื้อหาแบล็กเมล์เกี่ยวกับเมมเบอร์"
+	},{
+		id: "DATE__FORCE_BREAKUP",
+		text: "บังคับให้เธอเลิกกับแฟนของเธอ ช/ญ"
+	},{
+		id: "DATE__NOT_ENOUGH_INFLUENCE",
+		text: "อิทธิพลไม่พอ"
+	},{
+		id: "DATE__INFLUENCE_COST",
+		text: "ค่าอิทธิพล"
+	},{
+		id: "DATE__INFLUENCE_COST_SHORT",
+		text: "ค่าอิทธิพล"
+	},{
+		id: "DATE__NO_BULLY",
+		text: "คุณไม่รู้จักไอดอลคนใดที่ถูกรังแกโดย @"
+	},{
+		id: "DATE__NO_PARTNER",
+		text: "คุณไม่รู้ว่า @ กำลังคบกับใครอยู่หรือเปล่า"
+	},{
+		id: "DATE__TALK_INFLUENCE",
+		text: "อิทธิพล"
+	},
+
+	{
+		id: "PROFILE__STOPPED_BULLYING",
+		text: "หยุดรังแก"
+	},
+
+	{
+		id: "STAFF__HIRE",
+		text: "จ้าง"
+	},
+
+	{
+		id: "SINGLES__NEW_SINGLE",
+		text: "ออกซิงเกิ้ลใหม่"
+	},{
+		id: "SINGLES__PRODUCTION",
+		text: "กำลังผลิต"
+	},{
+		id: "SINGLES__RELEASED",
+		text: "ปล่อยแล้ว"
+	},{
+		id: "SINGLES__RELEASE",
+		text: "ปล่อย"
+	},{
+		id: "SINGLES__REPLACED",
+		text: "สมาชิกบางส่วนถูกแทนที่เนื่องจากการสำเร็จการศึกษา"
+	},{
+		id: "SINGLES_CHART_POS",
+		text: "อันดับชาร์ต"
+	},{
+		id: "SINGLES__SALES",
+		text: "ยอดขาย"
+	},{
+		id: "SINGLES__SALES_PER_FAN",
+		text: "ยอดขายต่อแฟน"
+	},{
+		id: "SINGLES__FAN_SATISF",
+		text: "ความพอใจของแฟนๆ"
+	},
+
+
+	{
+		id: "SHOW__REPLACED",
+		text: "นักแสดงบางคนถูกแทนที่เนื่องจากการสำเร็จการศึกษา"
+	},{
+		id: "SHOW__RELAUNCH",
+		text: "รีรัน"
+	},{
+		id: "SHOW__NEW_SHOW",
+		text: "จัดโชว์ใหม่"
+	},{
+		id: "SHOW__CANCELED",
+		text: "ยกเลิกแล้ว"
+	},{
+		id: "SHOW__FATIGUE",
+		text: "ความเหนื่อย"
+	},{
+		id: "SHOW__EPISODE",
+		text: "ตอน"
+	},
+
+
+	{
+		id: "CONCERT__AUDIENCE",
+		text: "ผู้ชม"
+	},{
+		id: "CONCERT__TICKET_PRICE",
+		text: "ราคาตั๋ว"
+	},
+
+
+	{
+		id: "IDOL__ACTIVE",
+		text: "ทำงานอยู่"
+	},{
+		id: "IDOL__GRADUATED",
+		text: "จบการศึกษา"
+	},{
+		id: "SEVENT__REPLACED",
+		text: "สมาชิกบางส่วนถูกแทนที่เนื่องจากการสำเร็จการศึกษา"
+	},
+
+
+	{
+		id: "SEVENT__NEW",
+		text: "จัดอีเว้นท์พิเศษใหม่"
+	},{
+		id: "SEVENT__FINISHED",
+		text: "เสร็จเรียบร้อย"
+	},
+
+
+	{
+		id: "TOUR__COUNTRIES",
+		text: "ประเทศ"
+	},
+
+
+	{
+		id: "LP__PUSHES_TIP",
+		text: "ไอดอลที่ถูกผลักดันจะได้รับ 50+% ของข้อเสนอทางธุรกิจทั้งหมด\nพวกเขายังได้รับคะแนนชื่อเสียงมากขึ้นจากซิงเกิ้ลและรายการ แต่คนอื่นๆ จะได้รับน้อยลง{separator}คุณจะได้รับคะแนนอิทธิพลเหนือไอดอลที่ถูกผลักดันในทุกเดือนที่มีการผลักดัน แต่ก็สามารถทำได้เช่นกัน ทำลายความสัมพันธ์ของพวกเขาและความสัมพันธ์ของคุณกับไอดอลที่คิดว่าการผลักดันไม่ยุติธรรม"
+	},{
+		id: "LP__MAIN_MENU",
+		text: "เมนูหลัก"
+	},{
+		id: "LP__SAVE",
+		text: "เซฟ"
+	},{
+		id: "LP__LOAD",
+		text: "โหลด"
+	},{
+		id: "LP__SETTINGS",
+		text: "การตั้งค่า"
+	},{
+		id: "LP__SAVE_QUIT",
+		text: "เซฟ & ออก"
+	},
+
+	{
+		id: "AGENCY__SOCIALIZE",
+		text: "เข้าสังคม"
+	},
+
+	{
+		id: "NOTIF__IDOL_REL_YOU",
+		text: "คุณ"
+	},
+
+	{
+		id: "CM__AUTO_PRACTICE",
+		text: "ฝึกอัตโนมัติ"
+	},{
+		id: "CM__REMOVE_FROM_ROOM",
+		text: "ย้ายออกจากห้อง"
+	},{
+		id: "CM__FIRE",
+		text: "ไล่"
+	},{
+		id: "CM__HIATUS_LENGTH",
+		text: "90 วัน"
+	},{
+		id: "CM__DONT_PRACTICE",
+		text: "อย่าฝึก"
+	},{
+		id: "CM__VISUAL",
+		text: "รวมทั้งหมด"
+	},{
+		id: "CM__AUTO_PROPOSALS",
+		text: "ข้อเสนออัตโนมัติ"
+	},{
+		id: "CM__PREF_PROPOSALS",
+		text: "ข้อเสนอที่ต้องการ"
+	},{
+		id: "CM__HIGHEST_STAT",
+		text: "สถิติสูงสุด"
+	},{
+		id: "CM__LOWEST_STAT",
+		text: "สถิติต่ำสุด"
+	},{
+		id: "CM__AUTO_STYLING",
+		text: "จัดแต่งทรงผมอัตโนมัติ"
+	},{
+		id: "CM__PREF_STYLE",
+		text: "สไตล์ที่ต้องการ"
+	},
+
+	{
+		id: "BIZ_AD",
+		text: "โฆษณา"
+	},{
+		id: "BIZ__TV",
+		text: "ละครทีวี"
+	},{
+		id: "BIZ__VARIETY_SHOW",
+		text: "วาไรตี้โชว์"
+	},
+
+	///// Beta 10
+
+	{
+		id: "PROFILE__DATING_UNKNOWN",
+		text: "ไม่ทราบสถานะการออกเดท"
+	},{
+		id: "PROFILE__DATING_NOT_DATING",
+		text: "ไม่ได้คบกับใคร"
+	},{
+		id: "PROFILE__DATING_IDOL",
+		text: "ออกเดท @"
+	},{
+		id: "PROFILE__DATING_IDOL_UNKNOWN",
+		text: "ออกเดทกับไอดอลคนอื่นในกรุ๊ปของคุณ"
+	},{
+		id: "PROFILE__DATING_HAS_BF",
+		text: "มีแฟนหนุ่ม"
+	},{
+		id: "PROFILE__DATING_HAS_GF",
+		text: "มีแฟนสาว"
+	},{
+		id: "PROFILE__DATING_YOU",
+		text: "เดทกับคุณ"
+	},{
+		id: "PROFILE__DATING_STRAIGHT",
+		text: "สนใจคบผู้ชายเท่านั้น"
+	},{
+		id: "PROFILE__DATING_LESBIAN",
+		text: "สนใจคบผู้หญิงเท่านั้น"
+	},{
+		id: "PROFILE__DATING_BI",
+		text: "สนใจคบทั้งผู้ชายและผู้หญิง"
+	},{
+		id: "PROFILE__DATING_PREF_UNKNOWN",
+		text: "ไม่ทราบค่ากำหนด"
+	},{
+		id: "PROFILE__DATING_NOT_INTERESTED",
+		text: "ไม่สนใจคบกับคุณ"
+	},{
+		id: "PROFILE__DATING_INTERESTED",
+		text: "สามารถพิจารณาออกเดทกับคุณ"
+	},
+
+	{
+		id: "SINGLES__CHART",
+		text: "ชาร์ตซิงเกิ้ล"
+	},{
+		id: "SINGLES__SALES_CHART",
+		text: "ชาร์ตยอดขาย"
+	},
+
+	{
+		id: "STYLING__SELECT_IDOL",
+		text: "เลือกไอดอล"
+	},
+
+	{
+		id: "LP_TITLE__POLICIES_TIP",
+		text: "จ้างพนักงานออฟฟิศและพนักงานเต้นเพื่อปลดล็อก"
+	},
+
+	///// Beta 11
+
+	{
+		id: "SINGLE__TRENDINESS",
+		text: "โบนัสเทรนด์"
+	},{
+		id: "SINGLE__OBSCURITY",
+		text: "โบนัสไม่มีชื่อเสียง"
+	},{
+		id: "SINGLE__NEW_HC_FANS",
+		text: "แฟนคลับตัวยงเพิ่ม"
+	},{
+		id: "SINGLE__NEW_C_FANS",
+		text: "แฟนคลับทั่วไปเพิ่ม"
+	},{
+		id: "SINGLES__CHART_TIP",
+		text: "แนวเพลงที่ทันสมัย ธีมแนวเพลง และรูปแบบท่าเต้นดึงดูดแฟนเพลงใหม่ๆ\n\nประเภทที่คลุมเครือ ธีมแนวเพลง และรูปแบบท่าเต้นดึงดูดแฟนตัวยงกลุ่มใหม่ "
+	},{
+		id: "SINGLES__CENTER",
+		text: "เซ็นเตอร์"
+	},{
+		id: "SINGLES__PARTICIPATION",
+		text: "การมีส่วนร่วมของซิงเกิ้ล"
+	},
+
+	{
+		id: "LOANS__CREDIT_HISTORY",
+		text: "ประวัติเครดิต"
+	},{
+		id: "LOANS__PAY_OFF",
+		text: "จ่ายแล้ว"
+	},{
+		id: "LOANS__CREDITOR",
+		text: "เจ้าหนี้"
+	},{
+		id: "LOANS__TOTAL_AMOUNT",
+		text: "จำนวนเงินทั้งหมด"
+	},{
+		id: "LOANS__DEBT",
+		text: "หนี้"
+	},{
+		id: "LOANS__WEEKLY_PAYMENT_2",
+		text: "การชำระเงินรายสัปดาห์"
+	},{
+		id: "LOANS__END_DATE",
+		text: "วันที่สิ้นสุด"
+	},
+
+	{
+		id: "STYLING__BUTTON",
+		text: "คุณต้องมีไอดอลอย่างน้อยหนึ่งคน สไตลิสต์หนึ่งคน และห้องแต่งตัวหนึ่งห้องเพื่อปลดล็อกสไตล์"
+	},
+
+	{
+		id: "AWARDS",
+		text: "รางวัลฯ"
+	},{
+		id: "AWARD",
+		text: "รางวัล"
+	},{
+		id: "AWARDS__NOMINATION",
+		text: "การเสนอชื่อ"
+	},
+	{
+		id: "AWARDS__BEST_DEBUT_IDOL",
+		text: "ไอดอลเดบิวต์ยอดเยี่ยม"
+	},{
+		id: "AWARDS__BEST_EMPLOYER",
+		text: "นายจ้างที่ดีที่สุด"
+	},{
+		id: "AWARDS__BEST_SINGLE",
+		text: "ซิงเกิ้ลที่ดีที่สุด"
+	},{
+		id: "AWARDS__FASHION_ICON",
+		text: "ผู้นำแฟชั่น"
+	},{
+		id: "AWARDS__GRAVURE_QUEEN",
+		text: "ราชินีกราเวีย"
+	},{
+		id: "AWARDS__MOST_PERFORMANCES",
+		text: "ผลงานมากที่สุด"
+	},{
+		id: "AWARDS__MOST_PROLIFIC_GROUP",
+		text: "กรุ๊ปที่ทำงานมากที่สุด "
+	},{
+		id: "AWARDS__MOST_PROMOTIONS",
+		text: "โปรโมทมากที่สุด"
+	},{
+		id: "AWARDS__VARIETY_QUEEN",
+		text: "ผู้ให้ความบันเทิงยอดนิยม"
+	},{
+		id: "AWARDS__BEST_CONCERT",
+		text: "คอนเสิร์ตที่ดีที่สุด"
+	},
+	{
+		id: "AWARDS__NEXT_DATE",
+		text: "พิธีมอบรางวัลครั้งต่อไป"
+	},
+	{
+	    id: "AWARDS__BEST_DEBUT_IDOL_NOM_REQ",
+	    text: "รับไอดอลใหม่ระดับ @ ชื่อเสียง"
+	},{
+	    id: "AWARDS__BEST_EMPLOYER_NOM_REQ",
+	    text: "อย่าปล่อยให้ไอดอลเหนื่อยเกินไป รักษาเงินเดือนให้สูง และหลีกเลี่ยงการบาดเจ็บและภาวะซึมเศร้า"
+	},{
+	    id: "AWARDS__BEST_EMPLOYER_WIN_REQ",
+	    text: "รักษาพลังงานของไอดอลทั้งหมดมากกว่า 20% ความพึงพอใจในเงินเดือนมากกว่า 80% และหลีกเลี่ยงการบาดเจ็บและภาวะซึมเศร้า"
+	},{
+	    id: "AWARDS__BEST_SINGLE_NOM_REQ",
+	    text: "ปล่อยซิงเกิ้ลโดยใช้แนวเพลง ธีมแนวเพลง และสไตล์ท่าเต้นยอดนิยม"
+	},{
+	    id: "AWARDS__BEST_SINGLE_WIN_REQ",
+	    text: "ติดอันดับชาร์ตด้วยซิงเกิ้ลที่ใช้แนวเพลงยอดนิยม ธีมแนวเพลง และสไตล์ท่าเต้น"
+	},{
+	    id: "AWARDS__FASHION_ICON_NOM_REQ",
+	    text: "ได้ @ \"สวย\" ข้อเสนอทางธุรกิจสำหรับไอดอลคนหนึ่ง"
+	},{
+	    id: "AWARDS__GRAVURE_QUEEN_NOM_REQ",
+	    text: "ได้ @ \"เซ็กซี่\" ข้อเสนอทางธุรกิจสำหรับไอดอลคนหนึ่ง"
+	},{
+	    id: "AWARDS__MOST_PERFORMANCES_NOM_REQ",
+	    text: "จัด @ การแสดง "
+	},{
+	    id: "AWARDS__MOST_PROLIFIC_GROUP_NOM_REQ",
+	    text: "ยอดรวมของซิงเกิ้ลที่ปล่อยออกมา คอนเสิร์ต เวิร์ลทัวร์ และการเลือกตั้ง อย่างน้อย @"
+	},{
+	    id: "AWARDS__MOST_PROMOTIONS_NOM_REQ",
+	    text: "@ โปรโมท"
+	},{
+	    id: "AWARDS__VARIETY_QUEEN_NOM_REQ",
+	    text: "ได้ @ \"วาไรตี้โชว์\" ข้อเสนอทางธุรกิจสำหรับไอดอลคนหนึ่ง"
+	},{
+	    id: "AWARDS__BEST_CONCERT_NOM_REQ",
+	    text: "จบคอนเสิร์ตด้วย @% ความไฮป์"
+	},
+	{
+	    id: "AWARDS__BEST_DEBUT_IDOL_NOM_REWARD",
+	    text: "@ โบนัสสำหรับแฟนคลับใหม่และคะแนนชื่อเสียงที่เธอได้รับ"
+	},{
+	    id: "AWARDS__BEST_SINGLE_NOM_REWARD",
+	    text: "@ โบนัสสำหรับจำนวนแฟนคลับใหม่ที่คุณได้รับจากซิงเกิ้ลใหม่"
+	},{
+	    id: "AWARDS__FASHION_ICON_NOM_REWARD",
+	    text: "ค่าต่ำสุดของสถิติ \"สวย\" ของไอดอลคนนี้คือ <green>80</color>; @ โบนัสสำหรับข้อเสนอทางธุรกิจ \"สวย\" ของเธอ"
+	},{
+	    id: "AWARDS__FASHION_ICON_WIN_REWARD",
+	    text: "ค่าต่ำสุดของสถิติ \"สวย\" ของไอดอลคนนี้คือ <green>90</color>; @ โบนัสสำหรับข้อเสนอทางธุรกิจ \"สวย\" ของเธอ"
+	},{
+	    id: "AWARDS__GRAVURE_QUEEN_NOM_REWARD",
+	    text: "ค่าต่ำสุดของสถิติ \"เซ็กซี่\" ของไอดอลคนนี้คือ <green>80</color>; @ โบนัสสำหรับข้อเสนอทางธุรกิจ \"เซ็กซี่\" ของเธอ"
+	},{
+	    id: "AWARDS__GRAVURE_QUEEN_WIN_REWARD",
+	    text: "ค่าต่ำสุดของสถิติ \"เซ็กซี่\" ของไอดอลคนนี้คือ <green>90</color>; @ โบนัสสำหรับข้อเสนอทางธุรกิจ \"เซ็กซี่\" ของเธอ"
+	},{
+	    id: "AWARDS__MOST_PERFORMANCES_NOM_REWARD",
+	    text: "@ โบนัสสำหรับผลงาน"
+	},{
+	    id: "AWARDS__MOST_PROLIFIC_GROUP_NOM_REWARD",
+	    text: "ต้นทุนการผลิตซิงเกิ้ล คอนเสิร์ต การเลือกตั้ง และเวิลด์ทัวร์ @ ลดลง"
+	},{
+	    id: "AWARDS__MOST_PROMOTIONS_NOM_REWARD",
+	    text: "@ โบนัสสำหรับโปรโมท"
+	},{
+	    id: "AWARDS__VARIETY_QUEEN_NOM_REWARD",
+	    text: "@ โบนัสสำหรับข้อเสนอ \"วาไรตี้โชว์\" ของเธอ; โบนัส <green> x1.25 </color> จากยอดผู้ชมเมื่อเธออยู่ในรายการ"
+	},{
+	    id: "AWARDS__VARIETY_QUEEN_WIN_REWARD",
+	    text: "@ โบนัสสำหรับข้อเสนอ \"วาไรตี้โชว์\" ของเธอ; โบนัส <green> x2 </color> จากยอดผู้ชมเมื่อเธออยู่ในรายการ"
+	},{
+	    id: "AWARDS__BEST_CONCERT_NOM_REWARD",
+	    text: "ไอดอลใช้พลังงานน้อยลง @ เมื่อคุณจัดเซ็นเตอร์เพลงในคอนเสิร์ต"
+	},
+	{
+	    id: "AWARDS__UNLOCK",
+	    text: "[ชนะหนึ่งครั้งหรือได้รับการเสนอชื่อ 3 ครั้งเพื่อดู]"
+	},
+	{
+		id: "AWARDS__SPEECHES",
+		text: "ถึงเวลาวางแผนสำหรับรางวัล Group Awards ประจำปีแล้ว เมมเบอร์กรุ๊ปใดควรกล่าวสุนทรพจน์ตอบรับหากเราชนะ?"
+	},{
+		id: "AWARDS__FIRST_TIME",
+		text: "ถึงเวลาตัดสินใจว่าใครจะเข้าร่วมงาน Group Awards"
+	},
+
+	{
+		id: "YEAR",
+		text: "ปี"
+	},
+
+	// Beta 12
+
+	{
+		id: "MM__AUTOSAVE",
+		text: "เซฟอัตโนมัติ (วินาที)"
+	},{
+		id: "MM_FIRST_NAME_RIVAL",
+		text: "ชื่อคู่แข่ง"	
+	},{
+		id: "MM_LAST_NAME_RIVAL",
+		text: "นามสกุลคู่แข่ง"	
+	},{
+		id: "MM_GROUP_NAME_RIVAL",
+		text: "ชื่อกรุ๊ปคู่แข่ง"	
+	},
+
+	{
+		id: "CONCERT__SSK",
+		text: "เปิดตัวคอนเสิร์ตนี้ใน @ วัน"
+	},{
+		id: "CONCERT__SSK_SINGLE",
+		text: "คุณสามารถเปิดคอนเสิร์ตได้หลังจากปล่อยโหวตซิงเกิ้ล"
+	},
+
+	{
+		id: "DIFF__NOT_AVAILABLE",
+		text: "ไม่สามารถใช้ได้กับความยากนี้"
+	},
+	{
+		id: "DIFF",
+		text: "ความยาก"
+	},{
+		id: "DIFF__EASY",
+		text: "ผ่อนคลาย"
+	},{
+		id: "DIFF__NORMAL",
+		text: "ปกติ"
+	},{
+		id: "DIFF__HARD",
+		text: "ไม่ยุติธรรม"
+	},{
+		id: "DIFF__EASY_DESC",
+		text: "ไม่มีสถานะล้มเหลว เงินไม่ใช่ปัญหา\nไม่แนะนำสำหรับผู้เล่นครั้งแรก"
+	},{
+		id: "DIFF__NORMAL_DESC",
+		text: "ประสบการณ์ที่ท้าทาย อาจต้องใช้เวลาพอสมควรในการคิดหากลยุทธ์ที่เหมาะกับคุณ\nแนะนำสำหรับการเล่นครั้งแรก"
+	},{
+		id: "DIFF__HARD_DESC",
+		text: "ลองใช้ระดับนี้หากคุณพร้อมสำหรับความท้าทายใหม่\nไม่แนะนำสำหรับผู้เล่นครั้งแรก"
+	},
+
+	{
+		id: "MSG__NEED_FANS_FOR_CAFE",
+		text: "ต้องมีแฟนคลับ @ เพื่อสร้างร้านกาแฟอีกแห่ง"
+	},
+
+	{
+		id: "CAFE__AUTO",
+		text: "อัตโนมัติ"
+	},{
+		id: "CAFE__PRIO",
+		text: "ลำดับความสำคัญ:"
+	},{
+		id: "CAFE__PRIO_POPULAR",
+		text: "ไอดอลยอดนิยม"
+	},{
+		id: "CAFE__PRIO_UNPOPULAR",
+		text: "ไอดอลไม่เป็นที่นิยม"
+	},{
+		id: "CAFE__STAMINA_LIMIT",
+		text: "จำกัดพลังงาน:"
+	},{
+		id: "CAFE__LIM_75",
+		text: "75 pt"
+	},{
+		id: "CAFE__LIM_50",
+		text: "50 pt"
+	},{
+		id: "CAFE__LIM_20",
+		text: "20 pt"
+	},{
+		id: "CAFE__LIM_0",
+		text: "0 pt"
+	},{
+		id: "CAFE__LIM_NO",
+		text: "ไม่จำกัด"
+	},{
+		id: "CAFE__1_FLOOR",
+		text: "คาเฟ่ (1 ชั้น)"
+	},{
+		id: "CAFE__FLOORS",
+		text: "คาเฟ่ (@ ชั้น)"
+	},{
+		id: "CAFE__OCCUPANCY",
+		text: "การเข้าพัก"
+	},{
+		id: "CAFE__TOTAL_INCOME",
+		text: "รายได้รวมต่อวัน"
+	},{
+		id: "CAFE__NEW_FANS",
+		text: "แฟนคลับใหม่ต่อไอดอลต่อกะ"
+	},{
+		id: "CAFE__TIP",
+		text: "เพิ่มระดับกิจกรรมโปรโมทการขายของคุณทุกวันเพื่อเพิ่มรายได้และแฟนคลับใหม่"
+	},
+
+	// Beta 13
+
+	{
+		id: "STAFF__FIRE_COOLDOWN",
+		text: "คุณสามารถไล่พนักงานออกโดยใช้คะแนนอื้อฉาวใน @ วัน"
+	},
+
+	{
+		id: "SP_SCANDALPOINTS",
+		text: "คะแนนอื้อฉาว"
+	},{
+		id: "SP__TO_REMOVE",
+		text: "คะแนนที่ใช้"
+	},{
+		id: "SP__LEFT",
+		text: " [เหลือ @]"
+	},{
+		id: "SP__GROUP_POINTS",
+		text: "คะแนนกรุ๊ป"
+	},
+
+	{
+		id: "REL__EVERYONE_LIKED",
+		text: "ทุกคนชอบสิ่งนั้น"
+	},{
+		id: "REL__EVERYONE_DISLIKED",
+		text: "ทุกคนไม่ชอบสิ่งนั้น"
+	},
+
+	{
+		id: "SINGLE__ELECTION",
+		text: "เลือกตั้งซิงเกิ้ล"
+	},
+	{
+		id: "SINGLE__ELECTION_TIP",
+		text: ""
+	},{
+		id: "GROUPS__NEW_GROUP",
+		text: "สร้างกรุ๊ปใหม่"
+	},{
+		id: "GROUPS__NEW_GROUP_TOOLTIP",
+		text: "คุณต้องจ้าง @ ไอดอลเพื่อสร้างกรุ๊ปใหม่"
+	},
+
+	{
+		id: "SINGLE__CONCERT",
+		text: "คุณสามารถเปิดคอนเสิร์ตเลือกตั้งได้ใน 2 สัปดาห์หลังจากที่ปล่อยซิงเกิ้ล"
+	},{
+		id: "GROUPS__SELECT_APPEAL",
+		text: "เลือกกลุ่มเป้าหมายของคุณ"
+	},{
+		id: "GROUPS__SELECT_TITLE",
+		text: "ตั้งชื่อกรุ๊ปของคุณ"
+	},
+
+	{
+		id: "GROUPS__NEW_FANS",
+		text: "แฟนคลับใหม่ต่อซิงเกิ้ล"
+	},{
+		id: "GROUPS__TOTAL_FANS",
+		text: "ยอดแฟนคลับ"
+	},{
+		id: "GROUPS__MAX_FANS",
+		text: "แฟนคลับสูงสุด"
+	},
+
+	{
+		id: "GROUPS__AVAILABLE",
+		text: "ใช้ได้ใน @ วัน"
+	},
+
+	{
+		id: "MM_AUTOSCROLL",
+		text: "เลื่อนอัตโนมัติเมื่อเคอร์เซอร์อยู่ที่ขอบหน้าจอ"
+	},
+
+	{
+		id: "SP__NO_PLAT",
+		text: "คุณไม่ได้รับไอดอลแพลตตินั่มจากการออดิชั่น"
+	},{
+		id: "SP__NO_GOLD",
+		text: "คุณไม่ได้รับไอดอลทองหรือแพลตตินั่มจากการออดิชั่น"
+	},{
+		id: "SP__BONUS_FANS",
+		text: "โบนัสไม่มีชื่อเสียง/ความนิยม"
+	},{
+		id: "SP__SINGLES",
+		text: "ยอดขายซิงเกิ้ล"
+	},{
+		id: "SP__CONCERTS",
+		text: "เข้าร่วมคอนเสิร์ต"
+	},
+
+	{
+		id: "POLICY__ONCE",
+		text: "คุณสามารถเปลี่ยนนโยบายนี้ได้เพียงครั้งเดียว"
+	},{
+		id: "POLICY__NO_MORE",
+		text: "คุณไม่สามารถเปลี่ยนแปลงนโยบายนี้ได้อีก"
+	},{
+		id: "POLICY__COOLDOWN",
+		text: "คุณสามารถเปลี่ยนนโยบายนี้ได้ใน @ วัน"
+	},
+
+	{
+		id: "GROUPS__TRANSFER_TIP",
+		text: "คลิกที่การ์ดของไอดอลและเลือก 'กรุ๊ป' เพื่อกำหนดเธอให้กับกรุ๊ปอื่น (คูลดาวน์การโอนย้ายไอดอล 1 ปี)"
+	},{
+		id: "GROUPS__BIG_TOOLTIP",
+		text: "\"แฟนคลับใหม่ต่อซิงเกิ้ล\" ระบุจำนวนแฟนๆ ของแต่ละกลุ่มประชากรที่กรุ๊ปพี่น้องจะได้รับเมื่อออกซิงเกิ้ลใหม่ คุณสามารถเพิ่มจำนวนนี้โดย \"เพิ่มระดับ\" ความสามารถกรุ๊ปน้องสาว: การเลื่อนระดับแต่ละระดับช่วยให้คุณใช้คะแนนหนึ่งคะแนนในการดึงดูดด้วยข้อมูลประชากรที่คุณเลือก\n\nแต่ละซิงเกิ้ลที่ปล่อยออกมาจะให้ความคืบหน้าในการ \"เพิ่มระดับ \"ความสามารถของกรุ๊ปตามค่าของรูปแบบของไอดอลที่ใช้สำหรับซิงเกิ้ลนั้น"
+	},
+
+	// BETA 14
+
+	{
+		id: "BUSINESS__NO_IDOLS_TIP",
+		text: "คุณไม่มีไอดอลที่ใช้งานอยู่"
+	},{
+		id: "BUSINESS__NEED_RESEARCH",
+		text: "คุณสามารถปลดล็อกข้อเสนอทางธุรกิจได้ในแท็บ \"การวิจัย\""
+	},{
+		id: "SP__PENALTY",
+		text: "[ลงโทษ] คะแนนอื้อฉาว"
+	},{
+		id: "SP__LIAB_PENALTY",
+		text: "นอกจากนี้ ไอดอลที่มีคะแนนอื้อฉาวส่วนตัวมากกว่า 2 แต้มก็มีอัตราความรับผิดที่สูงกว่าอีกด้วย"
+	},
+
+	{
+		id: "BLOODRAIN",
+		text: "สายเลือด"
+	},{
+		id: "DEATHSTORM",
+		text: "พายุมรณะ"
+	},{
+		id: "NIGHTSHADE",
+		text: "เทวดาตกสวรรค์"
+	},{
+		id: "SHADOW",
+		text: "เงา"
+	},
+
+	{
+		id: "SKIP",
+		text: "ข้าม"
+	},{
+		id: "LOG",
+		text: "ประวัติ"
+	},
+
+	{
+		id: "THEATER__SCHEDULE",
+		text: "กำหนดการ"
+	},{
+		id: "THEATER__PRICING",
+		text: "ราคา"
+	},{
+		id: "THEATER__PERFORMANCE",
+		text: "ผลงาน"
+	},{
+		id: "THEATER__MANZAI",
+		text: "มันไซ"
+	},{
+		id: "THEATER__DAY_OFF",
+		text: "วันหยุด"
+	},{
+		id: "THEATER__DAY",
+		text: "วัน"
+	},{
+		id: "THEATER__EVERYONE",
+		text: "ทุกคน"
+	},{
+		id: "THEATER__ATTENDANCE_TIP",
+		text: "ค่าเฉลี่ยการแสดง 7 ครั้งที่ผ่านมา"
+	},{
+		id: "THEATER__SUB_REV",
+		text: "รายได้ [ต่อเดือน]"
+	},{
+		id: "THEATER__SUBS",
+		text: "สมัครสมาชิก"
+	},{
+		id: "THEATER__SUB_PRICE",
+		text: "ราคาสมัครสมาชิก [ต่อเดือน]"
+	},{
+		id: "THEATER__RESEARCH_TIP",
+		text: "ค่าใช้จ่าย: @ คะแนนการวิจัย [สำนักงานผู้จัดการ]"
+	},{
+		id: "THEATER__STREAMING",
+		text: "สตรีมมิ่ง"
+	},{
+		id: "THEATER__STREAMING_UNLOCK_TIP",
+		text: "คุณต้อง \"วิจัย\" สตรีมสำหรับเธียเตอร์นี้และซื้ออุปกรณ์ที่จำเป็น"
+	},{
+		id: "THEATER__CANT_BUILD",
+		text: "คุณสามารถมีเธียเตอร์ได้หนึ่งโรงต่อกรุ๊ป"
+	},{
+		id: "THEATER__BUILD_TIP",
+		text: "กำหนดตารางเวลาและรับเงินจากการแสดง\n\nเพิ่มรายได้ของคุณด้วยการอัปเกรดเธียเตอร์เพื่อเปิดใช้งานการสตรีมและขายการสมัครรับข้อมูลให้กับแฟนๆ ของคุณ"
+	},{
+		id: "THEATER__PERFORMANCE_TIP",
+		text: "การแสดงดึงดูดแฟนๆ ทุกคนอย่างเท่าเทียมกัน"
+	},{
+		id: "THEATER__MANZAI_TIP",
+		text: "แฟนๆทั่วไปไม่ค่อยสนใจมันไซ"
+	},{
+		id: "THEATER__PERFORMANCE_TRAINING_TIP",
+		text: "ไอดอลทั้งหมดของ @ ได้รับประสบการณ์ในการเต้นและทักษะการร้องสำหรับการแสดงแต่ละครั้ง"
+	},{
+		id: "THEATER__MANZAI_TRAINING_TIP",
+		text: "ไอดอลทั้งหมดของ @ ได้รับประสบการณ์ในทักษะที่ตลกและชาญฉลาดสำหรับการแสดงมันไซแต่ละครั้ง"
+	},{
+		id: "THEATER__STAMINA_TIP",
+		text: "ไอดอลทั้งหมดของ @ ใช้พลังงาน"
+	},{
+		id: "THEATER__STREAMING_TIP",
+		text: "แฟนๆ ของคุณสามารถสมัครใช้บริการสตรีมมิงและรับชมการแสดงได้โดยเสียค่าบริการรายเดือน\n\nคุณจะได้รับหรือสูญเสียสมาชิกทุกวัน แฟนๆ ตัดสินใจว่าพวกเขาต้องการสมัครรับข้อมูลหรือไม่โดยอิงจาก 30 วันที่ผ่านมา ปัจจัยหลักที่ส่งผลกระทบต่อสิ่งนี้คือ:\n- ราคาสมัครสมาชิก\n- แฟนตัวยงหาง่ายกว่าแฟนทั่วไป\n- แฟนๆที่เป็นผู้ใหญ่หาง่ายกว่าวัยรุ่น\n- แฟนทั่วไปไม่สนใจมันไซ\n- จำนวนวันหยุดในหนึ่งเดือน\n\nคุณกำลังมีผู้ติดตามเพิ่มขึ้นด้วยการขายบริการให้กับแฟนๆ ที่มีอยู่ คุณไม่สามารถมีผู้ติดตามได้มากกว่าแฟนๆ แต่การเพิ่มจำนวนแฟนๆ จะทำให้คุณมีผู้ติดตามมากขึ้น"
+	},
+
+	{
+		id: "SUNDAY",
+		text: "อาทิตย์"
+	},{
+		id: "MONDAY",
+		text: "จันทร์"
+	},{
+		id: "TUESDAY",
+		text: "อังคาร"
+	},{
+		id: "WEDNESDAY",
+		text: "พุธ"
+	},{
+		id: "THURSDAY",
+		text: "พฤหัสบดี"
+	},{
+		id: "FRIDAY",
+		text: "ศุกร์"
+	},{
+		id: "SATURDAY",
+		text: "เสาร์"
+	},
+
+	{
+		id: "NOT_AVAILABLE",
+		text: "ไม่ว่าง"
+	},{
+		id: "ENABLE",
+		text: "เปิด"
+	},{
+		id: "DISABLE",
+		text: "ปิด"
+	},
+
+	// BETA 15
+
+	{
+		id: "ROOM__DESTROY",
+		text: "ทุบห้องนี้"
+	},
+
+	{
+		id: "SINGLE__LOWERS_REVENUE",
+		text: "ลดรายได้ต่อการขายเป็น @"
+	},{
+		id: "SINGLE__INCREASES_REVENUE",
+		text: "เพิ่มรายได้ต่อการขายโดย @"
+	},{
+		id: "SINGLE__TRENDS_NOT_UPDATED",
+		text: "อัปเดท:  n/a"
+	},{
+		id: "SINGLE__TRENDS_UPDATED",
+		text: "อัปเดท: @ วันที่แล้ว"
+	},{
+		id: "SINGLE__TRENDS",
+		text: "เทรนด์"
+	},{
+		id: "SINGLE__TRENDS_UPDATE",
+		text: "อัพเดท [@ วิจัย pt. (สำนักงาน)]"
+	},{
+		id: "SINGLE__TRENDS_RISING",
+		text: "ความนิยมที่เพิ่มขึ้น"
+	},{
+		id: "SINGLE__TRENDS_FALLING",
+		text: "กำลังได้รับความนิยม"
+	},
+
+	{
+		id: "SINGLE__AUTO_CONCERT",
+		text: "คุณสามารถเริ่มคอนเสิร์ตได้ในสองสัปดาห์หลังจากที่คุณปล่อยซิงเกิ้ล การเลือกตั้งจะเริ่มทันทีหลังคอนเสิร์ต"
+	},{
+		id: "SSK__REL_SINGLE",
+		text: "ต้องปล่อยซิงเกิ้ลก่อน คุณสามารถเริ่มคอนเสิร์ตได้สองสัปดาห์หลังจากปล่อยซิงเกิ้ล"
+	},{
+		id: "SSK__ORDER_TIP",
+		text: "ซิงเกิ้ลจะถูกปล่อยออกมาก่อน\nคุณสามารถเริ่มคอนเสิร์ตได้ในอีกสองสัปดาห์ต่อมาเมื่อสิ้นสุดระยะเวลาการโหวต\nการเลือกตั้งจะเริ่มทันทีหลังคอนเสิร์ต"
+	},{
+		id: "LOANS__AMOUNT_TIP",
+		text: "จำนวนเงินที่ใช้ได้ขึ้นอยู่กับระดับชื่อเสียงของคุณ และจำนวนเงินที่คุณเป็นหนี้ผู้ให้กู้ที่เลือกอยู่ในปัจจุบัน"
+	},
+
+	{
+		id: "AWARDS__SHOULD_THANK",
+		text: "เมื่อกล่าวสุนทรพจน์ตอบรับ เธอควรขอบคุณ..."
+	},{
+		id: "AWARDS__THANK_YOU",
+		text: "คุณ"
+	},{
+		id: "AWARDS__THANK_FUJIMOTO",
+		text: "ฟูจิโมโตะ"
+	},{
+		id: "AWARDS__THANK_IDOL",
+		text: "ไอดอลอีกคน"
+	},{
+		id: "AWARDS__THANK_STAFFER",
+		text: "ทีมงาน"
+	},{
+		id: "AWARDS__THANK_CHOOSE",
+		text: "ให้เธอเลือก"
+	},
+
+	{
+		id: "PHYSICAL_STAMINA_SPLIT",
+		text: "สภาพ\nร่างกาย"
+	},{
+		id: "MENTAL_STAMINA_SPLIT",
+		text: "สภาพ\nจิตใจ"
+	},{
+		id: "CM__NAME",
+		text: "ชื่อ"
+	},
+
+	{
+		id: "AUDITIONS__STAT_VALUE",
+		text: "มูลค่า"
+	},{
+		id: "AUDITIONS__STAT_POTENTIAL",
+		text: "ศักยภาพ"
+	},{
+		id: "AUDITIONS__STAT_POTENTIAL_TIP",
+		text: "สถิติของเหล่าไอดอลจะช้าลง 10x หลังจากบรรลุศักยภาพแล้ว"
+	},{
+		id: "AGENCY__DESTROY",
+		text: "ทำลาย"
+	},{
+		id: "AGENCY__DESTROY_CHECK",
+		text: "คุณแน่ใจหรือว่าต้องการทำลายห้องนี้"
+	},
+
+	// BETA 16
+
+	{
+		id: "HIGH",
+		text: "สูง"
+	},{
+		id: "NORMAL",
+		text: "ปกติ"
+	},{
+		id: "LOW",
+		text: "ต่ำ"
+	},{
+		id: "POPULAR",
+		text: "เป็นที่นิยม"
+	},{
+		id: "RANDOM",
+		text: "สุ่ม"
+	},{
+		id: "UNPOPULAR",
+		text: "ไม่เป็นที่นิยม"
+	},
+
+	{
+		id: "CAFE__CAFE_PRIORITY",
+		text: "ลำดับความสำคัญคาเฟ่"
+	},{
+		id: "CAFE__IDOL_PRIORITY",
+		text: "ลำดับความสำคัญไอดอล"
+	},
+
+	{
+		id: "CAFE__WAITSTAFF",
+		text: "พนักงานเสิร์ฟ"
+	},{
+		id: "CAFE__MENU",
+		text: "เมนู"
+	},{
+		id: "CAFE__DISHES",
+		text: "อาหาร"
+	},{
+		id: "CAFE__HIGHEST_STAMINA",
+		text: "พลังงานสูงสุด"
+	},{
+		id: "CAFE__BEST_STATS",
+		text: "สถิติที่ดีที่สุด"
+	},{
+		id: "CAFE__AVERAGE_CHECK",
+		text: "ตรวจสอบค่าเฉลี่ย"
+	},{
+		id: "CAFE__NOVELTY",
+		text: "ความแปลกใหม่"
+	},{
+		id: "CAFE__GUESTS",
+		text: "แขก"
+	},{
+		id: "CAFE__NAME_THE_DISH",
+		text: "ตั้งชื่ออาหาร"
+	},{
+		id: "CAFE__DISH_OF_THE_DAY",
+		text: "เมนูเด็ดประจำวันนี้"
+	},{
+		id: "CAFE__CANT_BUILD",
+		text: "คุณสามารถมีร้านกาแฟได้เพียง 1 แห่งต่อกรุ๊ป"
+	},{
+		id: "CAFE__QUALITY",
+		text: "คุณภาพ"
+	},{
+		id: "CAFE__NEW_DISH",
+		text: "อาหารใหม่ (1,000 วิจัย pt. [สำนักงาน]) "
+	},{
+		id: "CAFE__BUILD_TIP",
+		text: "คาเฟ่ให้รายได้รายวันแบบพาสซีฟซึ่งขึ้นอยู่กับระดับการแสดงของคุณและคุณภาพของอาหารที่คุณพัฒนาสำหรับร้านกาแฟของคุณ\n\nคุณยังสามารถส่งไอดอลไปทำงานในร้านกาแฟเพื่อรับแฟนใหม่ (ขึ้นอยู่กับระดับการโปรโมตของคุณและ สถิติของพวกเขา)"
+	},{
+		id: "CAFE__DISH_AVERAGE_TIP",
+		text: "แสดงค่าเฉลี่ยในช่วง 90 วันที่ผ่านมา"
+	},{
+		id: "CAFE__CAFE_PRIO_TIP",
+		text: "เลือกลำดับความสำคัญของงานร้านกาแฟ{separator}สูง: ไอดอลจะหยุดทำงานปัจจุบันและไปทำงานในร้านกาแฟแทน\n\nปกติ: ลำดับความสำคัญเท่าเทียมกันกับงานอื่นๆ ทั้งหมด\n\nต่ำ: ไอดอลจะทำงานในร้านกาแฟก็ต่อเมื่อ พวกเขาไม่มีอะไรทำอีกแล้ว"
+	},{
+		id: "CAFE__IDOL_PRIO_TIP",
+		text: "เลือกไอดอลที่ควรทำงานในร้านกาแฟหากมีมากกว่า 3 คน{separator}ยอดนิยม: ไอดอลที่มีแฟนคลับมากที่สุด\n\nไม่เป็นที่นิยม: ไอดอลที่มีแฟนคลับน้อยที่สุด\n\nพลังงานสูงสุด: ไอดอลที่มีพลังงานสูงสุด\n\nสถิติที่ดีที่สุด : ไอดอลที่มีสถิติดีที่สุด "
+	},{
+		id: "CAFE__STAFF_TIP",
+		text: "เลือกไอดอลที่ควรพิจารณาสำหรับการทำงานในร้านกาแฟ ในแต่ละวันมีการเลือกไอดอลสูงสุด 3 คน{separator}เมื่อไอดอลทำงานในร้านกาแฟ พวกเขาจะได้แฟนใหม่ จำนวนแฟนคลับใหม่จะแบ่งเท่าๆ กันระหว่างไอดอลทั้งหมดที่ทำงานในร้านกาแฟในวันนั้น{separator}จำนวนแฟนคลับใหม่ขึ้นอยู่กับระดับการโปรโมตของคุณ จำนวนไอดอลที่ทำงานในร้านกาแฟและสถิติของพวกเขา{separator}ประเภท ของแฟนๆ ที่คุณได้รับขึ้นอยู่กับอาหารในแต่ละวัน หากไม่มีอาหารประจำวัน ประเภทจะขึ้นอยู่กับสถิติของไอดอล"
+	},{
+		id: "CAFE__MENU_TIP",
+		text: "เลือกอาหารประจำวันสำหรับแต่ละวันในสัปดาห์ คุณจะไม่ได้รับเงินในวันที่ไม่มีอาหารพิเศษ{separator}จำนวนเงินที่คุณได้รับขึ้นอยู่กับระดับประสิทธิภาพ คุณภาพของอาหาร และความแปลกใหม่ของจาน{separator}การใช้จานมีค่าใช้จ่าย 10 คะแนนสำหรับความแปลกใหม่ , 3 แต้มสำหรับอาหารประเภทเดียวกันทุกจาน และ 3 แต้มสำหรับทุกจานโดยอิงจากไอดอลคนเดียวกัน ความแปลกใหม่ค่อยๆ ฟื้นฟูตัวเองเมื่อเวลาผ่านไป{separator}ประเภทของแฟนๆ ใหม่ที่คุณได้รับขึ้นอยู่กับความน่าสนใจของอาหาร"
+	},{
+		id: "CAFE__DISH_TIP",
+		text: "พัฒนาอาหารจานใหม่โดยอิงจากไอดอลของคุณ{separator}คุณภาพของจานและประเภทขึ้นอยู่กับสถิติของไอดอล คุณภาพจะไม่เปลี่ยนแปลงเมื่อไอดอลของคุณปรับปรุงสถิติของเธอ คุณจะต้องพัฒนาอาหารใหม่หากคุณต้องการใช้ประโยชน์จากสถิติใหม่ของเธอ{separator}การอุทธรณ์ของอาหารขึ้นอยู่กับประเภทของจาน มีอาหารให้เลือกถึง 16 ชนิด"
+	},
+
+	// BETA 17
+
+	{
+		id: "STAFF__NO_LVL_UP",
+		text: "คุณจะสามารถที่จะส่งเสริมพนักงานคนนี้ได้ เมื่อพวกเขามีทักษะสูงสุดทั้งสองทักษะ"
+	},{
+		id: "STAFF__CANCEL_ACTIVITY",
+		text: "ยกเลิกกิจกรรม"
+	},{
+		id: "STAFF__DATE",
+		text: "วัน"
+	},
+
+	{
+		id: "RESEARCH__BUY",
+		text: "ซื้อ 500 คะแนนการวิจัยสำหรับ @"
+	},{
+		id: "RESEARCH__TIP",
+		text: "{separator}พนักงานของคุณจะได้รับคะแนนการวิจัยเมื่อไม่ได้ทำงานอื่นๆ{separator}เฉพาะพนักงานที่ได้รับมอบหมายให้อยู่ในห้องเท่านั้นที่จะได้รับคะแนนการวิจัย{separator}ทุกครั้งที่คุณซื้อคะแนนการวิจัย ราคาของพวกเขาจะเพิ่มขึ้น 20%"
+	},
+
+	{
+		id: "STAFF__READY_FOR_PROMO",
+		text: "พนักงานท่านนี้พร้อมเลื่อนตำแหน่ง"
+	},{
+		id: "STAFF__CAN_PROMOTE_WHEN",
+		text: "คุณสามารถเลื่อนตำแหน่งพนักงานเป็นตำแหน่งรุ่นพี่ได้เมื่อพวกเขามีทักษะสูงสุดทั้งสองทักษะ"
+	},{
+		id: "STAFF__SENIOR_JOB_TITLE_SKILLS",
+		text: "รุ่นพี่ @ ทักษะ:\n"
+	},{
+		id: "STAFF__COACHING_PERK",
+		text: "- การฝึกสอนเร็วขึ้น 4 เท่า"
+	},{
+		id: "STAFF__STYLING_PERK",
+		text: "- จัดแต่งทรงผมเร็วขึ้น 4 เท่า"
+	},{
+		id: "STAFF__STAMINA_PERK",
+		text: "- ฟื้นฟูพลังงานเร็วขึ้น 2 เท่า\n"
+	},{
+		id: "STAFF__INJURY_PERK",
+		text: "- โอกาสรักษาอาการบาดเจ็บได้สำเร็จ 100%\n"
+	},{
+		id: "STAFF__DEPRESSION_PERK",
+		text: "- มีโอกาส 50% ที่จะรักษาอาการซึมเศร้าได้สำเร็จ"
+	},{
+		id: "STAFF__OFFICE_PERK",
+		text: "- สามารถดำเนินการผลิตของโปรดิวเซอร์สำหรับซิงเกิ้ล การแสดง คอนเสิร์ต การเลือกตั้ง และทัวร์"
+	},{
+		id: "STAFF__INFLUENCE_PERK",
+		text: "- คุณได้รับอิทธิพลต่อไอดอลเร็วขึ้น 4 เท่า\n- การเข้าสังคมฟื้นฟูสภาพร่างกาย 5 คะแนน\n- การเข้าสังคมจะฟื้นฟูสภาพจิตใจจำนวนเท่ากับระดับความสนิทสนมกับไอดอล"
+	},{
+		id: "STAFF__FIRING_PERK",
+		text: "\n- ค่าใช้จ่ายในการไล่: 6 คะแนนอื้อฉาว"
+	},
+
+	{
+		id: "STORY__RIVAL_FIRST_NAME_MALE",
+		text: "อากิระ"
+	},{
+		id: "STORY__RIVAL_FIRST_NAME_FEMALE",
+		text: "โคโคน่า"
+	},{
+		id: "STORY__RIVAL_LAST_NAME",
+		text: "ยาสุดะ"
+	},{
+		id: "STORY__RIVAL_GROUP_NAME",
+		text: "Glace Brise"
+	},
+
+
+	// BETA 18
+
+	{
+		id: "STORY",
+		text: "เนื้อเรื่อง"
+	},{
+		id: "IDOL__WISH_DATE",
+		text: "ไม่เสียสภาพจิตใจใดๆ จนกว่า @"
+	},{
+		id: "REWARDS",
+		text: "รางวัล"
+	},{
+		id: "REWARD__INFLUENCE",
+		text: "คะแนนอิทธิพล"
+	},{
+		id: "REWARD__STAMINA",
+		text: "@ จะฟื้นฟูสภาพจิตใจของเธอเป็น 100%"
+	},{
+		id: "REWARD__STAMINA_DURATION",
+		text: "@ จะไม่เสียสภาพจิตใจใดๆ เป็นเวลา 4 เดือน"
+	},{
+		id: "REWARD__FUJIMOTO",
+		text: "คุณไม่สามารถกู้เงินจาก ฟูจิโมโตะ ได้อีกจนกว่าคุณจะทำภารกิจนี้สำเร็จ"
+	},
+
+	// TASKS
+
+	{
+		id: "ch0_intro",
+		text: "อัปเกรด \"โปรโมท \" และ \"งานแสดง \" เป็นระดับ 1 "
+	},
+	{
+		id: "ch0_1",
+		text: "อัปเกรด \"โปรโมท \" และ \"งานแสดง \" เป็นระดับ 2"
+	},{
+		id: "ch0_2",
+		text: "พบปะพูดคุยกับไอดอล"
+	},{
+		id: "ch0_2_tip",
+		text: "ลากและวางไอดอลไปที่สำนักงานโปรดิวเซอร์ของคุณ"
+	},{
+		id: "ch1_0",
+		text: "ติดอันดับชาร์ตซิงเกิ้ลประจำเดือน"
+	},{
+		id: "TASK_CONTINUE",
+		text: "คลิกเพื่อดำเนินเรื่องต่อ"
+	},{
+		id: "TASK_AVAILABLE_FROM",
+		text: "สามารถดำเนินการต่อจาก @"
+	},
+
+	{
+		id: "ACTIVITIES__ADPAYMENT",
+		text: "จ่ายสูงสุดสำหรับงานโฆษณาหนึ่งงาน"
+	},
+
+	{
+		id: "PROFILE__UNKNOWN_CLIQUE",
+		text: "กลุ่มที่ไม่รู้จัก"
+	},
+
+	{
+		id: "RMB_FOR_DETAILS",
+		text: "*คลิกเมาส์ขวาเพื่อดูรายละเอียด"
+	},
+
+	{
+		id: "THEATER__RESEARCH",
+		text: "การวิจัย"
+	},
+	{
+		id: "THEATER__PURCHASE_EQUIPMENT",
+		text: "ซื้ออุปกรณ์"
+	},
+
+	{
+		id: "CAFE__SELECT_DISH",
+		text: "เมนูเด็ดประจำวันนี้"
+	},
+
+	{
+		id: "AWARDS__REQUIREMENTS",
+		text: "ความต้องการ"
+	},{
+		id: "AWARDS__REWARD",
+		text: "รางวัล"
+	},
+
+	{
+		id: "AUDITION__TIP",
+		text: "คุณต้องจัดออดิชั่นเพื่อจ้างไอดอล:\n\n1. สร้างห้องทำงานของคุณ\n2. ลากและวางโปรดิวเซอร์จากแท็บพนักงานไปที่ห้องทำงาน\n3. คลิกที่โปรดิวเซอร์หรือห้องและเลือก \"ออดิชั่น\" ในเมนูบริบท\n4. คลิกที่สัญลักษ์ \"A\" เมื่อออดิชั่นพร้อม\n5. เลือกไอดอลที่คุณต้องการจ้าง คุณสามารถจ้างไอดอลทั้งหมดบางส่วนหรือไม่มีเลยจากแต่ละชุด"
+	},
+
+	{
+		id: "SHOW__PERMANENT_CAST",
+		text: "นักแสดงถาวร"
+	},
+
+	{
+		id: "SSK__NEXT_PLACE",
+		text: "สถานที่ต่อไป:"
+	},{
+		id: "SSK__FAME_POINTS",
+		text: "คะแนนชื่อเสียง:"
+	},{
+		id: "SSK__PREV_EL_RESULTS",
+		text: "ผลการเลือกตั้งครั้งก่อน:"
+	},{
+		id: "SSK__SWAP_ENVELOPE",
+		text: "สลับซองจดหมาย"
+	},
+
+	//http://www.codedigest.com/CodeDigest/207-Get-All-Language-Country-Code-List-for-all-Culture-in-C---ASP-Net.aspx
+	//https://www.c-sharpcorner.com/blogs/date-and-time-format-in-c-sharp-programming1
+
+	{
+		id: "DATETIME__CULTURE",
+		text: "en-US"
+	},
+
+	{
+		id: "DATETIME__SAVE",
+		text: "dd MMMM yyyy, HH:mm"
+	},
+	{
+		id: "DATETIME__LONGEST",
+		text: "ddd, d MMMM yyyy"
+	},
+	{
+		id: "DATETIME__LONGER",
+		text: "ddd, d MMM yyyy"
+	},
+	{
+		id: "DATETIME__LONG",
+		text: "d MMMM yyyy"
+	},
+	{
+		id: "DATETIME__MID",
+		text: "d MMM yyyy"
+	},
+	{
+		id: "DATETIME__SHORT",
+		text: "d MMM"
+	},
+	{
+		id: "DATETIME__MONTH",
+		text: "MMMM yyyy"
+	},
+	{
+		id: "DATETIME__MONTH_SHORT",
+		text: "M"
+	},
+	{
+		id: "DATETIME__YEAR",
+		text: "yyyy"
+	},
+	{
+		id: "DATETIME__WEEKDAY",
+		text: "dddd"
+	},
+	{
+		id: "DATETIME__BIRTHDAY",
+		text: "dd MMMMM yyyy"
+	},
+	{
+		id: "DATETIME__LOAN",
+		text: "dd MMM, yyyy"
+	},
+	{
+		id: "DATETIME__I_WILL_GRADUATE_ON",
+		text: "MMMM d"
+	},
+
+	{
+		id: "DATE__ASK_TO_STAY",
+		text: "[อิทธิพล] ฉันจะชอบถ้าคุณอยู่กับกรุ๊ปต่อไปอีก"
+	},
+
+
+	//
+
+	{
+		id: "TASK__CH3_AYA",
+		text: "ติดอันดับชาร์ตด้วย @ ซิงเกิ้ล"
+	},
+	{
+		id: "TASK__CH3_AYA_2",
+		text: "เที่ยวรอบโลกและเยี่ยมชมสหรัฐอเมริกา ฝรั่งเศส และอิตาลี"
+	},{
+		id: "TASK__CH3_AYA_3",
+		text: "มี @ แฟนคลับ"
+	},
+	{
+		id: "TASK__CH3_FUJI",
+		text: "รวบรวม @ สำหรับฟูจิโมโตะ"
+	},
+	{
+		id: "TASK__CH3_FUJI_TOOLTIP",
+		text: "@ จะถูกโอนไปยัง ฟูจิโมโตะ หลังจากที่คุณคลิกที่งานนี้"
+	},
+	{
+		id: "TASK__CH3_RIVAL",
+		text: "ปล่อย 3 @ ซิงเกิ้ลใน 1 เดือน"
+	},
+	{
+		id: "ch3_rival_2",
+		text: "ดูกิจกรรม Phantasm Facade ทั้งหมด"
+	},
+	{
+		id: "ch3_rival_3",
+		text: "เพิ่มความสัมพันธ์กับไอดอลให้สมบูรณ์แบบ"
+	},
+	{
+		id: "ch3_rival_3_tip",
+		text: "มีไอดอลที่มีอย่างน้อยหนึ่งคน มีสถานะที่ถึง 100 และมีสถานะความสัมพันธ์อย่างหนึ่ง (มิตรภาพ/อิทธิพล/โรแมนติก) ที่มีระดับ 5"
+	},
+
+
+	{
+		id: "TASK__ROUTE_LOCK_FUJIMOTO",
+		text: "การทำงานนี้จะล็อกคุณเข้าสู่เส้นทางของฟูจิโมโตะ\nคุณต้องการดำเนินการต่อหรือไม่?"
+	},{
+		id: "TASK__ROUTE_LOCK_AYA",
+		text: "การทำงานนี้จะล็อกคุณเข้าสู่เส้นทางของอายะ\nคุณต้องการดำเนินการต่อหรือไม่?"
+	},{
+		id: "TASK__ROUTE_LOCK_RIVAL",
+		text: "การทำงานนี้จะล็อกคุณเข้าสู่เส้นทางของ@\nคุณต้องการดำเนินการต่อหรือไม่?"
+	},
+
+	{
+		id: "NOT_YET",
+		text: "ไม่ใช่ตอนนี้!"
+	},
+
+	{
+		id: "AYA__FIRST_NAME",
+		text: "อายะ"
+	},{
+		id: "MOST_COMMON_SURNAME",
+		text: "ซาโต้"
+	},{
+		id: "AYA__NICKNAME",
+		text: "อายะ นายะ"
+	},
+
+	{
+		id: "VN__QUOTE_LEFT",
+		text: "\""
+	},{
+		id: "VN__QUOTE_RIGHT",
+		text: "\""
+	},
+
+	{
+		id: "SUBSTORY",
+		text: "เรื่องย่อย"
+	},
+
+	{
+		id: "SPOILED_GIRL_FIRST_NAME",
+		text: "อากาเนะ"
+	},
+	{
+		id: "SPOILED_GIRL_LAST_NAME",
+		text: "โยชิดะ"
+	},{
+		id: "TASK__SPOILED_RECRUIT",
+		text: "สัญญาของคุณกับ @1 จะหมดอายุในวันที่ @2"
+	},{
+		id: "TASK__SPOILED_RECRUIT_HINT",
+		text: "คุณจะต้องส่ง @1 กลับ ถ้า @2:\n\n1) ไม่สามารถแสดงเป็นเซ็นเตอร์อย่างน้อยสามซิงเกิ้ล\n2) ล้มเหลวในการปรากฏตัวในคอนเสิร์ตในฐานะเซ็นเตอร์\n3) ถูกรังแกและคุณล้มเหลวในการแก้ไขปัญหานี้ ภายใน 2 สัปดาห์\n4) ถูกพักงานหรือถูกบังคับให้สำเร็จการศึกษา"
+	},
+
+	{
+		id: "AUDITION__RESET_COOLDOWN",
+		text: "รีเซ็ตคูลดาวน์ [@]"
+	},{
+		id: "POINTS",
+		text: "Pts."
+	},{
+		id: "RESEARCH_POINTS",
+		text: "คะแนนวิจัย"
+	},
+
+	{
+	    id: "AWARDS__BEST_EMPLOYER_NOM_REWARD",
+	    text: "<green>x1.5</color> โบนัสสำหรับอัตราการดร็อปออดิชั่น"
+	},{
+	    id: "AWARDS__BEST_EMPLOYER_WIN_REWARD",
+	    text: "<green>x2</color> โบนัสสำหรับอัตราการดร็อปออดิชั่น"
+	},{
+		id: "AUDITION__SILVER",
+		text: "เงิน: "
+	},{
+		id: "AUDITION__GOLD",
+		text: "ทอง: "
+	},{
+		id: "AUDITION__PLATINUM",
+		text: "แพลตตินั่ม: "
+	},
+
+	{
+		id: "DATE__DATE",
+		text: "ไปเดทกัน"
+	},
+
+	{
+		id: "MARKETING__AD_CAMPAIGN",
+		text: "แคมเปญโฆษณา"
+	},{
+		id: "MARKETING__AD_CAMPAIGN_DESCRIPTION",
+		text: "ราคาต่อซีดี: {cost_CD}{linebreak}ผลกระทบ: เพิ่มยอดขายและแฟนคลับใหม่\n\nความสำเร็จครั้งใหญ่: {crit_succ_effect}\nความสำเร็จ: {succ_effect}\nความล้มเหลว: {fail_effect}\nความล้มเหลวครั้งใหญ่: {crit_fail_effect}{linebreak}อัตราความสำเร็จ\n\nความสำเร็จครั้งใหญ่: {crit_succ}\nความสำเร็จ: {succ}\nความล้มเหลว: {fail}\nความล้มเหลวครั้งใหญ่: {crit_fail}"
+	},
+	
+	{
+		id: "MARKETING__VIRAL_CAMPAIGN",
+		text: "แคมเปญไวรัล"
+	},{
+		id: "MARKETING__VIRAL_CAMPAIGN_DESCRIPTION",
+		text: "ราคาต่อซีดี: {cost_CD}{linebreak}ผลกระทบ: เพิ่มยอดขายและแฟนคลับใหม่\n\nความสำเร็จครั้งใหญ่: {crit_succ_effect}\nความสำเร็จ: {succ_effect}\nความล้มเหลว: {fail_effect}\nความล้มเหลวครั้งใหญ่: {crit_fail_effect}{linebreak}อัตราความสำเร็จ\n\nความสำเร็จครั้งใหญ่: {crit_succ}\nความสำเร็จ: {succ}\nความล้มเหลว: {fail}\nความล้มเหลวครั้งใหญ่: {crit_fail}"
+	},
+
+	{
+		id: "MARKETING__FAKE_SCANDAL",
+		text: "เรื่องอื้อฉาวปลอม"
+	},{
+		id: "MARKETING__FAKE_SCANDAL_DESCRIPTION",
+		text: "ราคาต่อซีดี: {cost_CD}{linebreak}ผลกระทบ: เพิ่มยอดขายและแฟนคลับใหม่\n\nความสำเร็จครั้งใหญ่: {crit_succ_effect}\nความสำเร็จ: {succ_effect}\nความล้มเหลว: {fail_effect}\nความล้มเหลวครั้งใหญ่: {crit_fail_effect}{linebreak}อัตราความสำเร็จ\n\nความสำเร็จครั้งใหญ่: {crit_succ}\nความสำเร็จ: {succ}\nความล้มเหลว: {fail}\nความล้มเหลวครั้งใหญ่: {crit_fail}"
+	},
+
+	{
+		id: "MARKETING__LEWD_PV",
+		text: "PV เซ็กซี่"
+	},{
+		id: "MARKETING__LEWD_PV_DESCRIPTION",
+		text: "ราคาต่อซีดี: {cost_CD}{linebreak}ผลกระทบ: ยอดขายที่เพิ่มขึ้นและแฟนคลับใหม่\n\nความสำเร็จครั้งใหญ่\nผู้ชาย: {crit_succ_effect}\nตัวยง: {crit_succ_effect_secondary}\n\nความสำเร็จ\nผู้ชาย: {succ_effect}\nตัวยง: {succ_effect_secondary}\n\nความล้มเหลว\nผู้หญิง: {fail_effect}\nทั่วไป: {fail_effect_secondary}\n\nความล้มเหลวครั้งใหญ่\nผู้หญิง: {crit_fail_effect}\nทั่วไป: {crit_fail_effect_secondary}{linebreak}อัตราความสำเร็จขึ้นอยู่กับสถิติ {green}เซ็กซี่</color> และ {green}น่ารัก</color>"
+	},{
+		id: "MARKETING__EDGY_PV",
+		text: "PV สุดเจ๋ง"
+	},{
+		id: "MARKETING__EDGY_PV_DESCRIPTION",
+		text: "ราคาต่อซีดี: {cost_CD}{linebreak}ผลกระทบ: ยอดขายที่เพิ่มขึ้นและแฟนคลับใหม่\n\nความสำเร็จครั้งใหญ่\nวัยรุ่น: {crit_succ_effect}\nผู้หญิง: {crit_succ_effect_secondary}\n\nความสำเร็จ\nวัยรุ่น: {succ_effect}\nผู้หญิง: {succ_effect_secondary}\n\nความล้มเหลว\nผู้ใหญ่: {fail_effect}\nเด็ก-ผู้ใหญ่: {fail_effect_secondary}\n\nความล้มเหลวครั้งใหญ่\nผู้ใหญ่: {crit_fail_effect}\nเด็ก-ผู้ใหญ่: {crit_fail_effect_secondary}{linebreak}อัตราความสำเร็จขึ้นอยู่กับสถิติ {green}คูล</color> และ {green}สนุกสนาน</color>"
+	},{
+		id: "MARKETING__ARTSY_PV",
+		text: "PV อาร์ต"
+	},{
+		id: "MARKETING__ARTSY_PV_DESCRIPTION",
+		text: "ราคาต่อซีดี: {cost_CD}{linebreak}ผลกระทบ: ยอดขายที่เพิ่มขึ้นและแฟนคลับใหม่\n\nความสำเร็จครั้งใหญ่\nผู้ใหญ่: {crit_succ_effect}\nผู้หญิง: {crit_succ_effect_secondary}\n\nความสำเร็จ\nผู้ใหญ่: {succ_effect}\nผู้หญิง: {succ_effect_secondary}\n\nความล้มเหลว\nวัยรุ่น: {fail_effect}\nผู้ชาย: {fail_effect_secondary}\n\nความล้มเหลวครั้งใหญ่\nวัยรุ่น: {crit_fail_effect}\nผู้ชาย: {crit_fail_effect_secondary}{linebreak}อัตราความสำเร็จขึ้นอยู่กับสถิติ {green}สวย</color> และ {green}สมาร์ท</color>"
+	},
+
+	{
+		id: "MARKETING_SPINNER__SALES",
+		text: "ยอดขายและแฟนคลับใหม่:"
+	},{
+		id: "SCANDAL_PTS",
+		text: "เรื่องอื้อฉาว pts"
+	},
+
+
+	{
+		id: "FORMATION__LOAD",
+		text: "โหลดรูปแบบจากซิงเกิ้ลที่ปล่อยออกมาแล้ว"
+	},{
+		id: "SSK__ENVELOPE_TOOLTIP",
+		text: "เลือกไอดอลเองว่าคนไหนจะได้ตำแหน่งต่อไป"
+	},
+
+
+	{
+		id: "POLICIES__PUSHES",
+		text: "ผลักดัน"
+	},
+
+	{
+		id: "CLEAR_CACHE",
+		text: "ล้างแคช"
+	},{
+		id: "CLEAR_CACHE_TOOLTIP",
+		text: "คลิกที่นี่หากคุณมีปัญหาในการโหลดเกม การออดิชั่น หรือภาพไอดอลของคุณ (เช่น ภาพบุคคลคุณภาพต่ำหลังจากเปลี่ยนการตั้งค่าคุณภาพจากต่ำเป็นสูง)"
+	},
+
+
+
+	{
+		id: "DATE_LOCATION__AQUARIUM",
+		text: "พิพิธภัณฑ์สัตว์น้ำ"
+	},{
+		id: "DATE_LOCATION__ARCADE",
+		text: "อาร์เคด"
+	},{
+		id: "DATE_LOCATION__BOOKSTORE",
+		text: "ร้านหนังสือ"
+	},{
+		id: "DATE_LOCATION__DEPART",
+		text: "ห้างสรรพสินค้า"
+	},{
+		id: "DATE_LOCATION__PARK",
+		text: "สวนสาธารณะ"
+	},
+
+
+	{
+		id: "DATE__WEAR_MASKS",
+		text: "สวมหน้ากาก"
+	},{
+		id: "DATE__NO_MASKS",
+		text: "ไม่สวมหน้ากาก"
+	},
+
+	{
+		id: "DATE__MARRIED",
+		text: "คุณซื่อสัตย์ต่อภรรยาของคุณ"
+	},
+	//You continued HAPPY_ENDING__BAD_JOB until retiring at age 70.
+	{
+		id: "HAPPY_ENDING__BAD_JOB",
+		text: "ผลิตไอดอล"
+	},
+	{
+		id: "MARRIAGE_GOOD_OUTCOME",
+		text: "แต่งงาน @ และมีความสุขตลอดไป"
+	},{
+		id: "MARRIAGE_BAD_OUTCOME",
+		text: "แต่งงาน @ เสียใจภายหลัง"
+	},
+
+	{
+		id: "SETTINGS__SCREEN",
+		text: "หน้าจอ"
+	},{
+		id: "SETTINGS__AUDIO",
+		text: "เสียง"
+	},{
+		id: "SETTINGS__LANG",
+		text: "ภาษา"
+	},{
+		id: "SETTINGS__GAMEPLAY",
+		text: "การเล่น"
+	},
+
+	{
+		id: "SETTINGS__MASTER_VOLUME",
+		text: "เสียงหลัก"
+	},{
+		id: "SETTINGS__RESOLUTION",
+		text: "ความละเอียด"
+	},{
+		id: "SETTINGS__MODE",
+		text: "โหมด"
+	},{
+		id: "SETTINGS__FRAMERATE",
+		text: "เฟรมเรท"
+	},{
+		id: "SETTINGS__QUALITY",
+		text: "คุณภาพ"
+	},
+
+	{
+		id: "SETTINGS__QUALITY_HIGH",
+		text: "สูง"
+	},{
+		id: "SETTINGS__QUALITY_LOW",
+		text: "ต่ำ"
+	},
+
+	{
+		id: "SETTINGS__FPS_UNLIM",
+		text: "ไม่จำกัดเฟรมเรท"
+	},{
+		id: "SETTINGS__FPS_1_1",
+		text: "แสดงอัตราเฟรมเรท"
+	},{
+		id: "SETTINGS__FPS_1_2",
+		text: "แสดงอัตราเฟรมเรท 1/2"
+	},{
+		id: "SETTINGS__FPS_1_3",
+		text: "แสดงอัตราเฟรมเรท 1/3"
+	},{
+		id: "SETTINGS__FPS_1_4",
+		text: "แสดงอัตราเฟรมเรท 1/4"
+	},
+
+	{
+		id: "MM_STORY_MODE",
+		text: "โหมดเนื้อเรื่อง"	
+	},{
+		id: "MM_FREE_PLAY",
+		text: "โหมดอิสระ"	
+	},
+
+	{
+		id: "RIVAL",
+		text: "คู่แข่ง"
+	},{
+		id: "MM_SAVE_DATE",
+		text: "วันที่เซฟ"
+	},{
+		id: "MM_INGAME_DATE",
+		text: "วันที่ในเกม"
+	},{
+		id: "MM_PLAYTIME",
+		text: "เวลาเล่น"
+	},
+
+	{
+		id: "AUTOSAVE",
+		text: "เซฟอัตโนมัติ"
+	},
+
+	{
+		id: "MM_DELETE_PLAYTHROUGH",
+		text: "คุณแน่ใจหรือไม่ว่าต้องการลบการเล่นผ่านมานี้?"
+	},{
+		id: "OVERWRITE",
+		text: "เขียนทับ"
+	},{
+		id: "FILENAME",
+		text: "ชื่อไฟล์"
+	},{
+		id: "SAVE_FILE",
+		text: "เซฟไฟล์"
+	},
+
+	{
+		id: "CHAPTER_0",
+		text: "บทที่ 1"
+	},{
+		id: "CHAPTER_1",
+		text: "บทที่ 2"
+	},{
+		id: "CHAPTER_2",
+		text: "บทที่ 3"
+	},{
+		id: "CHAPTER_3",
+		text: "บทที่ 4"
+	},{
+		id: "CHAPTER_4",
+		text: "บทที่ 5"
+	},{
+		id: "CHAPTER_5",
+		text: "บทที่ 6"
+	},{
+		id: "CHAPTER_6",
+		text: "หลังเกม"
+	},
+
+	{
+		id: "UNKNOWN",
+		text: "ไม่รู้จัก"
+	},
+
+	{
+		id: "RECORD_COMPANY",
+		text: "Pony Records"
+	},
+
+	{
+		id: "PROPOSAL__TITLE",
+		text: "\uf70c  ข้อเสนอเกมฤดูร้อน"
+	},
+	{
+		id: "PROPOSAL__PREPARE_SONG",
+		text: "เตรียมเพลง"
+	},
+	{
+		id: "PROPOSAL__AVOID_SCANDALS",
+		text: "หลีกเลี่ยงเรื่องอื้อฉาว"
+	},
+	{
+		id: "PROPOSAL__TOP_CHART",
+		text: "ติดอันดับชาร์ต"
+	},
+	{
+		id: "PROPOSAL__FANBASE",
+		text: "ขยายฐานแฟนๆของคุณ"
+	},
+	{
+		id: "PROPOSAL__DEADLINE",
+		text: "เส้นตาย"
+	},
+	{
+		id: "PROPOSAL__TIP_SCANDAL",
+		text: "จำนวนแต้มเรื่องอื้อฉาวที่ต้องการ: @ หรือน้อยกว่า"
+	},
+	{
+		id: "PROPOSAL__TIP_CHARTS",
+		text: "ปล่อยซิงเกิ้ลที่ติดอันดับชาร์ตประจำเดือน"
+	},
+	{
+		id: "PROPOSAL__TIP_FANS",
+		text: "มียอด @ แฟนๆ"
+	},
+
+	{
+		id: "PF",
+		text: "Phantasm Facade"
+	},{
+		id: "PF_SINGLE_ONE",
+		text: "Bow Down"
+	},{
+		id: "PF_SINGLE_TWO",
+		text: "Sour Milk"
+	},{
+		id: "PF_SINGLE_THREE",
+		text: "Take Off Your Shoes"
+	},
+
+	{
+		id: "SG__FINALIZE",
+		text: "Finalize"
+	},
+
+	{
+		id: "SG__CHOREO_TIP",
+		text: "ราคา: @ คะแนนการวิจัย [เต้น]"
+	},{
+		id: "SG__LYRICS_TIP",
+		text: "ราคา: @ คะแนนการวิจัย [โปรดิวเซอร์]"
+	},{
+		id: "SG__GENRE_TIP",
+		text: "ราคา: @ คะแนนการวิจัย [ดนตรี]"
+	},{
+		id: "SG__GENERIC_TIP",
+		text: "ราคา: @ คะแนนการวิจัย [สำนักงานผู้จัดการ]"
+	},{
+		id: "SG__TIP",
+		text: "ส่งข้อเสนอที่ประสบความสำเร็จโดยความดึงดูดต่อกรรมการอย่างน้อย 3 ใน 5 คน{separator}กรรมการแต่ละคนมีความชอบใน {light_green}ประเภท{/light_green}, {light_green}แนวเพลง{/light_green}, และ {light_green}การออกแบบท่าเต้น{/light_green}. เลือกเพลงที่ตรงกับคุณลักษณะที่ต้องการอย่างน้อยหนึ่งอย่างเพื่อเอาชนะใจพวกเขา{separator}ความชอบของสมาชิกคณะกรรมการสามารถค้นพบได้โดยใช้คะแนนการวิจัย 500 คะแนน: ใช้ {light_green}ดนตรี{/light_green} คะแนนจะเปิดเผยของพวกเขา {light_green}ประเภท{/light_green} ความชอบ ใช้ {light_green}โปรดิวเซอร์{/light_green} คะแนนที่จะเปิดเผยของพวกเขา {light_green}แนวเพลง{/light_green} ความชอบและการใช้ {light_green}เต้น{/light_green} คะแนนที่จะเปิดเผยของพวกเขา {light_green}การออกแบบท่าเต้น{/light_green} ความพึงใจ. {light_green}สำนักงานผู้จัดการ{/light_green} คะแนนวิจัยยังสามารถใช้เพื่อเปิดเผยการตั้งค่าใดๆ{separator}เมื่อเลือกเพลงคุณสามารถเปลี่ยนเพลงของ {light_green}ประเภท{/light_green}, {light_green}แนวเพลง{/light_green}, หรือ {light_green}การออกแบบท่าเต้น{/light_green} โดยการใช้จ่าย 5,000 คะแนนการวิจัยประเภทที่เกี่ยวข้อง"
+	},{
+		id: "SG__APPEAL",
+		text: "คุณต้องได้รับความดึงดูดจากกรรมการอย่างน้อย 3 คน"
+	},{
+		id: "SG__NOT_ENOUGH_POINTS",
+		text: "คุณมีคะแนนการวิจัยไม่เพียงพอ"
+	},{
+		id: "SG__FINALIZE_WARNING",
+		text: "คุณต้องการจบซิงเกิ้ล Summer Games ของคุณหรือไม่?\n\nค่าใช้จ่ายทั้งหมด: @ pt"
+	},{
+		id: "SG__COMMITTEE",
+		text: "คณะกรรมการ Summer Games"
+	},{
+		id: "SG__MANAGER_POINTS",
+		text: "สำนักงานผู้จัดการ"
+	},{
+		id: "SG__MUSIC_POINTS",
+		text: "Music"
+	},
+
+	{
+		id: "PLUS_CASUAL",
+		text: "+@ แฟนคลับทั่วไป"
+	},{
+		id: "LOANS__NO_MORE_FUJIMOTO",
+		text: "คุณไม่สามารถกู้เงินจากฟูจิโมโตะได้อีก"
+	},
+
+	{
+		id: "SG_FAIL__KEEP_PLAYING",
+		text: "เล่นต่อไป"
+	},{
+		id: "SG_FAIL__LOAD",
+		text: "โหลดไฟล์เซฟ"
+	},{
+		id: "SG_FAIL__RESTART",
+		text: "เริ่มบทใหม่อีกครั้ง"
+	},{
+		id: "SG_FAIL__DESCRIPTION",
+		text: "น่าเสียดายที่คุณพลาดโอกาสครั้งใหญ่ เนื้อเรื่องจบลงที่นี่ แต่คุณยังสามารถเล่นต่อได้"
+	},
+
+	{
+		id: "TASK__CH5_SG",
+		text: "ไม่ก่อให้เกิดปัญหาจน @"
+	},
+	{
+		id: "TASK__SEND_GIRL_TO_RIVAL_GROUP",
+		text: "ส่ง @1 เพื่อเข้าร่วม @2"
+	},
+
+	{
+		id: "STAFF__FIRED",
+		text: "ถูกไล่ออก"
+	},
+
+	{
+		id: "SETTINGS__ENABLE_R18",
+		text: "เปิดใช้งานเนื้อหา R18"
+	},
+
+	{
+		id: "GALLERY",
+		text: "แกลลอรี่"
+	},{
+		id: "GALLERY_STATS",
+		text: "สถิติ"
+	},{
+		id: "GALLERY_CG",
+		text: "CGs"
+	},
+
+	// BETA 21
+
+	{
+		id: "LP_TITLE__TUTORIAL",
+		text: "การฝึกสอน"
+	},
+	{
+		id: "TUTORIAL__STOP",
+		text: "ออกจากการสอน"
+	},
+	{
+		id: "TUTORIAL__CONFIRM",
+		text: "คุณแน่ใจหรือว่าต้องการออกจากการสอน?"
+	},
+	{
+		id: "TUTORIAL__QUIT",
+		text: "ออก"
+	},
+	{
+		id: "LEVEL_UP",
+		text: "Level Up"
+	},
+
+	{
+		id: "DAYS_AGO",
+		text: "@ วันที่แล้ว"
+	},{
+		id: "HOURS_AGO",
+		text: "@ ชั่วโมงที่แล้ว"
+	},{
+		id: "MINUTES_AGO",
+		text: "@ นาทีที่แล้ว"
+	},
+
+	{
+		id: "CAFE__SELECT_IDOL",
+		text: "เลือกไอดอลเพื่อทำอาหาร"
+	},
+
+	{
+		id: "STATS__DIALOGUES",
+		text: "บทสนทนา"
+	},
+	{
+		id: "STATS__LINES",
+		text: "เส้นทางสนทนา"
+	},
+	{
+		id: "STATS__EVENTS",
+		text: "กิจกรรม"
+	},
+	{
+		id: "STATS__CG",
+		text: "CGs"
+	},
+
+	{
+		id: "STATS__ENDINGS",
+		text: "ตอนจบ"
+	},
+	{
+		id: "ENDING__FUJIMOTO",
+		text: "ฟูจิโมโตะ"
+	},
+	{
+		id: "ENDING__AYA",
+		text: "อายะ"
+	},
+	{
+		id: "ENDING__RIVAL",
+		text: "คู่แข่ง"
+	},
+	{
+		id: "ENDING__TRUE_ENDING",
+		text: "ผลงานสุดท้าย"
+	},
+	{
+		id: "ENDING__WEDDING",
+		text: "งานแต่งงาน"
+	},
+	{
+		id: "ENDING__BREAKUP",
+		text: "การเลิกรา"
+	},
+	{
+		id: "ENDING__BANKRUPTCY",
+		text: "การล้มละลาย"
+	},
+	{
+		id: "ENDING__SCANDAL",
+		text: "ทำลายชื่อเสียง"
+	},
+	{
+		id: "ENDING__CANCELLED",
+		text: "เรื่องอื้อฉาว"
+	},
+	{
+		id: "ENDING__LOCKED",
+		text: "? ? ?"
+	},
+
+	{
+		id: "IDOL__BROKE_UP",
+		text: " เสียคะแนนสภาพจิตใจ @ หลังจากแยกกับคู่ของเธอ"
+	},
+	{
+		id: "IDOL__STARTED_DATING",
+		text: "คุณได้ยินข่าวลือว่าหนึ่งในไอดอลของคุณเริ่มออกเดท"
+	},
+	{
+		id: "IDOL__DATE_EACH_OTHER",
+		text: "คุณได้ยินข่าวลือว่าไอดอลของคุณสองคนเริ่มออกเดทและอื่นๆ"
+	},
+	{
+		id: "IDOL__BROKE_UP_EACH_OTHER",
+		text: "@1 และ @2 เสียค่าสภาพจิตใจ 30 คะแนนหลังจากเลิกรากัน"
+	},
+	{
+		id: "IDOL__BULLY",
+		text: "คุณได้ยินข่าวลือว่าหนึ่งในไอดอลของคุณกำลังถูกรังแก"
+	},
+	{
+		id: "IDOL__KICKED_OUT",
+		text: "คุณได้ยินข่าวลือว่า @ ถูกไล่ออกจากกลุ่มของเธอ"
+	},
+	{
+		id: "IDOL__BULLIED_UNKNOWN",
+		text: "หนึ่งในไอดอลของคุณเสีย @ ค่าสภาพจิตใจเนื่องจากการกลั่นแกล้ง"
+	},
+
+	{
+		id: "GROUPS__DISBAND",
+		text: "ยุบวง"
+	},
+	{
+		id: "GROUPS__DISBAND_BUTTON",
+		text: "ยุบ"
+	},
+	{
+		id: "GROUPS__DISBAND_MSG",
+		text: "แน่ใจนะว่าต้องการยุบวง \"@1\"?\nไอดอลทั้งหมดจะถูกย้ายไปที่ \"@2\""
+	},
+
+
+	{
+		id: "PROFILE__FANS_DETAILS",
+		text: "รายละเอียด"
+	},
+	{
+		id: "PROFILE__FANS_OPINION",
+		text: "ความคิดเห็น"
+	},
+
+	{
+		id: "IDOL__PROFILE",
+		text: "โปรไฟล์"
+	},
+
+	{
+		id: "LOANS__FUJIMOTO_DESC",
+		text: "เงินกู้ของ ฟูจิโมโตะ ไม่มีดอกเบี้ย แต่เขามีงานที่คุณต้องทำให้เสร็จก่อนที่คุณจะสามารถกู้เงินจากเขาได้"
+	},
+
+	{
+		id: "TAB__VIEW",
+		text: "\uf329 ดู"
+	},
+	{
+		id: "TAB__SORT",
+		text: "\uf329 เรียง"
+	},
+
+	{
+		id: "STYLING__ACC",
+		text: "เครื่องประดับ"
+	},
+	{
+		id: "STYLING__HAIR",
+		text: "ทรงผม"
+	},
+	{
+		id: "STYLING__DRESS",
+		text: "ชุด"
+	},
+
+	{
+		id: "BUSINESS__BROKEN_CONTRACT",
+		text: "ผิดสัญญา\nคุณต้องจ่ายค่าเสียหาย@"
+	},
+
+	{
+		id: "WISH__CONVERSATION",
+		text: "@1 @2"
+	},
+
+	{
+		id: "RIVAL__MALE",
+		text: "ผู้ชาย"
+	},
+	{
+		id: "RIVAL__FEMALE",
+		text: "ผู้หญิง"
+	},
+
+	{
+		id: "SETTINGS__FULLSCREEN",
+		text: "เต็มจอ"
+	},
+	{
+		id: "SETTINGS__FULLSCREEN_WINDOW",
+		text: "หน้าต่างเต็มหน้าจอ"
+	},
+	{
+		id: "SETTINGS__WINDOW",
+		text: "หน้าต่าง"
+	},
+
+	{
+		id: "SHOW__FANS_DISAPPOINTED",
+		text: "ผิดหวังที่คุณยกเลิก @"
+	},
+
+
+
+
+	{
+		id: "WISH__JOB",
+		text: "อยากได้งาน @1 @2"
+	},{
+		id: "WISH__SHOW_DETAILS",
+		text: "อยากเป็นโฮสต์ @1 @2 โชว์ @3"
+	},{
+		id: "WISH__SHOW_DETAILS_COHOST",
+		text: "ด้วย @ โค-โฮสต์"
+	},{
+		id: "WISH__SINGLE_DETAILS",
+		text: "อยากเป็นเซ็นเตอร์ @1 ซิงเกิ้ล @2 @3"
+	},{
+		id: "WISH__SINGLE_DETAILS_LYRICS",
+		text: "กับแนว @"
+	},{
+		id: "WISH__SINGLE_DETAILS_CHOREO",
+		text: "กับท่าเต้น @"
+	},
+
+	{
+		id: "DEMO__NOT_AVAILABLE",
+		text: "ไม่มีในเดโม"
+	},{
+		id: "DEMO__SAVE_AND_QUIT",
+		text: "เซฟและออก"
+	},{
+		id: "DEMO__SAVE_AND_MENU",
+		text: "เซฟและกลับสู่เมนูหลัก"
+	},{
+		id: "DEMO__WISHLIST",
+		text: "\uf1b6  เพิ่ม Idol Manager ในรายการสิ่งที่อยากได้บน Steam ของคุณ"
+	},{
+		id: "DEMO__THANKS",
+		text: "ขอบคุณสำหรับการเล่น!\n\nตั้งตารอการเปิดตัว Idol Manager บน Steam ในปี 2021\n\n- สำรวจเนื้อเรื่องที่มีเส้นทางแตกแขนงและตอนจบที่ไม่เหมือนใครมากกว่า 6 แบบ\n- ขยายเอเจนซี่ของคุณด้วยกลุ่มไอดอลพี่น้องหลายกลุ่ม\n- ขยายชื่อเสียงของคุณผ่านการเลือกตั้ง การแสดงรางวัล และการท่องเที่ยวรอบโลก\n- สัมผัสประสบการณ์เรื่องอื้อฉาวและเนื้อเรื่องย่อยที่ไม่เหมือนใครมากมายตามวิธีที่คุณเล่น\n\nเพิ่ม Idol Manager ในรายการสิ่งที่อยากได้บน Steam ของคุณเพื่อรับการแจ้งเตือนเมื่อวางจำหน่ายในปลายปีนี้!"
+	},{
+		id: "DEMO__ENDS",
+		text: "เดโมจะสิ้นสุดใน @ วัน"
+	},
+
+
+	{
+		id: "CAFE__SELECT_DISH_SHORT",
+		text: "เลือกอาหาร"
+	},
+	{
+		id: "MM_VOICEOVER",
+		text: "เสียงพูด"
+	},
+	{
+		id: "ACTIVITIES__IDOLMAXSTATS",
+		text: "ไอดอลที่มี @ สถิติ 99 pt: "
+	},
+
+	{
+		id: "ch0_zoo",
+		text: "ติดอันดับท็อป 5 ของชาร์ตซิงเกิ้ล"
+	},
+
+	{
+		id: "STORY__RIVAL_MOTHER_NAME",
+		text: "@ เอริ"
+	},
+
+	{
+		id: "DATE__TRIVIA_GIRL_NAME",
+		text: "@"
+	},
+	{
+		id: "DATE__FIND_OUT",
+		text: "\"คุณยังพบว่า @1 @2.\""
+	},
+
+	{
+		id: "MOD__UPLOAD",
+		text: "อัพโหลด"
+	},{
+		id: "MOD__UPLOAD_UPDATE",
+		text: "อัพโหลดอัพเดท"
+	},{
+		id: "MOD__SELECT_UPLOAD",
+		text: "เลือกม็อดที่จะอัพโหลดเพื่ออัพเดท"
+	},
+	{
+		id: "MOD__CHANGE_NOTE",
+		text: "เปลี่ยนโน้ต"
+	},{
+		id: "MOD__TITLE",
+		text: "ชื่อ"
+	},{
+		id: "MOD__DESCRIPTION",
+		text: "คำอธิบาย"
+	},{
+		id: "MOD__TAGS",
+		text: "แท็ก"
+	},{
+		id: "MOD__FOLDER",
+		text: "โฟลเดอร์"
+	},{
+		id: "MOD__SUCCESS",
+		text: "สำเร็จ!"
+	},{
+		id: "MOD__SUCCESS_MESSAGE",
+		text: "อัพเดตม็อดของคุณสำเร็จแล้ว!\nหากต้องการเผยแพร่ต่อสาธารณะ โปรดไปที่ <link=\"@\"><color=#777BBA><u>หน้าเวิร์กชอป Steam ของคุณ</u></color></link> และเปลี่ยนการตั้งค่าการมองเห็นของม็อดของคุณ"
+	},{
+		id: "MOD__UPDATE_SUCCESS_MESSAGE",
+		text: "อัพเดตม็อดของคุณสำเร็จแล้ว!"
+	},
+
+	{
+		id: "GRAD_DATE_ANNOUNCEMENT",
+		text: " @"
+	},
+
+	{
+		id: "BIZ__NEGOT_SUCCESS_CHANCE",
+		text: "โอกาสในการเจรจาที่จะประสบความสำเร็จ:\n@"
+	},{
+		id: "BIZ__NEGOT_ATTEMPTS",
+		text: "จำนวนครั้งในการเจรจา:\n@"
+	},
+
+	{
+		id: "SETTINGS__SFW_MODE",
+		text: "โหมด SFW"
+	},
+
+	{
+		id: "CREDITS__MESSAGE",
+		text: "คุณต้องการข้ามเครดิต?"
+	},
+	{
+		id: "CREDITS__SKIP",
+		text: "ข้าม"
+	},{
+		id: "CREDITS__KEEP_WATCHING",
+		text: "ดู"
+	},
+
+	{
+		id: "MUSIC",
+		text: "Music"
+	},
+	{
+		id: "MUSIC_UNLOCK",
+		text: "รับตอนจบที่ดีอย่างน้อยหนึ่งตอนเพื่อปลดล็อก"
+	},
+	{
+		id: "ENDING__BETRAYAL",
+		text: "Betrayal"
+	}
+]

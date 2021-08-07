@@ -1,0 +1,219 @@
+[
+	{
+		ID:		0,
+		Type:	"_default",
+		Text: 	"มีแมงมุมเป็นสัตว์เลี้ยง"
+	},{
+		ID:		1,
+		Type:	"_default",
+		Text: 	"เคยเรียนคัดลายมือ"
+	},{
+		ID:		2,
+		Type:	"_default",
+		Text: 	"ชอบดูอเมริกันฟุตบอล"
+	},{
+		ID:		3,
+		Type:	"_default",
+		Text: 	"แก้รูบิคได้ในเวลาไม่ถึง 30 วินาที"
+	},{
+		ID:		4,
+		Type:	"_default",
+		Text: 	"มีคอลเลกชั่นผีเสื้อ"
+	},{
+		ID:		5,
+		Type:	"_default",
+		Text: 	"อยากเป็นมิกโซโลจิสต์"
+	},{
+		ID:		6,
+		Type:	"_default",
+		Text: 	"สามารถเล่นกลโยนลูกบอลได้มากถึงแปดลูกพร้อมกัน"
+	},{
+		ID:		7,
+		Type:	"_default",
+		Text: 	"รู้วิธีกินปีกไก่ด้วยมือเดียว"
+	},{
+		ID:		8,
+		Type:	"_default",
+		Text: 	"ชอบอ่านนิยายวิทยาศาสตร์"
+	},{
+		ID:		9,
+		Type:	"_default",
+		Text: 	"เธอมีเพลง William Tell Overture เป็นนาฬิกาปลุก"
+	},{
+		ID:		10,
+		Type:	"_default",
+		Text: 	"ชอบหนังฮอลลีวูด"
+	},{
+		ID:		11,
+		Type:	"_default",
+		Text: 	"มีโปสเตอร์ของ Leif Ericson ในห้องนอนของเธอ"
+	},{
+		ID:		12,
+		Type:	"_default",
+		Text: 	"เป็นเจ้าของกล้องโทรทรรศน์กำลังสูง"
+	},{
+		ID:		13,
+		Type:	"_default",
+		Text: 	"ฝันว่าได้เกิดใหม่เป็นต้นไม้"
+	},{
+		ID:		14,
+		Type:	"_default",
+		Text: 	"ยังคงพก Game Boy Advance ไว้ในกระเป๋า"
+	},{
+		ID:		15,
+		Type:	"_default",
+		Text: 	"เดินมากกว่า 1 ล้านก้าวในเกม AR ที่มี GPS ติดตาม"
+	},{
+		ID:		16,
+		Type:	"_default",
+		Text: 	"หั่นหัวหอมได้โดยไม่ร้องไห้"
+	},{
+		ID:		17,
+		Type:	"_default",
+		Text: 	"ชอบฟังพอดแคสต์ในภาษาที่เธอไม่เข้าใจ"
+	},{
+		ID:		18,
+		Type:	"_default",
+		Text: 	"ใช้เครื่องฟังคลื่นเสียงสีขาวตอนนอน"
+	},{
+		ID:		19,
+		Type:	"_default",
+		Text: 	"มีหนังสือการ์ตูนอเมริกันมากมาย"
+	},{
+		ID:		20,
+		Type:	"family",
+		Text: 	"แม่ของเธอ [older_dev]"
+	},{
+		ID:		21,
+		Type:	"family",
+		Text: 	"พ่อของเธอ [older_dev]"
+	},{
+		ID:		22,
+		Type:	"family",
+		Text: 	"มี[sibling] [older_dev]"
+	},{
+		ID:		23,
+		Type:	"family",
+		Text: 	"มี[sibling] [medium_dev]"
+	},{
+		ID:		24,
+		Type:	"sibling",
+		Text: 	"พี่ชาย"
+	},{
+		ID:		25,
+		Type:	"sibling",
+		Text: 	"พี่สาว"
+	},{
+		ID:		26,
+		Type:	"older_dev",
+		Text: 	"เล่นปี่"
+	},{
+		ID:		27,
+		Type:	"older_dev",
+		Text: 	"กำลังเผยแพร่การจัดอันดับเว็บโนเวลเรื่อง isekai"
+	},{
+		ID:		28,
+		Type:	"older_dev",
+		Text: 	"ทำงานในฐานะศิลปินมังงะ โชโจ"
+	},{
+		ID:		29,
+		Type:	"older_dev",
+		Text: 	"ทำงานเป็นบรรณาธิการนิตยสารโชเนนมังงะ"
+	},{
+		ID:		30,
+		Type:	"older_dev",
+		Text: 	"มีสถิติโลกในการกินราเม็ง"
+	},{
+		ID:		31,
+		Type:	"older_dev",
+		Text: 	"มีแมวมากกว่า 20 ตัว"
+	},{
+		ID:		32,
+		Type:	"older_dev",
+		Text: 	"ใช้เงินมากกว่า [yen]1,000,000 ในแคปซูลกาชาปอง"
+	},{
+		ID:		33,
+		Type:	"older_dev",
+		Text: 	"จบการศึกษาจากมหาวิทยาลัย [nationality]"
+	},{
+		ID:		34,
+		Type:	"older_dev",
+		Text: 	"ทำงานให้กับบริษัทข้ามชาติ"
+	},{
+		ID:		35,
+		Type:	"medium_dev",
+		Text: 	"ลาออกจากวิทยาลัยหลังจากติดเกม MMORPG"
+	},{
+		ID:		36,
+		Type:	"medium_dev",
+		Text: 	"เป็นตัวแทนของประเทศญี่ปุ่นในการแข่งขันกีฬาฤดูร้อนปี 2016"
+	},{
+		ID:		37,
+		Type:	"medium_dev",
+		Text: 	"กำลังศึกษามหาวิทยาลัยในประเทศ [nation]"
+	},{
+		ID:		38,
+		Type:	"nation",
+		Text: 	"สหรัฐอเมริกา"
+	},{
+		ID:		39,
+		Type:	"nation",
+		Text: 	"ฝรั่งเศส"
+	},{
+		ID:		40,
+		Type:	"nation",
+		Text: 	"สหราชอาณาจักร"
+	},{
+		ID:		41,
+		Type:	"nation",
+		Text: 	"แคนาดา"
+	},{
+		ID:		42,
+		Type:	"nation",
+		Text: 	"บราซิล"
+	},{
+		ID:		43,
+		Type:	"nation",
+		Text: 	"เยอรมนี"
+	},{
+		ID:		44,
+		Type:	"nation",
+		Text: 	"สเปน"
+	},{
+		ID:		45,
+		Type:	"nation",
+		Text: 	"ออสเตรเลีย"
+	},{
+		ID:		46,
+		Type:	"nationality",
+		Text: 	"อเมริกัน"
+	},{
+		ID:		47,
+		Type:	"nationality",
+		Text: 	"ฝรั่งเศส"
+	},{
+		ID:		48,
+		Type:	"nationality",
+		Text: 	"อังกฤษ"
+	},{
+		ID:		49,
+		Type:	"nationality",
+		Text: 	"แคนาดา"
+	},{
+		ID:		50,
+		Type:	"nationality",
+		Text: 	"บราซิล"
+	},{
+		ID:		51,
+		Type:	"nationality",
+		Text: 	"เยอรมนี"
+	},{
+		ID:		52,
+		Type:	"nationality",
+		Text: 	"สเปน"
+	},{
+		ID:		53,
+		Type:	"nationality",
+		Text: 	"ออสเตรเลีย"
+	}
+]

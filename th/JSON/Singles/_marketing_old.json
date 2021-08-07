@@ -1,0 +1,106 @@
+﻿[
+	{
+		"id": 0,
+		"title": "การเปิดตัวแบบดิจิทัลเท่านั้น",
+		"unlocked": true,
+		"cost": -1,
+		"physical": false,
+		"digital_only": true,
+		"max_level": 1,
+		"description": "{green}ลดค่าใช้จ่ายที่เกี่ยวข้องกับการเปิดตัว{/color}{linebreak}{red}แฟนๆ ไม่สามารถซื้อได้มากกว่า 1 ชุด\nไม่มีแพ็กเกจสิทธิประโยชน์{/color}"
+	},{
+		"id": 1,
+		"title": "งานจับมือเดี่ยว",
+		"unlocked": true,
+		"cost": 0.5,
+		"physical": true,
+		"cost_stamina": 50,
+		"girl_multiplier": true,
+		"individual_handshake": true,
+		"description": "แฟนๆ รับบัตรจับมือกับหนึ่งในไอดอล{linebreak}แฟนพันธุ์แท้ซื้ออีก {hardcore_multi} ชุด\n({hardcore} ต่อไอดอล){linebreak}พลังงาน: {cost_stamina} สำหรับทุกไอดอลในกรุ๊ป\nราคาต่อซีดี: {cost_CD}",
+		"appeal": {
+			"hardcore": [0.05, 0.06, 0.07, 0.08, 0.09, 0.1, 0.11, 0.12, 0.13, 0.15]
+		}
+	},{
+		"id": 2,
+		"title": "งานจับมือกลุ่ม",
+		"unlocked": true,
+		"cost": 0.5,
+		"physical": true,
+		"cost_stamina": 20,
+		"group_handshake": true,
+		"description": "แฟนๆ ได้บัตรไปจับมือกับเหล่าไอดอล{linebreak}แฟนพันธุ์แท้ซื้ออีก {hardcore} ชุด{linebreak}พลังงาน: {cost_stamina} สำหรับทุกไอดอลในกรุ๊ป\nราคาต่อซีดี: {cost_CD}",
+		"appeal": {
+			"hardcore": [0.3, 0.32, 0.34, 0.36, 0.38, 0.4, 0.42, 0.44, 0.48, 0.5]
+		}
+	}
+	,{
+		"id": 3,
+		"title": "สุ่มภาพ",
+		"unlocked": true,
+		"cost": 0.05,
+		"physical": true,
+		"description": "แฟนพันธุ์แท้ซื้ออีก {hardcore} ชุด{linebreak}ราคาต่อซีดี: {cost_CD}",
+		"appeal": {
+			"hardcore": [0.05, 0.06, 0.07, 0.08, 0.09, 0.1, 0.11, 0.12, 0.13, 0.15]
+		}
+	},{
+		"id": 4,
+		"title": "ดีวีดีพิเศษ",
+		"unlocked": true,
+		"cost": 0.1,
+		"minimal_cost": 100000,
+		"physical": true,
+		"description": "แฟนพันธุ์แท้ซื้ออีก {hardcore} ชุด\nแฟนทั่วไปซื้ออีก {casual} ชุด{linebreak}ราคาต่อซีดี: {cost_CD}\nราคา: {cost}",
+		"appeal": {
+			"casual": [0.05, 0.06, 0.07, 0.08, 0.09, 0.1, 0.11, 0.12, 0.13, 0.15],
+			"hardcore": [0.05, 0.06, 0.07, 0.08, 0.09, 0.1, 0.11, 0.12, 0.13, 0.15]
+		}
+	},{
+		"id": 5,
+		"title": "อีเว้นท์ 2-shot",
+		"unlocked": true,
+		"cost": 0.5,
+		"cost_stamina": 75,
+		"physical": true,
+		"description": "แฟนพันธุ์แท้ซื้ออีก {hardcore} ชุด\nแฟนทั่วไปซื้ออีก {casual} ชุด{linebreak}พลังงาน: {cost_stamina} สำหรับทุกไอดอลในกรุ๊ป\nราคาต่อซีดี: {cost_CD}",
+		"appeal": {
+			"casual": [0.1, 0.11, 0.12, 0.13, 0.14, 0.15, 0.16, 0.17, 0.18, 0.2],
+			"hardcore": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 1]
+		}
+	},{
+		"id": 6,
+		"title": "บิกินี่ PV",
+		"unlocked": true,
+		"cost": 0.5,
+		"minimal_cost": 100000,
+		"physical": false,
+		"appeal": {
+			"male": [0.3, 0.32, 0.34, 0.36, 0.38, 0.4, 0.42, 0.44, 0.48, 0.5],
+			"female": [-0.3, -0.3, -0.3, -0.3, -0.3, -0.2, -0.2, -0.2, -0.2, -0.1]
+		}
+	},{
+		"id": 7,
+		"title": "แคมเปญไวรัล",
+		"unlocked": true,
+		"minimal_cost": 1000000,
+		"physical": false,
+		"success": [0.3, 0.33, 0.36, 0.39, 0.42, 0.45, 0.48, 0.51, 0.55, 0.6],
+		"description": "แฟนทั่วไปซื้ออีก {casual} ชุด แต่ถ้าแคมเปญประสบความสำเร็จ{linebreak}โอกาสสำเร็จ: {success}\nราคา: {cost}",
+		"appeal": {
+			"casual": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 1]
+		}
+	},{
+		"id": 8,
+		"title": "เรื่องอื้อฉาวปลอม",
+		"unlocked": true,
+		"minimal_cost": 100000,
+		"physical": false,
+		"buzz": [2, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.85, 3],
+		"description": "{buzz} เรื่องที่ปล่อย{linebreak}แฟนพันธุ์แท้ซื้อ {hardcore} น้อยชุด\nราคา: {cost}",
+		"appeal": {
+			"hardcore": [-0.2, -0.2, -0.2, -0.2, -0.2, -0.25, -0.25, -0.3, -0.4, -0.5]
+		}
+	}
+]
+

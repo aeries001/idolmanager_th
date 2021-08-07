@@ -1,0 +1,64 @@
+[
+	{
+		"variable": "default",
+		"male": "lastName firstName",
+		"female": "lastName firstName",
+		"color": "blue"
+	},{
+		"variable": "firstname",
+		"male": "firstName",
+		"female": "firstName",
+		"color": "blue"
+	},{
+		"variable": "lastname",
+		"male": "lastName",
+		"female": "lastName",
+		"color": "blue"
+	},{
+		"variable": "polite",
+		"male": "Mr. lastName",
+		"female": "Ms. lastName",
+		"color": "blue"
+	},{
+		"variable": "casual",
+		"male": "firstName",
+		"female": "firstName",
+		"color": "blue"
+	},{
+		"variable": "SirMaam",
+		"male": "Sir",
+		"female": "Ma'am"
+	},{
+		"variable": "heshe",
+		"male": "he",
+		"female": "she"
+	},{
+		"variable": "HeShe",
+		"male": "He",
+		"female": "She"
+	},{
+		"variable": "manwoman",
+		"male": "man",
+		"female": "woman"
+	},{
+		"variable": "ManWoman",
+		"male": "Man",
+		"female": "Woman"
+	},{
+		"variable": "himher",
+		"male": "him",
+		"female": "her"
+	},{
+		"variable": "HimHer",
+		"male": "Him",
+		"female": "Her"
+	},{
+		"variable": "hisher",
+		"male": "his",
+		"female": "her"
+	},{
+		"variable": "HisHer",
+		"male": "His",
+		"female": "Her"
+	}
+]

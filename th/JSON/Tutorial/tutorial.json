@@ -1,0 +1,1608 @@
+[
+	{
+		"ID": "0_build_office",
+		"Title": "สร้างสำนักงานของคุณ",
+		"Cards": [
+			{
+				"ID": 0,
+				"Text": "[green]คลิกที่ส่วนที่ไม่ได้ใช้ของอาคาร[/green] เพื่อสร้างห้อง",
+				"Requirement": "0_open_new_room_popup",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 1,
+				"Text": "เริ่มต้นด้วย [green]สร้างสำนักงานของคุณ[/green] สุดท้ายคุณต้องมีที่ทำงาน!",
+				"Requirement": "0_build_your_office",
+				"OnStart": null,
+				"OnComplete": "trigger 1_enter_office",
+				"Block_Input": false,
+				"Arrow_ID": null
+			}
+		]
+	},
+
+	{
+		"ID": "1_enter_office",
+		"Title": "เข้าสู่สำนักงานของคุณ",
+		"Cards": [
+			{
+				"ID": 0,
+				"Text": "[green]เปิดแท็บพนักงาน[/green]",
+				"Requirement": "1_open_staff_tab",
+				"OnStart": null,
+				"OnComplete": null,
+				"Block_Input": false,
+				"Arrow_ID": "1_0_staff_tab"
+			},{
+				"ID": 1,
+				"Text": "นั่นคือคุณ! พนักงานแต่ละคนจะมี \"การ์ด\" ในเมนูนี้ คุณเป็นพนักงานคนแรก (และจนถึงตอนนี้ มีคนเดียว) ที่[groupname]",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": true,
+				"Arrow_ID": "1_1_its_you"
+			},{
+				"ID": 2,
+				"Text": "ในเมนูนี้ คุณสามารถคลิกที่พนักงานเพื่อเปลี่ยนชื่อเล่นหรือไล่ออก แน่นอน คุณไม่สามารถไล่ตัวเองออกได้ แต่คุณสามารถตั้งชื่อเล่นให้ตัวเองได้หากต้องการ!",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": true,
+				"Arrow_ID": null
+			},{
+				"ID": 3,
+				"Text": "ตามที่ UI ระบุ ตอนนี้คุณยังไม่ได้ถูกกำหนดไปยังห้องใดๆ เราจะย้ายคุณไปที่สำนักงานที่สร้างขึ้นใหม่นั่นได้ยังไง? [green]หยิบการ์ดของคุณโดยคลิกที่จับ (ไอคอนรูปมือ) แล้วลากตัวเองไปที่สำนักงานของคุณ[/green]",
+				"Requirement": "1_move_your_staffer",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 4,
+				"Text": "ดี! เหมือนคุณเป็นคนขยัน นี่คือจุดเริ่มต้นการเดินทางของคุณในฐานะผู้จัดการไอดอล!",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": "trigger 2_time",
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			}
+		]
+	},
+
+	{
+		"ID": "2_time",
+		"Title": "Time",
+		"Cards": [
+			{
+				"ID": 0,
+				"Text": "คุณสามารถดูวันที่ปัจจุบันได้ที่นี่ แถบ \"ความคืบหน้า\" สีเขียวใต้วันที่ระบุว่าพรุ่งนี้ใกล้จะถึงกี่โมง วันเวลาผ่านไปเร็วมาก จริงไหม?",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": "2_1_time_display"
+			},{
+				"ID": 1,
+				"Text": "หากคุณต้องการเวลาคิดหรือวางแผนการเคลื่อนไหวครั้งต่อไป คุณสามารถหยุดเวลาไว้ชั่วคราวโดยใช้ปุ่มนี้ ปุ่ม \"เล่น\" จะกลับมาแสดงเวลาต่อ และปุ่ม \"กรอไปข้างหน้า\" จะทำให้เวลาเคลื่อนที่ด้วยความเร็ว",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": "2_1_time_control"
+			},{
+				"ID": 2,
+				"Text": "เวลาจะผ่านไปเมื่อคุณอยู่บนหน้าจอนี้เท่านั้น ทุกครั้งที่คุณเจอกับเหตุการณ์เนื้อเรื่อง เวลาจะหยุดชั่วคราวโดยอัตโนมัติ",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": "trigger 3_Auditions",
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			}
+		]
+	},
+
+	{
+		"ID": "3_Auditions",
+		"Title": "ออดิชั่น",
+		"Cards": [
+			{
+				"ID": 0,
+				"Text": "คุณไม่สามารถมีกลุ่มไอดอลได้หากไม่มีไอดอล! ได้เวลาออดิชั่นแล้ว!",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": true,
+				"Arrow_ID": null
+			},{
+				"ID": 1,
+				"Text": "คุณสามารถเลือกจัดออดิชั่นระดับท้องถิ่น ระดับภูมิภาค หรือระดับประเทศได้\nการค้นหาความสามารถที่กว้างขึ้นด้วยการคัดเลือกระดับภูมิภาคหรือระดับประเทศจะเพิ่มโอกาสในการได้รับไอดอลที่มีความสามารถสูง แต่จะมีค่าใช้จ่ายมากขึ้นเช่นกัน\nนอกจากนี้ยังมีคูลดาวน์อีกด้วย สำหรับการออดิชั่นระดับสูง",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": true,
+				"Arrow_ID": null
+			},{
+				"ID": 2,
+				"Text": "มีการวางแผนออดิชั่นจากสำนักงานของคุณ [green]คลิกที่สำนักงานของคุณและเลือกตัวเลือก \"ออดิชั่น\"[/green] ตอนนี้เรามาออดิชั่นระดับท้องถิ่นหรือระดับภูมิภาคกัน",
+				"Requirement": "3_develop_audition",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 3,
+				"Text": "การค้นหาคนที่มีพรสวรรค์ได้เริ่มต้นขึ้นแล้ว! จะใช้เวลาสองสามวันในการออดิชั่นจะเสร็จสิ้น",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 4,
+				"Text": "ดูเหมือนว่าเกมจะหยุดชั่วคราวในขณะนี้ การค้นหาคนที่มีพรสวรรค์ของเราจะไม่ดำเนินการต่อหากเวลาหยุด! [green]เลิกหยุด[/green]เพื่อให้เวลาเดินต่อไป",
+				"Requirement": "3_unpause_game",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 5,
+				"Text": "อย่างที่คุณเห็น คุณมีแถบความคืบหน้าที่จะเต็มเมื่อการออดิชั่นใกล้จะเสร็จสิ้น จำไว้ว่า หากคุณต้องการให้เวลาผ่านไปเร็วขึ้น คุณสามารถกดปุ่ม \"กรอไปข้างหน้า\" ได้ตลอดเวลา เพียงแน่ใจว่าจะไม่เสียดายเวลา!",
+				"Requirement": "3_prepare_audition",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 6,
+				"Text": "วันนี้เป็นวันใหม่ การค้นหาคนที่มีพรสวรรค์เสร็จแล้ว! ถึงเวลาพิจารณาผู้สมัครคัดเลือกและตัดสินใจว่าจะจ้างใคร [green]คลิกไอคอน \"ออดิชั่น\" บนหัวของคุณ[/green] เพื่อดูผู้สมัคร",
+				"Requirement": "3_trigger_audition",
+				"OnStart": null,
+				"OnComplete": "trigger 4_audition_screen",
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			}
+		]
+	},
+
+	{
+		"ID": "4_audition_screen",
+		"Title": "หน้าจอออดิชั่น",
+		"Cards": [
+			{
+				"ID": 0,
+				"Text": "การออดิชั่นแต่ละครั้งจะพบไอดอลห้าคน พวกเขาเป็นใครกันน่าค้นหา! มา [green]คลิกหนึ่งในนั้น[/green] เพื่อเริ่มต้น",
+				"Requirement": "4_open_card",
+				"OnStart": "4_block_finish",
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Block_Quit": true,
+				"Arrow_ID": null
+			},{
+				"ID": 1,
+				"Text": "ไอดอลแต่ละคนมีสี่สถานะตามรูปร่างหน้าตา และสี่สถานะตามความสามารถของพวกเขา",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": true,
+				"Block_Quit": true,
+				"Arrow_ID": null
+			},{
+				"ID": 2,
+				"Text": "ถัดจากแต่ละสถิติ คุณจะเห็นตัวเลขสองตัว ตัวเลขแรกคือค่าปัจจุบันของสถิตินั้น ตัวเลขที่สองในวงเล็บคือ [blue]ศักยภาพ[/blue] สำหรับสถิตินั้น คุณสามารถนึกถึง [blue]ศักยภาพ[/blue] เป็น \"soft cap\" ได้: เมื่อไอดอลถึง [blue]ศักยภาพ[/blue] ในสถานะใดสถานะหนึ่ง มันจะยากขึ้นมากที่จะเพิ่มสถานะนั้นผ่านการฝึกฝน",
+				"Requirement": null,
+				"OnStart": "4_block_finish",
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": true,
+				"Block_Quit": true,
+				"Arrow_ID": null
+			},{
+				"ID": 3,
+				"Text": "ไอดอลแต่ละคนมี [blue]ลักษณะนิสัย[/blue] ที่ไม่ซ้ำกัน ลักษณะบางอย่างมีประโยชน์ ในขณะที่บางอย่างอาจเป็นอุปสรรคมากกว่าส่วนช่วยเหลือ",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": true,
+				"Block_Quit": true,
+				"Arrow_ID": "4_3_trait"
+			},{
+				"ID": 4,
+				"Text": "คุณสามารถคลิกที่นี่เพื่อจ้างผู้หญิงคนนี้ให้เป็นไอดอลในกลุ่มของคุณ แต่เดี๋ยวก่อน - ก่อนที่เราจะจ้างเธอ เรามาดูผู้สมัครคนอื่นๆ กันก่อน [green]ลองคลิกดูแต่ละไอดอลกัน[/green]",
+				"Requirement": "4_open_all_cards",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Block_Quit": true,
+				"Arrow_ID": "4_4_hire"
+			},{
+				"ID": 5,
+				"Text": "ว้าว! ดูเหมือนว่าคุณโชคดีพอที่จะพบไอดอลหายาก นั่นหมายความว่าเธอมีสถิติการเริ่มต้นที่ค่อนข้างสูง ซึ่งอาจทำให้เธอได้เปรียบไอดอลคนอื่นๆ!",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": true,
+				"Block_Quit": true,
+				"Arrow_ID": null
+			},{
+				"ID": 6,
+				"Text": "ตัวเลขที่อยู่เหนือรูปไอดอลแต่ละคนด้านล่างแสดงถึง \"คะแนนโดยรวม\" ของพวกเขา โดยพื้นฐานแล้วเป็นค่าเฉลี่ยของสถิติทั้งหมดของพวกเขา และสามารถช่วยในการเปรียบเทียบไอดอลต่างๆ",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": true,
+				"Block_Quit": true,
+				"Arrow_ID": "4_6_total_stat"
+			},{
+				"ID": 7,
+				"Text": "ตอนนี้เรามีโอกาสได้ดูไอดอลเหล่านี้ทั้งหมดแล้ว มาตัดสินใจว่าจะจ้างใคร คุณสามารถจ้างไอดอลได้มาก (หรือน้อย) ตามที่คุณต้องการ",
+				"Requirement": null,
+				"OnStart": "4_unblock_hire",
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": true,
+				"Block_Quit": true,
+				"Arrow_ID": null
+			},{
+				"ID": 8,
+				"Text": "เนื่องจากคุณเพิ่งเริ่มต้นและไม่มีไอดอล ให้ [green]จ้างไอดอลอย่างน้อยสามคน[/green] เพื่อเริ่มต้น",
+				"Requirement": "4_hire_3_idols",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Block_Quit": true,
+				"Arrow_ID": null
+			},{
+				"ID": 9,
+				"Text": "เยี่ยม คุณได้จ้างไอดอลสามคนแล้ว! ดูเหมือนว่าจะเหลือสองคนในชุดนี้ คุณสามารถจ้างพวกเขาได้เช่นกันหรือปล่อยพวกเขาไป [green]คลิกปุ่ม \"เสร็จสิ้น\" เมื่อเลือกเสร็จแล้ว[/green]",
+				"Requirement": "4_close_popup",
+				"OnStart": "4_unblock_finish",
+				"OnComplete": "4_trigger_activities_after_hire",
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			}
+		]
+	},
+
+	{
+		"ID": "5_activities",
+		"Title": "กิจกรรม",
+		"Cards": [
+			{
+				"ID": 0,
+				"Text": "เมื่อกรุ๊ปของคุณมีไอดอลแล้ว ก็ถึงเวลาทำบางอย่างให้พวกเขาทำ! [green]ไปที่แท็บ \"กิจกรรม\"[/green]",
+				"Requirement": "5_open_activities_tab",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": "5_0_activities_tab"
+			},{
+				"ID": 1,
+				"Text": "ทุกวัน กรุ๊ปของคุณสามารถทำกิจกรรมได้",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 2,
+				"Text": "\"[blue]งานแสดง[/blue]\" จะใช้พลังงานของไอดอล จะได้รับเงินบางส่วน",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 3,
+				"Text": "\"[blue]โปรโหมต[/blue]\" จะใช้พลังงานเพื่อให้ได้แฟนคลับบางส่วน",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 4,
+				"Text": "\"[blue]สปาทรีตเมนต์[/blue]\" จะใช้เงินเพื่อให้ไอดอล 3 คนฟื้นฟูสภาพร่างกายบางส่วน",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 5,
+				"Text": "ที่ด้านล่างของหน้าจอ คุณสามารถดูจำนวนแฟนๆ เงิน และเรื่องอื้อฉาวที่กรุ๊ปของคุณมี",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 6,
+				"Text": "ดูเหมือนว่าตอนนี้กลุ่มของคุณไม่มีผู้ติดตามมากนัก มาแก้ไขด้วยการ [green]ทำการ \"โปรโหมต\" เพื่อดึงดูดแฟนคลับใหม่[/green]!",
+				"Requirement": "5_do_promotion",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 7,
+				"Text": "สำเร็จ! คุณมีแฟนแล้ว คุณสามารถวางเมาส์เหนือ \"[blue]แฟนคลับ[/blue]\" ที่ด้านล่างของหน้าจอเมื่อใดก็ได้เพื่อดูข้อมูลประชากรปัจจุบันของฐานแฟนกรุ๊มของคุณ",
+				"Requirement": "5_wait_for_availability",
+				"OnStart": "5_start_timer",
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 8,
+				"Text": "วันนี้เป็นวันใหม่ เรามาวางแผนกิจกรรมที่แตกต่างสำหรับกรุ๊มของเรากัน [green]ได้เวลางานแสดงแล้ว[/green]!",
+				"Requirement": "5_do_performance",
+				"OnStart": "5_return_timer",
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 9,
+				"Text": "ดูเหมือนว่าจะได้เงินมาเล็กน้อย จำไว้ว่าคุณสามารถทำกิจกรรมได้หนึ่งอย่างทุกวัน ดังนั้นจงเลือกอย่างชาญฉลาด! เนื่องจากคุณเพิ่งเริ่มต้น อาจเป็นความคิดที่ดีที่จะโปรโมตเพิ่มเติมเพื่อเพิ่มการติดตามของแฟนๆ",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 10,
+				"Text": "อย่างไรก็ตาม ประโยชน์ที่คุณได้รับจากการทำกิจกรรมประจำวันนั้นขึ้นอยู่กับระดับของกิจกรรมประจำวันนั้น วางเมาส์เหนือแต่ละกิจกรรมประจำวันเพื่อดูว่าคุณจะปลดล็อกระดับที่สูงขึ้นได้อย่างไร!",
+				"Requirement": null,
+				"OnStart": "5_open_activities_tab",
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 11,
+				"Text": "ปลดล็อกกิจกรรมประจำวันในระดับที่สูงขึ้นเป็นหนึ่งในวิธีที่ดีที่สุดในการก้าวหน้าอย่างรวดเร็วในฐานะกรุ๊ปไอดอล หากคุณยังติดขัด ลองตรวจสอบกิจกรรมประจำวันของคุณและดูว่าข้อกำหนดในการเลื่อนระดับมีอะไรบ้าง!",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 12,
+				"Text": "เมื่อใดก็ตามที่ไอดอลของคุณทำงาน พวกเขาจะใช้พลังงาน คุณสามารถ[green]ตรวจสอบพลังงานของพวกเขาได้ที่เมนูไอดอล[/green]",
+				"Requirement": "5_open_idol_tab",
+				"OnStart": null,
+				"OnComplete": "trigger 6_idol_menu",
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": "5_12_idol_tab"
+			}
+		]
+	},
+
+	{
+		"ID": "6_idol_menu",
+		"Title": "เมนูไอดอล",
+		"Cards": [
+			{
+				"ID": 0,
+				"Text": "ที่นี่คุณสามารถเห็นสภาพร่างกายและจิตใจของไอดอล โดยปกติไอดอลจะใช้พลังงานทางร่างกายเมื่อทำงาน แต่ถ้าคุณบังคับให้พวกเขาทำงานเมื่อพวกเขาหมดแรง มันจะเปลี่ยนไปเป็นสภาพทางจิตใจของพวกเขาแทน",
+				"Requirement": null,
+				"OnStart": "6_open_idol_tab",
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": "6_0_stamina"
+			},{
+				"ID": 1,
+				"Text": "ไอดอลที่มีพลังงานทางร่างกายต่ำมีความเสี่ยงที่จะได้รับ [red]บาดเจ็บ[/red] และไอดอลที่มีสภาพจิตใจต่ำอาจจะเป็นโรค [red]ซึมเศร้า[/red] เป็นเจ้านายที่ดีและพยายามอย่าให้เหล่าไอดอลทำงานหนักเกินไป!",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 2,
+				"Text": "พลังงานทางร่างกายและจิตใจจะฟื้นตัวเมื่อเวลาผ่านไป แต่สภาพทางจิตใจจะฟื้นตัวช้ากว่ามาก",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 3,
+				"Text": "ที่นี่คุณสามารถดูสถิติไอดอลของคุณ โดยค่าเริ่มต้น มันจะแสดงสถิติรูปลักษณ์และความสามารถของพวกเขา [green]คลิกที่ลูกศรถัดจากสถิติของพวกเขา[/green] เพื่อดูสถิติความสัมพันธ์ของพวกเขา",
+				"Requirement": "6_show_relationships",
+				"OnStart": "6_open_idol_tab",
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": "6_3_stats"
+			},{
+				"ID": 4,
+				"Text": "สถิติเหล่านี้บ่งบอกถึงความสัมพันธ์ของคุณกับไอดอลแต่ละคน บอกถึงระดับ [blue]มิตรภาพ[/blue], [blue]อิทธิพล[/blue], และ [blue]โรแมนติก[/blue]",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 5,
+				"Text": "[blue]มิตรภาพ[/blue] เป็นตัววัดว่าคุณชอบไอดอลมากแค่ไหน เพิ่มขึ้นโดยการเข้าสังคมกับพวกเขาและโดยทั่วไปแล้วจะมีความสุขทุกครั้งที่คุณมีปฏิสัมพันธ์กับพวกเขา",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 6,
+				"Text": "[blue]อิทธิพล[/blue] เป็นตัววัดว่าไอดอลรู้สึกเป็นหนี้บุญคุณแค่ไหน เพิ่มขึ้นด้วยการทำความดีเพื่อเธอ",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 7,
+				"Text": "[blue]โรแมนติก[/blue] เป็นตัววัด คุณก็รู้ คุณอาจจะเพิ่มมันได้ด้วยการจีบ...แต่ไม่ใช่ทุกคนจะตอบสนองต่อความก้าวหน้าแบบนั้นได้ดี",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 8,
+				"Text": "คุณสามารถคลิกที่ไอดอลเพื่อเปลี่ยน [blue]ชื่อเล่น[/blue] หรือให้เธอ [blue]พักงาน[/blue] ต่อมา เมื่อคุณสร้าง [blue]ไอดอลหลายกรุ๊ป[/blue] คุณยังสามารถคลิกที่พวกเขาเพื่อกำหนดให้กับกรุ๊ปไอดอลต่างๆ",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 9,
+				"Text": "[green]คลิกที่ไอคอน \"โปรไฟล์\"[/green] เพื่อเปิดหน้าจอโปรไฟล์ของไอดอล",
+				"Requirement": "6_open_profile",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": "6_9_profile"
+			},{
+				"ID": 10,
+				"Text": "คุณสามารถดูข้อมูลโดยละเอียดเพิ่มเติมเกี่ยวกับสถิติของเธอได้ที่นี่",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": true,
+				"Arrow_ID": null
+			},{
+				"ID": 11,
+				"Text": "แท็บ \"[blue]แฟนคลับ[/blue]\" จะบอกคุณเกี่ยวกับข้อมูลประชากรของฐานแฟนคลับของเธอ",
+				"Requirement": null,
+				"OnStart": "6_open_tab_fans",
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": true,
+				"Arrow_ID": null
+			},{
+				"ID": 12,
+				"Text": "แท็บ \"[blue]งาน[/blue]\" จะแสดงสัญญาใดๆ ที่ไอดอลได้รับ",
+				"Requirement": null,
+				"OnStart": "6_open_tab_jobs",
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": true,
+				"Arrow_ID": null
+			},{
+				"ID": 13,
+				"Text": "แท็บ \"[blue]ความสัมพันธ์[/blue]\" จะแสดงความสัมพันธ์ของไอดอลกับไอดอลคนอื่นๆ ในกลุ่ม คุณสามารถคลิกที่นี่เพื่อดูว่าเธอเป็นเพื่อนกับใคร และดูว่าสมาชิกกลุ่มใดที่เธออาจเข้ากันไม่ได้",
+				"Requirement": null,
+				"OnStart": "6_open_tab_bonds",
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": true,
+				"Arrow_ID": null
+			},{
+				"ID": 14,
+				"Text": "ดูเหมือนเราจะไม่ค่อยรู้เกี่ยวกับความสัมพันธ์ปัจจุบันของเธอกับสมาชิกคนอื่นๆ ในกลุ่มมากนัก มา [blue]เข้าสังคม[/blue] แล้วมาทำความรู้จักกับเธอให้มากขึ้นกันเถอะ!",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": "trigger 7_socializing",
+				"Continue_Button": true,
+				"Block_Input": true,
+				"Arrow_ID": null
+			}
+		]
+	},
+
+	{
+		"ID": "7_socializing",
+		"Title": "การเข้าสังคม",
+		"Cards": [
+			{
+				"ID": 0,
+				"Text": "จากเมนูไอดอล [green]เลือกไอดอลแล้วลากการ์ดของเธอไปที่ออฟฟิศของคุณ[/green]",
+				"Requirement": "7_drag_idol_into_office",
+				"OnStart": "6_close_popup",
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 1,
+				"Text": "ต้องใช้เวลาพอสมควรในการเตรียมการเข้าสังคม ดังนั้นให้เวลาคืบหน้า (จำไว้ว่าคุณสามารถกรอไปข้างหน้าได้เสมอถ้าคุณต้องการเวลาให้เร็วขึ้น)",
+				"Requirement": "7_date_ready",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 2,
+				"Text": "ดูเหมือนว่าคุณพร้อมที่จะเข้าสังคมกับไอดอลที่คุณเลือกแล้ว [green]ไปดื่มกาแฟกัน[/green]!",
+				"Requirement": "7_go_on_date",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 3,
+				"Text": "\"[blue]บทสนทนาสบายๆ[/blue]\" เป็นวิธีที่ดีในการทำความรู้จักกับไอดอลของคุณและเป็นกุญแจสู่การสร้าง [blue]มิตรภาพ[/blue]",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": true,
+				"Arrow_ID": "7_3_conversation"
+			},{
+				"ID": 4,
+				"Text": "ลอง [blue]จีบ[/blue] ด้วยความเสี่ยงของคุณเอง ไม่ใช่ทุกคนที่จะเปิดรับการรุกคืบที่แสนโรแมนติก!",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": true,
+				"Arrow_ID": "7_4_flirt"
+			},{
+				"ID": 5,
+				"Text": "คุณสามารถถามไอดอลเกี่ยวกับ [blue]ความปรารถนา[/blue] ของเธอเพื่อดูว่าเป้าหมายของเธอคืออะไร การช่วยให้เธอบรรลุเป้าหมายจะเพิ่ม [blue]อิทธิพล[/blue] ของคุณกับเธอ",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": true,
+				"Arrow_ID": "7_5_wish"
+			},{
+				"ID": 6,
+				"Text": "คุณสามารถขอให้ไอดอลแบ่งปันเรื่อง [blue]ซุบซิบ[/blue] เกี่ยวกับสมาชิกกลุ่มคนอื่นๆ หรือขอให้เธอเป็น [blue]ที่ปรึกษา[/blue] สมาชิกที่อายุน้อยกว่าของกลุ่ม โปรดทราบว่าสมาชิกกลุ่มส่วนใหญ่จะไม่แบ่งปันเรื่องซุบซิบหากพวกเขาไม่อยู่ในเงื่อนไข [blue]เป็นกันเอง[/blue] กับคุณ!",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": true,
+				"Arrow_ID": "7_6_gossip"
+			},{
+				"ID": 7,
+				"Text": "หากคุณมี [blue]อิทธิพล[/blue] กับไอดอล คุณสามารถใช้อิทธิพลนั้นเพื่อให้เธอทำบางสิ่งได้ (หากไอดอลของคุณ [red]รังแก[/red] สมาชิกกลุ่มอื่น คุณอาจต้องใช้วิธีนี้เพื่อหยุดเธอ!)",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": true,
+				"Arrow_ID": "7_7_influence"
+			},{
+				"ID": 8,
+				"Text": "ไอดอลทุกคน [blue]จบการศึกษา[/blue] และออกจากกรุ๊ปในที่สุด คุณสามารถถามเธอได้ว่าเธอกำลังจะจบการศึกษาเมื่อใด หรือจะเร่งให้สำเร็จการศึกษาได้",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": true,
+				"Arrow_ID": "7_8_graduation"
+			},{
+				"ID": 9,
+				"Text": "เป็นการดีที่สุดที่จะเริ่มต้นทุกความสัมพันธ์ในการทำงานด้วยการทำความรู้จักกับบุคคลอื่น [green]พูดคุยสบายๆ[/green] กับไอดอลคนนี้",
+				"Requirement": "7_do_conversation",
+				"OnStart": "7_block_buttons",
+				"OnComplete": "7_trigger_manager_after_conversation",
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": "7_3_conversation"
+			}
+		]
+	},
+
+	{
+		"ID": "8_hire_a_manager",
+		"Title": "จ้างผู้จัดการ",
+		"Cards": [
+			{
+				"ID": 0,
+				"Text": "คุณไม่สามารถทำทุกอย่างด้วยตัวเอง! ไอดอลจะต้องมี [blue]โค้ช[/blue] และคุณต้องการพนักงานเพื่อช่วยในงาน [blue]ฝ่ายขาย[/blue] และ [blue]โปรดักชั่น[/blue] ไปจ้างกันหน่อย!",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 1,
+				"Text": "[green]คลิกไปที่แท็บพนักงาน[/green]",
+				"Requirement": "8_open_staff_tab",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": "1_0_staff_tab"
+			},{
+				"ID": 2,
+				"Text": "[green]คลิกปุ่ม \"จ้าง\" สีเขียว[/green]",
+				"Requirement": "8_click_hire",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": "8_2_hire_button"
+			},{
+				"ID": 3,
+				"Text": "ที่นี่คุณสามารถจ้างพนักงานได้หลากหลาย หน้าจอนี้จะแสดงให้คุณเห็นว่าพนักงานทำงานในห้องประเภทใด ตัวอย่างเช่น ครูสอนเต้นและนักออกแบบท่าเต้นทำงานในห้องเต้น",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": true,
+				"Arrow_ID": null
+			},{
+				"ID": 4,
+				"Text": "พนักงานแต่ละคนจะมีหนึ่งในสองความเชี่ยวชาญเฉพาะด้านสำหรับประเภทพนักงานของตน (พวกเขายังสามารถทำงานที่ไม่ใช่ผู้เชี่ยวชาญได้)",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": true,
+				"Arrow_ID": null
+			},{
+				"ID": 5,
+				"Text": "คุณสามารถเลือกพนักงานระดับ [blue]มือใหม่[/blue], [blue]มืออาชีพ[/blue], และ [blue]ผู้เชี่ยวชาญ[/blue] ได้ พนักงานที่มีประสบการณ์มากขึ้นเริ่มต้นด้วยสถิติที่สูงขึ้น แต่ยังต้องใช้เงินในการจ้างงานมากขึ้น ในฐานะกลุ่มเริ่มต้นที่มีงบประมาณจำกัด วิธีที่ดีที่สุดคือต้องรักษาต้นทุนให้ต่ำ ดังนั้น เรามาจ้างพนักงาน [blue]มือใหม่[/blue] กันก่อนดีกว่า",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": true,
+				"Arrow_ID": "8_5_novice"
+			},{
+				"ID": 6,
+				"Text": "ในตอนนี้ เรามาเริ่มด้วยการจ้าง [blue]ผู้จัดการ[/blue] พื่อช่วยเราทำข้อตกลงทางธุรกิจกันก่อน [green]เลือก \"ผู้จัดการฝ่ายขาย\" หรือ \"ผู้จัดการฝ่ายผลิต\"[/green]",
+				"Requirement": "8_hire_manager",
+				"OnStart": "8_block_staff",
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 7,
+				"Text": "ตอนนี้ พนักงานใหม่ของเราต้องการสถานที่ทำงาน กลับไปที่มุมมองหน่วยงานหลักและสร้างสำนักงานให้เธอ",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": "6_close_popup",
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 8,
+				"Text": "[green]คลิกที่พื้นที่ที่ไม่ได้ใช้แล้วเลือก \"สำนักงาน\"[/green]",
+				"Requirement": "8_build_office",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 9,
+				"Text": "[green]หยิบบัตรพนักงานแล้วลากเข้าออฟฟิศ[/green]",
+				"Requirement": "8_drag_staff_into_office",
+				"OnStart": "8_open_staff_tab",
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 10,
+				"Text": "หากพนักงานไม่ได้รับมอบหมายให้ทำงานใดงานหนึ่ง พวกเขาจะสร้าง [blue]คะแนนวิจัย[/blue]โดยอัตโนมัติ",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": "trigger 9_research",
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			}
+		]
+	},
+
+	{
+		"ID": "9_research",
+		"Title": "การวิจัย",
+		"Cards": [
+			{
+				"ID": 0,
+				"Text": "ตอนนี้คุณได้จ้างพนักงานแล้ว พวกเขาจะสร้างคคะแนนวิจัยเมื่อใดก็ตามที่พวกเขาไม่ได้ทำงานที่ได้รับมอบหมาย",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 1,
+				"Text": "ดูเหมือนว่าคุณมีคะแนนวิจัยบ้างแล้ว [green]ไปใช้กันเถอะ[/green]!",
+				"Requirement": "9_open_research_tab",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": "9_1_research_tab"
+			},{
+				"ID": 2,
+				"Text": "ที่นี่ คุณสามารถวางเมาส์เหนือคะแนนวิจัยแต่ละประเภทเพื่อดูว่าพนักงานของคุณสร้างคะแนนวิจัยกี่จุดในแต่ละวัน คุณยังสามารถซื้อคะแนนการวิจัยได้โดยคลิกที่ไอคอน \"ซื้อ\" สีเขียว",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 3,
+				"Text": "มา [green]ใช้คะแนนการวิจัยผู้จัดการของคุณ[/green]",
+				"Requirement": "9_open_manager_points",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 4,
+				"Text": "คุณสามารถใช้คะแนนการวิจัยของผู้จัดการเพื่อปลดล็อกตัวเลือก [blue]การตลาด[/blue]ต่างๆ หรือปลดล็อก [blue]สัญญาธุรกิจ[/blue]ประเภทต่างๆ",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 5,
+				"Text": "ดูเหมือนว่าคุณไม่มีคะแนนการวิจัยเพียงพอที่จะปลดล็อกอะไรเลย คุณสามารถ [green]สร้างคะแนนการวิจัยเพิ่มเติมได้เรื่อยๆ[/green] หรือ [green]ซื้อจากเมนูก่อนหน้า[/green]",
+				"Requirement": "9_earn_enough_manager_points",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 6,
+				"Text": "มา [green]ปลดล็อคสัญญาธุรกิจ \"ถ่ายภาพ\"[/green]กันเถอะ คลิกค้างไว้เพื่อใช้คะแนนการวิจัยในเรื่องนี้",
+				"Requirement": "9_unlock_photoshoot",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 7,
+				"Text": "เมื่อคุณปลดล็อกไอเท็มที่มีคะแนนการวิจัยแล้ว คุณสามารถใช้คะแนนการวิจัยเพิ่มเติมเพื่อเลื่อนระดับได้ในอนาคต",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 8,
+				"Text": "โปรดทราบว่าบางรายการมีข้อกำหนดแยกต่างหากในการปลดล็อก ตัวอย่างเช่น การปลดล็อคสัญญาธุรกิจ [blue]วาไรตี้โชว์[/blue] กำหนดให้กลุ่มของคุณมีแฟนเพลงและชื่อเสียงจำนวนหนึ่ง",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 9,
+				"Text": "[green]กลับไปที่เมนูก่อนหน้า[/green]",
+				"Requirement": "9_go_back_to_main_tab",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": "9_9_go_back"
+			},{
+				"ID": 10,
+				"Text": "สามารถใช้พนักงานประเภทต่างๆ เพื่อค้นหาไอเท็มต่างๆ ได้\nตัวอย่างเช่น คุณจะใช้คะแนนการวิจัยด้านดนตรีเพื่อปลดล็อกแนวดนตรีต่างๆ และใช้คะแนนการวิจัยด้านการเต้นเพื่อปลดล็อกสไตล์การออกแบบท่าเต้นต่างๆ",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": "trigger 10_business_deals",
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			}
+		]
+	},
+
+	{
+		"ID": "10_business_deals",
+		"Title": "ข้อตกลงทางธุรกิจ",
+		"Cards": [
+			{
+				"ID": 0,
+				"Text": "คุณมีผู้จัดการที่ทำงานให้คุณ ให้เธอทำ [blue]ข้อเสนอทางธุรกิจ[/blue]",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 1,
+				"Text": "[green]คลิกที่สำนักงานพนักงานและเลือก \"ข้อเสนอทางธุรกิจ\"[/green]",
+				"Requirement": "10_start_business_proposal",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 2,
+				"Text": "จะใช้เวลาสักครู่เพื่อให้เธอทำเสร็จ จำไว้ว่าคุณสามารถกรอไปข้างหน้าได้ตลอดเวลาเพื่อให้เวลาคืบหน้าเร็วขึ้น",
+				"Requirement": "10_business_proposal_ready",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 3,
+				"Text": "ดูเหมือนว่าเธอจะทำข้อเสนอทางธุรกิจเสร็จแล้ว! [green]คลิกที่ไอคอนเยน[/green] และดู",
+				"Requirement": "10_click_biz_prop",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 4,
+				"Text": "ลูกค้าแต่ละคนจะมองหาไอดอลที่มีสถานะเฉพาะ",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": true,
+				"Arrow_ID": null
+			},{
+				"ID": 5,
+				"Text": "คุณสามารถเลือกไอดอลที่จะเข้าร่วมได้ คุณมีสามตัวเลือก ผลตอบแทนที่ดีนั้นขึ้นอยู่กับว่าไอดอลนั้นดีแค่ไหนในสถานะที่ลูกค้าต้องการ",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": true,
+				"Arrow_ID": null
+			},{
+				"ID": 6,
+				"Text": "พนักงานของคุณสามารถลองต่อรองราคาที่ดีกว่านี้ได้ จำนวนครั้งที่คุณสามารถเจรจาได้ขึ้นอยู่กับสถิติ \"[blue]ดีล[/blue]\" ของพนักงาน",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": true,
+				"Arrow_ID": null
+			},{
+				"ID": 7,
+				"Text": "การเจรจาต่อรองใหม่อาจส่งผลให้ได้ผลลัพธ์ที่ดีขึ้นหรือแย่ลง ผลลัพธ์จะเป็นการสุ่ม โดยอัตราความสำเร็จจะถูกกำหนดโดยสถิติ \"[blue]ดีล[/blue]\"",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": true,
+				"Arrow_ID": null
+			},{
+				"ID": 8,
+				"Text": "เมื่อคุณได้ผลลัพธ์ที่ต้องการแล้ว [green]ให้คลิกปุ่ม \"ยอมรับ\" [/green]",
+				"Requirement": "10_accept_proposal",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 9,
+				"Text": "คุณยังสามารถให้พนักงานสร้างข้อเสนอทางธุรกิจได้โดยอัตโนมัติ",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 10,
+				"Text": "[green]คลิกที่พนักงานและเลือกตัวเลือก \"ข้อเสนออัตโนมัติ\"[/green]",
+				"Requirement": "10_select_auto_proposals",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 11,
+				"Text": "เมื่อเลือกช่องนี้ พนักงานจะสร้างข้อเสนอทางธุรกิจโดยอัตโนมัติเมื่อใดก็ตามที่เธอไม่ได้ทำงานอย่างอื่น\n(หมายเหตุ: นี่หมายความว่าเธอจะไม่สร้างคะแนนการวิจัย!)",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 12,
+				"Text": "ข้อเสนอทางธุรกิจประเภทต่างๆ มีประโยชน์ต่างกัน คุณสามารถคลิกที่สำนักงานของพนักงานและเลือกประเภท [blue]ข้อเสนอที่ต้องการ[/blue] เพื่อให้เธอมุ่งเน้นจากประเภทข้อตกลงทางธุรกิจที่คุณปลดล็อก (สามารถปลดล็อกประเภทข้อเสนอเพิ่มเติมได้จากเมนูการวิจัย)",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": "trigger agency_menu",
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			}
+		]
+	},
+
+	{
+		"ID": "agency_menu",
+		"Title": "เมนูเอเจนซี่",
+		"Cards": [
+			{
+				"ID": 0,
+				"Text": "คุณใช้ [blue]แถบเมนู[/blue] มามากมาย เช่น [blue]ไอดอล[/blue], [blue]พนักงาน[/blue] และ [blue]กิจกรรม[/blue] คุณรู้หรือไม่ว่าคุณสามารถสลับไปมาระหว่างแท็บเมนูต่างๆ โดยใช้แป้นพิมพ์ลัด?",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 1,
+				"Text": "คุณสามารถเลื่อนไปยังแท็บเมนูถัดไปได้โดยกด [blue][tab][/blue] หรือเลื่อนขึ้นและลงโดยใช้ [blue][pageup][/blue] และ [blue][pagedown][/blue] หรือใช้ปุ่ม [blue][เมาส์กลาง][/blue] เพื่อเลื่อนผ่านทีละอัน กดปุ่ม [blue][home][/blue] หรือ [blue][end][/blue] จะข้ามไปที่แท็บเมนูด้านบนสุดหรือด้านล่างสุด",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 2,
+				"Text": "กลับไปที่มุมมองเอเจนซีเริ่มต้นกัน หากต้องการ [green]ปิดแท็บปัจจุบัน[/green] คุณสามารถคลิกไอคอน \"[blue][x][/blue]\" หรือใช้แป้นพิมพ์ลัด [blue][esc][/blue] คุณยังสามารถปิด/เปิดแท็บล่าสุดได้การกดปุ่ม [blue][เมาส์ขวา][/blue]",
+				"Requirement": "agency_close_tab",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 3,
+				"Text": "ในมุมมองเริ่มต้นของหน่วยงาน คุณสามารถดูภาพรวมของจำนวนประเด็นการวิจัยที่คุณมีในปัจจุบันได้",
+				"Requirement": null,
+				"OnStart": "agency_show_default_widget",
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": "details_research_points"
+			},{
+				"ID": 4,
+				"Text": "คุณสามารถใช้ปุ่มนี้เป็นทางลัดสำหรับกิจกรรมประจำวัน เช่น [blue]โปรโหมต[/blue], [blue]งานแสดง[/blue], และ [blue]สปาทรีตเมนต์[/blue]",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": "details_buttons"
+			},{
+				"ID": 5,
+				"Text": "กิจกรรมประจำวันเหล่านี้สามารถใช้แป้นพิมพ์ลัด:\n\n[blue][Z][/blue]: โปรโหมต\n[blue][X][/blue]: งานแสดง\n[blue][C][/blue]: สปาทรีตเมนต์",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": "trigger tasks_and_story",
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			}
+		]
+	},
+
+	{
+		"ID": "tasks_and_story",
+		"Title": "งานและเนื้อเรื่อง",
+		"Cards": [
+			{
+				"ID": 0,
+				"Text": "คุณสามารถดู [blue]งาน[/blue] ที่รอดำเนินการได้จากมุมมองเอเจนซีเริ่มต้น มาดูงานที่ค้างอยู่ของคุณกัน",
+				"Requirement": null,
+				"OnStart": "tasks_show_tasks_widget",
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 1,
+				"Text": "ดูเหมือนว่ามีกิจกรรมเรื่องราวรอคุณอยู่! ความคืบหน้าใน [blue]เนื้อเรื่อง[/blue] ของเกมจะทำให้คุณต้องบรรลุวัตถุประสงค์ ซึ่งมีรายละเอียดไว้ที่นี่",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": "details_buttons"
+			},{
+				"ID": 2,
+				"Text": "สำหรับเนื้อเรื่องจะไม่เกิดขึ้นโดยอัตโนมัติ คุณจะต้องกลับมาที่หน้าจอนี้และคลิกที่งานเนื้อเรื่องเมื่อคุณพร้อมที่จะก้าวไปข้างหน้า (แต่ขอเตือนไว้ก่อนว่า โลกหมุนรอบตัวเอง และบางครั้งเหตุการณ์บางอย่างอาจเกิดขึ้นโดยอัตโนมัติ)",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 3,
+				"Text": "นอกเหนือจากงานเนื้อเรื่องแล้ว บางครั้งตัวละครจะให้ [blue]งาน[/blue] ที่เป็นตัวเลือกให้คุณทำให้เสร็จ ซึ่งจะปรากฏบนหน้าจอนี้",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 4,
+				"Text": "หากคุณ [blue]เข้าสังคม[/blue] กับไอดอลและ [blue]ถามถึงความปรารถนาของเธอ[/blue] จะปรากฏเป็นงานที่นี่ คุณอาจได้งานถ้าคุณ [blue]ยืมเงิน[/blue] จาก [blue]บางคน[/blue]",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 5,
+				"Text": "เช่นเดียวกับกิจกรรมเนื้อเรื่อง คุณจะต้องกลับมาที่หน้าจอนี้และคลิกที่งานหลังจากทำตามข้อกำหนดเพื่อ [blue]ทำงานให้เสร็จ[/blue]",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 6,
+				"Text": "หากคุณติดขัดและไม่แน่ใจว่าเรื่องราวจะดำเนินไปอย่างไร คุณสามารถกลับมาที่หน้าจอนี้เพื่อดูข้อกำหนดสำหรับกิจกรรมเรื่องถัดไปได้ตลอดเวลา",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": "trigger 11_hire_a_dance_staffer",
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			}
+		]
+	}
+
+	{
+		"ID": "11_hire_a_dance_staffer",
+		"Title": "รับสมัครพนักงงานสอนเต้น",
+		"Cards": [
+			{
+				"ID": 0,
+				"Text": "ได้เวลาจ้างพนักงานเต้นแล้ว!",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 1,
+				"Text": "[green]คลิกไปที่แท็บ \"พนักงาน\"[/green]",
+				"Requirement": "8_open_staff_tab",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 2,
+				"Text": "[green]คลิกปุ่ม \"จ้าง\" สีเขียว[/green]",
+				"Requirement": "8_click_hire",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 3,
+				"Text": "คุณสามารถเลือกพนักงานระดับ [blue]มือใหม่[/blue], [blue]มืออาชีพ[/blue] และ [blue]ผู้เชี่ยวชาญ[/blue] ได้ พนักงานที่มีประสบการณ์มากขึ้นเริ่มต้นด้วยสถิติที่สูงขึ้น แต่ยังต้องใช้เงินในการจ้างงานมากขึ้น",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": true,
+				"Arrow_ID": null
+			},{
+				"ID": 4,
+				"Text": "[green]จ้าง \"โค้ชสอนเต้น\"[/green]กันเถอะ",
+				"Requirement": "11_hire_dance",
+				"OnStart": "11_block_staff",
+				"OnComplete": "6_close_popup",
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": "11_4_dance_coach"
+			},{
+				"ID": 5,
+				"Text": "ตอนนี้ พนักงานใหม่ของเราต้องการสถานที่ทำงาน กลับไปที่มุมมองหน่วยงานหลักและสร้างสำนักงานให้เธอ [green]คลิกที่พื้นที่ว่างที่ไม่ได้ใช้แล้วเลือก \"ห้องเต้นรำ\"[/green]",
+				"Requirement": "11_build_dance_room",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 6,
+				"Text": "[green]หยิบการ์ดพนักงานจากแท็บ \"พนักงาน\" แล้วลากเธอไปที่ห้องซ้อมเต้น[/green]",
+				"Requirement": "11_drag_dance_into_room",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 7,
+				"Text": "หากพนักงานไม่ได้รับมอบหมายให้ทำงานใดงานหนึ่ง พวกเขาจะสร้าง [blue]คะแนนวิจัย[/blue] โดยอัตโนมัติ สามารถใช้คะแนนการวิจัยการเต้นเพื่อปลดล็อกรูปแบบท่าเต้นใหม่ๆ",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": "trigger 12_hire_a_music_staffer",
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			}
+		]
+	},
+
+	{
+		"ID": "12_hire_a_music_staffer",
+		"Title": "จ้างพนักงานเพลง",
+		"Cards": [
+			{
+				"ID": 0,
+				"Text": "ได้เวลาจ้างพนักงานเพลงแล้ว! [green]จ้าง \"โค้ชเสียง\" หรือ \"โปรดิวเซอร์เพลง\"[/green]กันเถอะ",
+				"Requirement": "12_hire_music",
+				"OnStart": null,
+				"OnComplete": "6_close_popup",
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 1,
+				"Text": "ตอนนี้ พนักงานใหม่ของเราต้องการสถานที่ทำงาน กลับไปที่มุมมองหน่วยงานหลักและสร้างสำนักงานให้เขา [green]คลิกที่พื้นที่ว่างและเลือก \"สตูดิโอบันทึก\"[/green]",
+				"Requirement": "12_build_recording_studio",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 2,
+				"Text": "[green]หยิบการ์ดพนักงานจากแท็บ \"พนักงาน\" แล้วลากเข้าไปในสตูดิโอบันทึกเสียง[/green]",
+				"Requirement": "12_drag_music_into_room",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 3,
+				"Text": "หากพนักงานไม่ได้รับมอบหมายให้ทำงานใดงานหนึ่ง พวกเขาจะสร้าง [blue]คะแนนวิจัย[/blue] โดยอัตโนมัติ สามารถใช้คะแนนการวิจัยด้านดนตรีเพื่อปลดล็อกแนวดนตรีใหม่ๆ",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": "trigger 13_your_first_coaching_session",
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			}
+		]
+	},
+
+	{
+		"ID": "13_your_first_coaching_session",
+		"Title": "เซสชั่นการฝึกสอนครั้งแรกของคุณ",
+		"Cards": [
+			{
+				"ID": 0,
+				"Text": "โค้ชสอนเต้นและครูสอนร้องเพลงสามารถช่วยไอดอลปรับปรุงสถิติ [blue]เต้น[/blue] และ [blue]เสียง[/blue] ได้",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 1,
+				"Text": "ให้พนักงานเต้นของคุณเป็นโค้ชไอดอล!",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 2,
+				"Text": "[green]ไปที่แท็บ \"ไอดอล\"[/green]",
+				"Requirement": "5_open_idol_tab",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 3,
+				"Text": "[green]เลือกไอดอลแล้วลากการ์ดของเธอไปที่ห้องซ้อมเต้น[/green]",
+				"Requirement": "13_drag_idol_into_dance",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 4,
+				"Text": "โปรดทราบว่าพนักงงานสามารถสอนไอดอลได้ก็ต่อเมื่อสถิติการฝึกสอนของพนักงงานสูงกว่าสถิติของไอดอล ตัวอย่างเช่น พนักงานเต้นที่มีสถานะการฝึกสอนเท่ากับ 20 จะไม่สามารถสอนไอดอลที่มีสถานะ [blue]เต้น[/blue] เท่ากับ 20 ขึ้นไป",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 5,
+				"Text": "สิ่งนี้ใช้พลังงานของไอดอล ระวังอย่าให้ไอดอลของคุณทำงานหนักเกินไป!",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 6,
+				"Text": "คุณสามารถคลิกที่ห้องเจ้าหน้าที่แล้วเลือก \"[blue]ฝึกอัตโนมัติ[/blue]\" เพื่อให้พวกเขาฝึกไอดอลโดยอัตโนมัติเมื่อใดก็ตามที่พวกเขาไม่ได้ทำงานอย่างอื่น หมายเหตุ: พนักงานจะไม่สร้างคะแนนการวิจัยเมื่อฝึกสอน!",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": "trigger 14_your_first_single",
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			}
+		]
+	},
+
+	{
+		"ID": "14_your_first_single",
+		"Title": "ซิงเกิ้ลแรกของคุณ",
+		"Cards": [
+			{
+				"ID": 0,
+				"Text": "หากต้องการผลิตซิงเกิ้ล คุณต้องจ้าง [blue]พนักงานเต้น[/blue], [blue]พนักงานเพลง[/blue], [blue]ผู้จัดการ[/blue]",
+				"Requirement": "14_hire_staff_for_single",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 1,
+				"Text": "คุณต้องไปที่แท็บ [blue]การวิจัย[/blue] และ [green]ปลดล็อกประเภท \"แนวเพลง\" กลยุทธ์ \"การตลาด\" อย่างน้อย 1 ประเภท สไตล์ \"ท่าเต้น\" และ \"ประเภท\" เพลง[/green]",
+				"Requirement": "14_research_for_single",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 2,
+				"Text": "ยังเป็นความคิดที่ดีที่จะรอจนกว่ากลุ่มของคุณจะมี [blue]แฟนคลับ[/blue] ที่จะยินดีซื้อซิงเกิล ไม่มมีแฟนคลับ? ลองทำกิจกรรม [blue]โปรโหมต[/blue] ในแท็บ [blue]กิจกรรม[/blue] ดูสิ!",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 3,
+				"Text": "ได้เวลาสร้างซิงเกิ้ลแรกของคุณแล้ว! [green]เปิดแท็บ \"ซิงเกิ้ล\" แล้วคลิก \"สร้างซิงเกิ้ล\"[/green]",
+				"Requirement": "14_new_single_popup",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 4,
+				"Text": "เริ่มต้นด้วยการเลือกชื่อ คุณสามารถ [green]พิมพ์ชื่อซิงเกิ้ลของคุณ[/green]หรือ[green]คลิกไอคอนลูกเต๋าเพื่อสุ่ม[/green] เพื่อให้เกมเลือกชื่อเพลงสำหรับคุณ",
+				"Requirement": "14_type_name",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 5,
+				"Text": "[green]เลือกแผน \"การตลาด\", \"แนวเพลง\" ของเพลง, ประเภท \"เนื้อเพลง\" และสไตล์ \"ท่าเต้น\"[/green] สิ่งที่คุณเลือกจะส่งผลต่อความดึงดูดใจของประชากรของซิงเกิ้ลของคุณ",
+				"Requirement": "14_select_params",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 6,
+				"Text": "คุณจะต้อง [green]เลือกจำนวนซีดีที่จะผลิต[/green] (ทำไม่ได้หากแผน \"การตลาด[/blue]\" ที่คุณทำคือ \"รุ่นดิจิทัลเท่านั้น[/blue]\")",
+				"Requirement": "14_select_number_of_cd",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 7,
+				"Text": "[green]คลิก \"ดำเนินการต่อ\"[/green] หลังจากตั้งค่าซิงเกิ้ลเสร็จแล้ว",
+				"Requirement": "14_open_formation",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 8,
+				"Text": "ถึงเวลาเลือกไอดอลที่จะเข้าร่วมในซิงเกิ้ล [green]เลือกไอดอลและลากเธอไปที่หน้าจอรูปแบบ[/green] เพื่อวางเธอลงในรูปแบบ",
+				"Requirement": "14_put_idol_into_formation",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 9,
+				"Text": "สถิติของกรุ๊ปจะขึ้นอยู่กับสถิติของไอดอลที่เข้าร่วมในซิงเกิ้ล ไอดอลที่อยู่ใกล้เซ็นเตอร์ของรูปแบบจะมีส่วนร่วมมากขึ้น",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": true,
+				"Arrow_ID": null
+			},{
+				"ID": 10,
+				"Text": "สถิติ [blue]ความสามัคคีของกลุ่ม[/blue] ขึ้นอยู่กับว่าไอดอลในกลุ่มเข้ากันได้ดีเพียงใด การใส่ [red]รังแก[/red] กันลงในรูปแบบอาจส่งผลเสียต่อความสามัคคีของกลุ่ม",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": true,
+				"Arrow_ID": null
+			},{
+				"ID": 11,
+				"Text": "การได้รับเลือกให้เป็นเซ็นเตอร์สามารถส่งเสริมอาชีพของไอดอลได้ หนึ่งในไอดอลของคุณ [blue]ปรารถนา[/blue] เป็นเซ็นเตอร์หรือไม่?",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": true,
+				"Arrow_ID": null
+			},{
+				"ID": 12,
+				"Text": "[green]คลิก \"ดำเนินการต่อ\"[/green] หลังจากที่คุณตั้งค่ารูปแบบของคุณเสร็จแล้ว",
+				"Requirement": "4_close_popup",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 13,
+				"Text": "เมื่อเลือกตัวเลือกที่ยากทั้งหมดแล้ว ก็ถึงเวลา [blue]ผลิต[/blue] ซิงเกิ้ลของคุณ! คุณจะต้องให้ [blue]ตัวละครของคุณ[/blue]เขียนเนื้อเพลง มี[blue]พนักงานดนตรี[/blue]ทำงานในเพลง มี [blue]พนักงานสอนเต้น[/blue]ออกแบบท่าเต้น และ[blue]พนักงานผู้จัดการ[/blue]สร้างแผนการตลาด ความสำเร็จของซิงเกิ้ลจะขึ้นอยู่กับสถิติของพวกเขา!",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": true,
+				"Arrow_ID": null
+			},{
+				"ID": 14,
+				"Text": "เริ่มต้นด้วย [green]ลากซิงเกิลไปที่ออฟฟิศของคุณ[/green] เพื่อปรับแต่งเนื้อเพลง",
+				"Requirement": "14_drag_single_into_your_office",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 15,
+				"Text": "การดำเนินการ [blue]การผลิต[/blue] ทั้งหมดที่เกี่ยวข้องกับซิงเกิ้ลให้เสร็จสิ้นอาจต้องใช้เวลาพอสมควร",
+				"Requirement": "14_finish_lyrics",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 16,
+				"Text": "[green]ลากซิงเกิ้ลของคุณไปที่สำนักงานอื่น[/green]เพื่อให้พนักงานของคุณทำงาน",
+				"Requirement": "14_finish_everything",
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 17,
+				"Text": "ซิงเกิ้ลของคุณพร้อมปล่อยแล้ว! [green]คลิกปุ่ม \"ปล่อย\"[/green]",
+				"Requirement": "14_release_single",
+				"OnStart": null,
+				"OnComplete": "finish",
+				"Continue_Button": false,
+				"Block_Input": false,
+				"Arrow_ID": null
+			}
+		]
+	},
+
+	{
+		"ID": "15_early_tips",
+		"Title": "เคล็ดลับการจัดการค่าใช้จ่ายก่อนกำหนด",
+		"Cards": [
+			{
+				"ID": 0,
+				"Text": "1. จับตาดูระดับเงินเดือน (สามารถดูระดับเงินเดือนได้โดยใช้ไอคอน [blue]เงินเดือน</color> ที่ด้านล่างขวา) พนักงานจะมีความสุขมากขึ้นเมื่อได้รับเงินจำนวนมาก แต่บางครั้งนั่นก็เป็นสิ่งที่หรูหราที่คุณไม่สามารถจ่ายได้ การตัดสินใจที่ยากลำบากและทำสิ่งที่ดีที่สุดเพื่อสุขภาพในระยะยาวของธุรกิจขึ้นอยู่กับคุณ",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 1,
+				"Text": "2. เมื่อจ้างพนักงาน [blue]สมาชิกพนักงาน</color> บางครั้งควรจ้าง [blue]ฝึกหัด</color> ผู้สมัครพนักงานที่มีประสบการณ์ระดับ [blue]มืออาชีพ</color> และ [blue]ผู้เชี่ยวชาญ</color> จะทำงานได้ดีกว่าอย่างแน่นอน แต่การได้รับประสบการณ์แบบนั้นต้องใช้เงินเดือนที่มากขึ้น ในขณะที่ [blue]มืออาชีพ</color> และ [blue]ผู้เชี่ยวชาญ</color> จะทำงานได้ดี แต่บางครั้งความสามารถของพวกเขาก็ [blue]ใช้งานน้อย</color> เกินไปในธุรกิจขนาดเล็ก หยุดใช้เงินก้อนโตเพื่อจ้างผู้ชำนาญ ใช้ความสามารถอย่างเต็มที่ เมื่อคุณพร้อมที่จะให้พวกเขาทำงานในโครงการใหญ่",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 2,
+				"Text": "3. พยายามอย่าจ้างเร็วเกินไป! แม้ว่า [blue]พนักงาน</color> ทุกคนจะมี [blue]ความเชี่ยวชาญพิเศษ</color>ที่แตกต่างกัน แต่บางครั้งการให้พนักงานทำงานสองหน้าที่และทำงานนอกความเชี่ยวชาญของพวกเขาก็สามารถช่วยให้คุณไม่ต้องจ้างพนักงานที่มีขนาดเล็กลง บางครั้งคุณไม่จำเป็นต้องมอบหมายเลยด้วยซ้ำ และสามารถ [blue]ทำงานโปรดักชั่นบางอย่างได้ด้วยตัวเอง</color>(จริงอยู่ นั่นอาจไม่ใช่การใช้เวลาของผู้จัดการให้ดีที่สุด แต่ธุรกิจขนาดเล็กต้องกระท่อนกระแท่น)",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 3,
+				"Text": "4. ใช้ประโยชน์จากเงินกู้ดอกเบี้ยต่ำ หากคุณพบคนที่ยินดีจะเสนอเงินกู้ให้คุณโดยไม่มีดอกเบี้ย จะดีกว่า! (ด้วยเหตุผลบางอย่าง ฟูจิโมโตะบางครั้งมีอารมณ์จะให้ยืมเงินแบบปลอดดอกเบี้ย...แม้ว่าจะมาพร้อมกับข้อกำหนดที่มิใช่ตัวเงิน ดูเหมือนว่ามันน่าจะคุ้มค่าที่จะทน)",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},
+		]
+	},
+
+	{
+		"ID": "16_money_tips",
+		"Title": "เคล็ดลับการจัดการเงินเพิ่มเติม",
+		"Cards": [
+			{
+				"ID": 0,
+				"Text": "1. ธุรกิจมักจะแบ่งออกเป็น \"ศูนย์ต้นทุน\" และ \"ศูนย์กำไร\" ละเลยศูนย์กำไรของคุณด้วยความเสี่ยงของคุณเอง ค้นหาว่าส่วนใดของธุรกิจของคุณที่สร้างรายได้มากที่สุดและเพิ่มเป็นสองเท่า! (สิ่งนี้มีผลชัดเจน: หากคุณใช้จ่ายเงินกับโครงการประเภทใหม่ และโครงการประเภทนั้นยังคงล้มเหลวในการคืนกำไรที่สมเหตุสมผล ให้หยุดทุ่มทรัพยากรลงบ่อเงินแล้วลองทำอะไรที่แตกต่างออกไป)",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 1,
+				"Text": "2. ค่าใช้จ่ายที่เกิดซ้ำนั้นแพง ค่าใช้จ่ายครั้งเดียวสามารถเปรียบเทียบได้ราคาถูก หากมีคนบอกคุณว่าพวกเขาจำเป็นต้องซื้อครั้งเดียวเพื่อให้ทำงานได้ดีขึ้น ให้พิจารณามอบให้พวกเขา: หากคุณสามารถทำให้ใครบางคนมีประสิทธิภาพมากขึ้นเพียง 1% โดยใช้เงินจำนวนน้อยกว่า 1% ของ เงินเดือนประจำปีของพวกเขาซึ่งฟังดูเหมือนผลตอบแทนจากการลงทุนที่ดีสำหรับฉัน!",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 2,
+				"Text": "3. ถ้าฟูจิโมโตะเคยชวนคุณไปดินเนอร์ ก็พาเขาไปเถอะ คุณรับประกันได้ว่าจะใช้เวลาช่วงเย็นเลี้ยงอย่างราชวงศ์",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			}
+		]
+	},
+
+	{
+		"ID": "17_workplace_tips",
+		"Title": "การจัดการสถานที่ทำงาน",
+		"Cards": [
+			{
+				"ID": 0,
+				"Text": "1. การรับมือกับการ [blue]รังแก</color> ในที่ทำงานอาจเป็นเรื่องยาก ในการที่จะจัดการคนรังแก คุณจะต้องให้ไอดอลของคุณเชื่อใจคุณมากพอที่พวกเขาจะเต็มใจที่จะพูดอย่างเปิดเผยเกี่ยวกับสิ่งที่เกิดขึ้นในที่ทำงาน การได้รับความไว้วางใจนั้นเริ่มต้นด้วย [blue]การเข้าสังคม</color> คุณจะประหลาดใจกับสิ่งที่คุณได้ฟังเรื่อง [blue]ซุบซิบ</color>",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 1,
+				"Text": "2. หากคุณไม่สามารถหาวิธีแก้ไขข้อพิพาทระหว่างเพื่อนร่วมงานหรือล้มเหลวในการโน้มน้าวให้พวกเขาประนีประนอมกับความแตกต่างของพวกเขา บางครั้งอาจเป็นการดีที่สุดที่จะ [blue]แยกคนรังแกออกจากเหยื่อของพวกเขา</color> หากองค์กรมี [blue]สาขาน้อง</color>การย้ายคนพาล (หรือเหยื่อ) เพื่อแยกพวกเขาออกก็เป็นทางเลือกหนึ่ง (หากต้องการโอนบุคคลไปยังกลุ่มอื่น ให้ [blue]คลิกที่พวกเขาและเลือกตัวเลือกกลุ่ม</color>) แน่นอนว่าวิธีนี้ใช้ได้กับองค์กรขนาดใหญ่ที่มี [blue]อย่างน้อย 10</color> ที่มีตัวเลือกเท่านั้น เพื่อสร้างสาขาน้องสาว (ฉันได้ยินมาว่าปุ่ม [blue]\"สร้างกรุ๊ปใหม่\"</color> จะปรากฏขึ้นบนแท็บสมาชิกที่ใช้งานอยู่ของคุณเมื่อคุณมาถึงจุดนี้)",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			},{
+				"ID": 2,
+				"Text": "3. การพยายามผสมผสานงานกับความรักมักเป็น [blue]ความคิดที่ไม่ดี</color> และอาจนำไปสู่ [blue]ผลด้านลบ</color>",
+				"Requirement": null,
+				"OnStart": null,
+				"OnComplete": null,
+				"Continue_Button": true,
+				"Block_Input": false,
+				"Arrow_ID": null
+			}
+		]
+	}
+]

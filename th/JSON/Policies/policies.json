@@ -1,0 +1,400 @@
+[
+
+	{
+		Type: "business",
+		Title: "ข้อเสนอทางธุรกิจ",
+		Tooltip: "เลือกประเภทข้อเสนอทางธุรกิจที่คุณต้องการรับบ่อยขึ้น"
+	},
+
+	{
+		Type: "business",
+		Value: "business_neutral",
+		Title: "สมดุล",
+		Selected: true
+	},{
+		Type: "business",
+		Value: "business_photoshoot",
+		Title: "ถ่ายแบบ"
+	},{
+		Type: "business",
+		Value: "business_ad",
+		Title: "โฆษณา"
+	},{
+		Type: "business",
+		Value: "business_variety",
+		Title: "วาไรตี้โชว์"
+	},{
+		Type: "business",
+		Value: "business_drama",
+		Title: "ละครทีวี"
+	},
+
+
+
+	{
+		Type: "vibe",
+		Title: "แบบกรุ๊ป",
+		Tooltip: "โบนัส 1.25x สำหรับสถิติที่เลือกหรือโบนัส 1.05x สำหรับสถิติเหล่านี้ทั้งหมดหากเลือกเป็นสมดุล{separator}รับข้อเสนอทางธุรกิจด้วยสถิตินี้บ่อยขึ้น"
+	},
+
+	{
+		Type: "vibe",
+		Value: "vibe_neutral",
+
+		Title: "สมดุล",
+		Selected: true
+	},{
+		Type: "vibe",
+		Value: "vibe_cute",
+		Title: "น่ารัก"
+	},{
+		Type: "vibe",
+		Value: "vibe_cool",
+		Title: "คูล"
+	},{
+		Type: "vibe",
+		Value: "vibe_sexy",
+		Title: "เซ็กซี่"
+	},{
+		Type: "vibe",
+		Value: "vibe_pretty",
+		Title: "สวย"
+	},{
+		Type: "vibe",
+		Value: "vibe_funny",
+		Title: "สนุกสนาน"
+	},{
+		Type: "vibe",
+		Value: "vibe_smart",
+		Title: "สมาร์ท"
+	},
+
+
+	{
+		Type: "image",
+		Title: "ภาพลักษณ์",
+		Tooltip: ""
+	},
+
+	{
+		Type: "image",
+		Value: "image_orthodox",
+		Title: "ดั้งเดิม",
+		Tooltip: "กรุ๊ปแบบดั้งเดิมเป็นที่นิยมมากขึ้นในหมู่ผู้ชายและผู้ใหญ่ แต่มีความเสี่ยงที่จะเกิดเรื่องอื้อฉาว",
+		Cost: 6
+	},{
+		Type: "image",
+		Value: "image_neutral",
+		Title: "สมดุล",
+		Tooltip: "",
+		Selected: true,
+		Cost: 6
+	},{
+		Type: "image",
+		Value: "image_rebellious",
+		Title: "ต่อต้าน",
+		Tooltip: "กรุ๊ปแบบต่อต้านเป็นที่นิยมมากขึ้นในหมู่ผู้หญิงและคนหนุ่มสาว แต่มีโอกาสน้อยที่จะได้รับข้อเสนองานที่ดี",
+		Cost: 6
+	},
+
+
+	{
+		Type: "training",
+		Title: "ฝึกอัตโนมัติ: จำกัดพลังงานทางร่างกาย",
+		Tooltip: "ไอดอลที่มีพลังงานทางร่างกายน้อยกว่าค่าที่จำกัด จะไม่ถูกฝึกซ้อมอัตโนมัติ"
+	},
+
+	{
+		Type: "training",
+		Value: "training_stop_at_80",
+		Title: "จำกัด: 80pt"
+	},{
+		Type: "training",
+		Value: "training_stop_at_50",
+		Title: "จำกัด: 50pt"
+	},{
+		Type: "training",
+		Value: "training_stop_at_20",
+		Title: "จำกัด: 20pt",
+		Selected: true
+	},{
+		Type: "training",
+		Value: "training_stop_at_0",
+		Title: "จำกัด: 5pt"
+	},{
+		Type: "training",
+		Value: "training_ignore_stamina",
+		Title: "ไม่จำกัด"
+	},
+
+	{
+		Type: "auto_training_max",
+		Title: "ฝึกฝนอัตโนมัติ: ค่าสูงสุด",
+		Tooltip: "ไอดอลจะไม่ถูกฝึกซ้อมอัตโนมัติหากค่าสถานะของพวกเขามากกว่าขีดจำกัด ใช้สิ่งนี้หากคุณต้องการให้ไอดอลฝึกฝนสถานะที่อ่อนแอของพวกเขา"
+	},{
+		Type: "auto_training_max",
+		Value: "auto_training_max_20",
+		Title: "จำกัด: 20pt"
+	},{
+		Type: "auto_training_max",
+		Value: "auto_training_max_50",
+		Title: "จำกัด: 50pt"
+	},{
+		Type: "auto_training_max",
+		Value: "auto_training_max_80",
+		Title: "จำกัด: 80pt"
+	},{
+		Type: "auto_training_max",
+		Value: "auto_training_max_100",
+		Title: "ไม่จำกัด",
+		Selected: true
+	},
+
+	{
+		Type: "auto_training_min",
+		Title: "ฝึกฝนอัตโนมัติ: ค่าต่ำสุด",
+		Tooltip: "ไอดอลจะไม่ถูกฝึกอัตโนมัติหากค่าสถานะของพวกเขาน้อยกว่าขีดจำกัด ใช้สิ่งนี้หากคุณต้องการให้ไอดอลฝึกฝนสถานะที่แข็งแกร่งของพวกเขา"
+	},{
+		Type: "auto_training_min",
+		Value: "auto_training_min_20",
+		Title: "จำกัด: 20pt"
+	},{
+		Type: "auto_training_min",
+		Value: "auto_training_min_50",
+		Title: "จำกัด: 50pt"
+	},{
+		Type: "auto_training_min",
+		Value: "auto_training_min_80",
+		Title: "จำกัด: 80pt"
+	},{
+		Type: "auto_training_min",
+		Value: "auto_training_min_0",
+		Title: "ไม่จำกัด",
+		Selected: true
+	},
+
+	{
+		Type: "background_check",
+		Title: "ตรวจสอบประวัติ",
+		Tooltip: ""
+	},
+
+	{
+		Type: "background_check",
+		Value: "background_check_no_check",
+		Title: "ไม่มีการตรวจสอบ",
+		Selected: true,
+		Cost: 1
+	},{
+		Type: "background_check",
+		Value: "background_check_basic",
+		Title: "พื้นฐาน",
+		Cost: 1,
+		Tooltip: "ค่าใช้จ่ายในการออดิชั่นจะเพิ่มขึ้น 20% แต่โอกาสของผู้สมัครที่มีทักษะด้านลบจะลดลง 80%"
+	},{
+		Type: "background_check",
+		Value: "background_check_extensive",
+		Title: "กว้างขวาง",
+		Cost: 1,
+		Tooltip: "ค่าใช้จ่ายในการออดิชั่นจะเพิ่มขึ้น 50% แต่ความน่าจะเป็นที่ผู้สมัครมีทักษะด้านลบและความน่าจะเป็นที่จะมีปัญหาในอาชีพจะลดลง 80%"
+	},
+
+
+	{
+		Type: "security",
+		Title: "ความปลอดภัย",
+		Tooltip: ""
+	},
+
+	{
+		Type: "security",
+		Value: "security_relaxed",
+		Title: "ผ่อนคลาย",
+		Cost: 1,
+		Tooltip: "งานจับมือจะดึงดูดแฟนตัวยง ได้มากถึง 2 เท่า แต่ไอดอลใช้พลังงานมากขึ้น 50%"
+	},{
+		Type: "security",
+		Value: "security_normal",
+		Title: "ปกติ",
+		Cost: 1,
+		Selected: true,
+		Tooltip: ""
+	},{
+		Type: "security",
+		Value: "security_restrictive",
+		Title: "เข้มงวด",
+		Cost: 1,
+		Tooltip: "งานจับมือจะดึงดูดแฟนตัวยง ลดลง 0.5 เท่า แต่ไอดอลใช้พลังงานน้อยลง 25%"
+	},
+
+
+	{
+		Type: "social_media",
+		Title: "โซเชียลมีเดีย",
+		Tooltip: ""
+	},
+
+	{
+		Type: "social_media",
+		Value: "social_media_forbidden",
+		Title: "ห้าม",
+		Cost: 1,
+		Tooltip: "ไม่มีเรื่องอื้อฉาวที่เกี่ยวกับโซเชียลมีเดียใดๆ"
+	},{
+		Type: "social_media",
+		Value: "social_media_premoderated",
+		Title: "ยืนยันก่อน",
+		Cost: 1,
+		Selected: true,
+		Tooltip: "โอกาสเกิดข่าวอื้อฉาวที่เกี่ยวกับโซเชียลมีเดียต่ำ{separator}+1 คะแนน Buzz ต่อไอดอลทุกวันจันทร์"
+	},{
+		Type: "social_media",
+		Value: "social_media_no_restrictions",
+		Title: "ไม่มีข้อจำกัด",
+		Cost: 1,
+		Tooltip: "ทุกวันจันทร์มีโอกาสสูงที่จะเกิดข่าวอื้อฉาวที่เกี่ยวกับโซเชียลมีเดีย{separator}+2 คะแนน Buzz ต่อไอดอล{separator}ไอดอลทั้งหมดมีโอกาส 10% ที่จะเสียคะแนนสภาพจิตใจแบบสุ่มในแต่ละวันจันทร์"
+	},
+
+
+	{
+		Type: "streaming",
+		Title: "สตรีมมิ่ง",
+		Tooltip: ""
+	},
+
+	{
+		Type: "streaming",
+		Value: "streaming_forbidden",
+		Title: "ห้าม",
+		Cost: 1,
+		Tooltip: "ไม่มีเรื่องอื้อฉาวที่เกี่ยวกับการสตรีม"
+	},{
+		Type: "streaming",
+		Value: "streaming_controlled",
+		Title: "ควบคุม",
+		Cost: 1,
+		Selected: true,
+		Tooltip: "ลดโอกาสการเกิดเรื่องอื้อฉาวที่เกี่ยวกับการสตรีม{separator} ไอดอลทุกคนมีโอกาส 5% ที่จะได้รับเงินสุ่มทุกวันจันทร์"
+	},{
+		Type: "streaming",
+		Value: "streaming_no_restrictions",
+		Title: "ไม่มีข้อจำกัด",
+		Cost: 1,
+		Tooltip: "มีโอกาสสูงที่จะมีเรื่องอื้อฉาวที่เกี่ยวข้องกับการสตรีม{separator}ไอดอลทุกคนมีโอกาส 10% ที่จะได้รับคะแนนชื่อเสียงแบบสุ่มและโอกาส 5% ที่จะสูญเสียคะแนนสภาพจิตใจแบบสุ่มในแต่ละวันจันทร์"
+	},
+
+
+	{
+		Type: "dating",
+		Title: "ออกเดท",
+		Tooltip: ""
+	},
+
+	{
+		Type: "dating",
+		Value: "dating_forbidden",
+		Title: "ห้าม",
+		Cost: 1,
+		Tooltip: "เพิ่มความน่าดึงดูดใจให้กับแฟนตัวยง{separator}ความน่าดึงดูดใจของแฟนๆทั่วไปลดลง{separator} ลดการเกิดเรื่องอื้อฉาวเกี่ยวกับการออกเดท แต่เพิ่มผลกระทบ{separator}ไอดอลทุกคนที่ไม่ได้เดทกับผู้เล่นหรือไอดอลคนอื่นๆ มีโอกาส 5% ในกรุ๊ปของคุณจะเสียคะแนนสภาพจิตใจแบบสุ่มทุกวันจันทร์"
+	},{
+		Type: "dating",
+		Value: "dating_ambiguous",
+		Title: "คลุมเครือ",
+		Cost: 1,
+		Selected: true,
+		Tooltip: "ไอดอลทุกคนที่ไม่ได้เดทกับผู้เล่นหรือไอดอลคนอื่นๆ จากกรุ๊ปของคุณ มีโอกาส 5% เสียหรือได้รับคะแนนสภาพจิตใจแบบสุ่มทุกวันจันทร์"
+	},{
+		Type: "dating",
+		Value: "dating_allowed",
+		Title: "ไม่มีข้อจำกัด",
+		Cost: 1,
+		Tooltip: "เพิ่มความน่าดึงดูดใจให้กับแฟนทั่วไป{separator}ความน่าดึงดูดใจของแฟนตัวยงลดลง{separator}เพิ่มการเกิดเรื่องอื้อฉาวเกี่ยวกับการออกเดท แต่ลดผลกระทบ{separator}ไอดอลทุกคนที่ไม่ได้เดทกับผู้เล่นหรือไอดอลคนอื่นๆ มีโอกาส 10% ในกรุ๊ปของคุณจะเสียหรือได้รับคะแนนสภาพจิตใจแบบสุ่มทุกวันจันทร์"
+	},
+
+
+	{
+		Type: "performances",
+		Title: "งานแสดง",
+		Tooltip: ""
+	},
+
+	{
+		Type: "performances",
+		Value: "performances_energy",
+		Title: "พลังงานและความกระตือรือร้น",
+		Cost: 1,
+		Tooltip: "เพิ่มความน่าดึงดูดใจให้กับแฟนตัวยง{separator}งานแสดงใช้พลังงานมากขึ้น 1.3 เท่า"
+	},{
+		Type: "performances",
+		Value: "performances_neutral",
+		Title: "ความสมดุล",
+		Cost: 1,
+		Selected: true,
+		Tooltip: ""
+	},{
+		Type: "performances",
+		Value: "performances_quality",
+		Title: "คุณภาพสูง",
+		Cost: 1,
+		Tooltip: "เพิ่มความน่าดึงดูดใจให้กับแฟนๆทั่วไป{separator}การฝึกใช้พลังงานมากขึ้น 1.3 เท่า"
+	},
+
+
+	{
+		Type: "skirts",
+		Title: "กระโปรง",
+		Tooltip: ""
+	},
+
+	{
+		Type: "skirts",
+		Value: "skirts_short",
+		Title: "กระโปรงสั้น ไม่มีกางเกงขาสั้น",
+		Cost: 1,
+		Tooltip: "เพิ่มความน่าดึงดูดใจให้กับแฟนตัวยงสองเท่า{separator}เสียความน่าดึงดูดใจให้กับแฟนๆทั่วไป"
+	},{
+		Type: "skirts",
+		Value: "skirts_safety_shorts",
+		Title: "กระโปรงสั้นพร้อมกางเกงเซฟตี้",
+		Cost: 1,
+		Selected: true,
+		Tooltip: "เพิ่มความน่าดึงดูดใจให้กับแฟนตัวยง"
+	},{
+		Type: "skirts",
+		Value: "skirts_long_skirts",
+		Title: "กระโปรงยาว",
+		Cost: 1,
+		Tooltip: "เพิ่มความน่าดึงดูดใจให้กับแฟนๆผู้หญิงและแฟนตัวยง{separator}เสียความน่าดึงดูดใจให้กับแฟนๆผู้ชาย"
+	},{
+		Type: "skirts",
+		Value: "skirts_pants",
+		Title: "กางเกง",
+		Cost: 1,
+		Tooltip: "เพิ่มความน่าดึงดูดใจให้กับแฟนๆผู้ชายและแฟนๆทั่วไป{separator}เสียความน่าดึงดูดใจให้กับแฟนตัวยง"
+	},
+
+
+	{
+		Type: "salary",
+		Title: "เงินเดือนไอดอล",
+		Tooltip: ""
+	},
+
+	{
+		Type: "salary",
+		Value: "salary_manual",
+		Title: "ให้เอง",
+		Selected: true,
+		Tooltip: "เงินเดือนไอดอลไม่เปลี่ยนอัตโนมัติ"
+	},{
+		Type: "salary",
+		Value: "salary_low",
+		Title: "อัตโนมัติ: รักษาเงินเดือนให้ต่ำ",
+		Tooltip: "อัพเดทเงินเดือนอัตโนมัติทุกวันจันทร์ พยายามรักษาความพึงพอใจของไอดอลไว้ที่ 50%"
+	},{
+		Type: "salary",
+		Value: "salary_satisfied",
+		Title: "อัตโนมัติ : ให้ไอดอลพอใจ",
+		Tooltip: "อัพเดทเงินเดือนอัตโนมัติทุกวันจันทร์ พยายามรักษาความพอใจของไอดอลไว้ที่ 150%"
+	}
+]

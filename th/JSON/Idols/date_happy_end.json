@@ -1,0 +1,121 @@
+[
+	{
+		"Categories": ["bad_job"],
+		"Text": "ทำงานที่ร้านเช่าวิดีโอในอากิบะ"
+	},{
+		"Categories": ["bad_job"],
+		"Text": "ทำความสะอาดครัวร้านราเมงเล็กๆ"
+	},{
+		"Categories": ["bad_job"],
+		"Text": "ทำงานที่ร้านสะดวกซื้อ"
+	},{
+		"Categories": ["bad_job"],
+		"Text": "ทำงานเป็นแคชเชียร์ร้านอาหารฟาสต์ฟู้ด"
+	},
+
+
+	{
+		"Categories": ["kids_string","no_kids"],
+		"Text": "ตัดสินใจไม่มีลูก"
+	},{
+		"Categories": ["kids_string","no_kids"],
+		"Text": "คุยเรื่องมีลูกแต่ท้องไม่ได้"
+	},{
+		"Categories": ["kids_string","no_kids"],
+		"Text": "พวกเขาใช้ชีวิตด้วยกันสองคน และในที่สุดก็ตัดสินใจว่าจะไม่มีลูก"
+	},
+
+	{
+		"Categories": ["kids_string","had_kids"],
+		"Text": "ตอนแรกตัดสินใจว่าจะไม่มีลูก แต่ทั้งคู่เปลี่ยนใจมาเป็นครบรอบปีแต่งงาน แล้วมีลูก [he_kids_number] คน"
+	},{
+		"Categories": ["kids_string","had_kids"],
+		"Text": "มี [he_kids_number] คนด้วยกัน"
+	},{
+		"Categories": ["kids_string","had_kids","male_mc"],
+		"Text": "ตอนแรกตัดสินใจว่าจะไม่มีลูก แต่เคยตั้งครรภ์โดยไม่ได้ตั้งใจมาหนึ่งปีแล้วจึงตัดสินใจเลี้ยงไว้ ก่อนที่จะมีลูกเพิ่มอีก [he_kids_number] คน"
+	},
+
+
+	{
+		"Categories": ["career_string_1","id_1"],
+		"Text": "คุณและ [g:casual] ย้ายไปอิตาลีและเปิดร้านอาหารญี่ปุ่นด้วยกัน"
+	},{
+		"Categories": ["career_string_2","id_1"],
+		"Text": "ธุรกิจเป็นไปด้วยดีจนกระทั่งวิกฤตทางการเงินของ [he_year] เมื่อคุณล้มละลายและกลับไปญี่ปุ่น"
+	},
+	{
+		"Categories": ["career_string_1","id_2"],
+		"Text": "อาชีพของ [g:casual] เริ่มต้นขึ้นหลังจากที่เธอได้รับความสนใจจากแฟนๆ ต่างประเทศจำนวนมาก และเริ่มทำทัวร์ต่างประเทศ"
+	},{
+		"Categories": ["career_string_2","id_2"],
+		"Text": "ในที่สุดคุณลาออกจากงานเพื่อเป็นผู้จัดการของเธอและเดินทางไปกับเธอ"
+	},
+	{
+		"Categories": ["career_string_1","id_3"],
+		"Text": "อาชีพของ [g:casual] เริ่มต้นขึ้นหลังจากที่เธอได้รับความสนใจจากแฟนๆ ต่างประเทศจำนวนมาก และเริ่มทำทัวร์ต่างประเทศ"
+	},{
+		"Categories": ["career_string_2","id_3"],
+		"Text": "ในที่สุดคุณก็ลาออกจากงานเพื่อดูแลลูกๆ เต็มเวลา"
+	},
+	{
+		"Categories": ["career_string_1","id_4"],
+		"Text": "คุณยังคงเป็น CTO ที่ [he_random_company]"
+	},{
+		"Categories": ["career_string_2","id_4"],
+		"Text": "[g:casual] ลาออกจากงานแล้วมาดูแลลูกเต็มเวลา"
+	},
+	{
+		"Categories": ["career_string_1","id_5"],
+		"Text": "[g:casual] เป็นแฟชั่นดีไซเนอร์เมื่ออายุ 40 ปี"
+	},{
+		"Categories": ["career_string_2","id_5"],
+		"Text": "คุณทำงานเป็น CFO ที่ [he_random_company] จนถึง [he_year] เมื่อบริษัทถูกจับในเรื่องอื้อฉาวเรื่องการตรึงราคา บังคับให้คุณออกด้วยความอับอาย"
+	},
+	{
+		"Categories": ["career_string_1","id_6"],
+		"Text": "อาชีพของ [g:casual] ซบเซาหลังจากที่คุณแต่งงาน"
+	},{
+		"Categories": ["career_string_2","id_6"],
+		"Text": "คุณทำงาน [bad_job] ต่อไปจนเกษียณเมื่ออายุ 70 ปี"
+	},
+
+	{
+		"Categories": ["relationship_outcome_string","good"],
+		"Text": "คุณและ [g:casual] ฉลองวันครบรอบแต่งงาน 50 ปีของคุณด้วยการรับประทานอาหารเย็นที่ร้านอาหารที่ย้ายเข้าไปอยู่ในอาคารที่ [groupname] เคยเปิดทำการ"
+	},{
+		"Categories": ["relationship_outcome_string","good"],
+		"Text": "คุณจากไปในวัย [he_death_age] โดยมี [g:casual] อยู่เคียงข้างคุณ"
+	},{
+		"Categories": ["relationship_outcome_string","good","ambition"],
+		"Text": "ห้าสิบปีต่อมา คุณและ [g:casual] ยังคงฉลองวันครบรอบของคุณทุกปีด้วยการออกไปร้องเพลงคาราโอเกะและร้องเพลงที่เธอแสดงเมื่อคุณทั้งคู่อยู่กับ [groupname]"
+	},{
+		"Categories": ["relationship_outcome_string","good","convenience"],
+		"Text": "ห้าสิบปีต่อมา [g:casual] ยังคงชอบลากคุณออกไปที่โรงละครทุกครั้งที่มีหนังดังระดับนานาชาติเรื่องใหม่ให้ดู"
+	},{
+		"Categories": ["relationship_outcome_string","good","fun"],
+		"Text": "ห้าสิบปีต่อมา คุณและ [g:casual] ยังคงเฉลิมฉลองวันครบรอบของคุณทุกปีโดยไปที่อาร์เคดและพยายามชิงตุ๊กตาสัตว์จากตู้คีบ จนถึงตอนนี้ คุณใช้ [yen][he_arcade_money] แล้ว"
+	},
+
+	{
+		"Categories": ["relationship_outcome_string","bad"],
+		"Text": "[he_divorce_time] ปีที่คบกันมา คุณหย่าร้างหลังจาก [g:casual] จับได้ว่าคุณมีชู้"
+	},{
+		"Categories": ["relationship_outcome_string","bad"],
+		"Text": "คุณหย่าร้าง [g:casual] [he_divorce_time] ปีในชีวิตแต่งงานของคุณหลังจากที่พบว่าเธอกำลังมีชู้"
+	},{
+		"Categories": ["relationship_outcome_string","bad"],
+		"Text": "คุณและ [g:casual] ใช้เวลาหลายปีหลังจากการแต่งงานของคุณล่มสลายมากขึ้นเรื่อย ๆ ก่อนที่จะตัดสินใจว่าการหย่าร้างที่เป็นมิตรเป็นสิ่งที่ดีที่สุด"
+	},{
+		"Categories": ["relationship_outcome_string","bad"],
+		"Text": "คุณและ [g:casual] หย่าร้างกันหลังจาก [he_divorce_time] ปี โดยอ้างถึง 'ความแตกต่างที่ไม่สามารถประนีประนอม' การหย่าร้างถูกกล่าวถึงในบล็อกของแฟนคลับ [groupname] ที่คลุมเครือหลายปีต่อมา เมื่อพวกเขาทำบทความ 'ตอนนี้พวกเขาอยู่ที่ไหน' ที่มีเนื้อหาเกี่ยวกับ [g:casual]"
+	},
+
+	{
+		"Categories": ["custody_string","had_kids"],
+		"Text": "[he_custody] ได้รับดูแลเด็ก"
+	},{
+		"Categories": ["custody_string","no_kids"],
+		"Text": "..."
+	}
+]

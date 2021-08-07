@@ -1,0 +1,547 @@
+[
+  {
+    "ID": "dating_scandal",
+    "Image": "dating_scandal.png",
+    "Formula": "[how_spotted] [activity] [gender][profession][fling].\n\n[how_photos_delivered][fact_about_photo][fact_about_fling][fact_about_relationship][what_girl_admits]What will you do?",
+    "Weight": 100,
+    "Random": true,
+
+    "Actors": [
+      {
+        "Tag": "actor_0"
+      }, {
+        "Tag": "fling",
+        "Type": "male_or_female",
+        "Special_Params": "love_interest",
+        "Actions": [
+          {
+            "target": "variable",
+            "parameter": "set_with_chance",
+            "formula": "unidentified|15"
+          }
+        ]
+      }
+    ],
+
+    "Parts": [
+      {
+        "ID": "how_spotted",
+        "Values": [
+          {"Text": "Photos have surfaced of [actor_0:full]"},
+          {"Text": "[actor_0:full] was spotted"},
+          {"Text": "[actor_0:full] was seen"}
+        ],
+        "Actions": [
+          {"target":"variable","parameter":"set","formula":"Can_Deny_Identity 0"},
+          {"target":"variable","parameter":"set","formula":"Can_Deny_Romance 0"},
+          {"target":"variable","parameter":"set","formula":"Damage 50"}
+        ]
+      },{
+        "ID":"meta",
+        "Requirements": [
+          {"target":"actor_1","parameter":"gender","formula":"female"}
+        ],
+        "Actions": [
+          {"target":"variable","parameter":"add","formula":"Can_Deny_Romance 50"}
+        ]
+      },{
+        "ID":"meta",
+        "Requirements": [
+          {"target":"variable","parameter":"is","formula":"unidentified"}
+        ],
+        "Actions": [
+          {"target":"actor_1","parameter":"set_name","formula":"her partner"}
+        ]
+      },{
+        "ID": "activity",
+        "Values": [
+          {
+            "Text": "getting into a car with",
+            "Actions": [
+              {"target":"variable","parameter":"add", "formula": "Can_Deny_Romance 40"}
+            ],
+            "Requirements": [
+              {"target": "actor_0", "parameter": "is_aoc", "formula":"true"}
+            ]
+          },
+          {
+            "Text": "getting a motorcycle ride from",
+            "Actions": [
+              {"target":"variable","parameter":"add", "formula": "Can_Deny_Romance 40"}
+            ],
+            "Requirements": [
+              {"target": "actor_0", "parameter": "is_aoc", "formula":"true"}
+            ]
+          },
+          {
+            "Text": "having dinner with",
+            "Actions": [
+              {"target":"variable","parameter":"add", "formula": "Can_Deny_Romance 40"}
+            ]
+          },
+          {
+            "Text": "visiting a museum with",
+            "Actions": [
+              {"target":"variable","parameter":"add", "formula": "Can_Deny_Romance 40"}
+            ]
+          },
+          {"Text": "holding hands in public with"},
+          {"Text": "shopping for clothes with"},
+          {"Text": "in a park hugging"},
+          {"Text": "visiting an amusement park with"}
+        ]
+      },{
+        "ID": "gender",
+        "Requirements": [{"target": "variable", "parameter": "isnt", "formula": "unidentified"}],
+        "Values": [
+          {
+            "Text":"male ",
+            "Requirements": [{"target": "actor_1", "parameter": "gender", "formula": "male"}]
+          },{
+            "Text":"female ",
+            "Requirements": [{"target": "actor_1", "parameter": "gender", "formula": "female"}]
+          }
+        ]
+      },{
+        "ID": "profession",
+        "Requirements": [{"target": "variable", "parameter": "isnt", "formula": "unidentified"}],
+        "Values": [
+          {
+            "Text": "NIK Broadcast anchor ",
+            "Requirements": [
+              {"target": "actor_0", "parameter": "is_aoc", "formula":"true"}
+            ]
+          },
+          {
+            "Text": "local DJ ",
+            "Requirements": [
+              {"target": "actor_1", "parameter": "gender", "formula": "male"},
+              {"target": "actor_0", "parameter": "is_aoc", "formula":"true"}
+            ]
+          },
+          {
+            "Text": "club owner ",
+            "Requirements": [
+              {"target": "actor_1", "parameter": "gender", "formula": "male"},
+              {"target": "actor_0", "parameter": "is_aoc", "formula":"true"}
+            ]
+          },
+          {
+            "Text": "sports star ",
+            "Requirements": [
+              {"target": "actor_0", "parameter": "is_aoc", "formula": "true"}
+            ]
+          },{
+            "Text": "Jerry's idol ",
+            "Requirements": [{"target": "actor_1", "parameter": "gender", "formula": "male"}]
+          },
+          {"Text": "fashion designer "},
+          {"Text": "model "},
+          {
+            "Text": "comedian ",
+            "Requirements": [
+              {"target": "actor_1", "parameter": "gender", "formula": "male"},
+              {"target": "actor_0", "parameter": "is_aoc", "formula":"true"}
+            ]
+          },{
+            "Text": "beautician ",
+            "Requirements": [{"target": "actor_1", "parameter": "gender", "formula": "female"}]
+          },{
+            "Text": "stylist ",
+            "Requirements": [{"target": "actor_1", "parameter": "gender", "formula": "female"}]
+          },{
+            "Text": "a member of rival group [rival_group] named ",
+            "Requirements": [{"target": "actor_1", "parameter": "gender", "formula": "female"}]
+          }
+        ]
+      },{
+        "ID": "fling",
+        "Values": [
+          {
+            "Text": "unidentified man",
+            "Requirements": [{"target": "actor_1", "parameter": "gender", "formula": "male"},{"target": "variable", "parameter": "is", "formula": "unidentified"},{"target": "actor_0", "parameter": "is_aoc", "formula":"true"}]
+          },{
+            "Text": "unidentified woman",
+            "Requirements": [{"target": "actor_1", "parameter": "gender", "formula": "female"},{"target": "variable", "parameter": "is", "formula": "unidentified"},{"target": "actor_0", "parameter": "is_aoc", "formula":"true"}]
+          },{
+            "Text": "unidentified boy",
+            "Requirements": [{"target": "actor_1", "parameter": "gender", "formula": "male"},{"target": "variable", "parameter": "is", "formula": "unidentified"},{"target": "actor_0", "parameter": "is_aoc", "formula":"false"}]
+          },{
+            "Text": "unidentified girl",
+            "Requirements": [{"target": "actor_1", "parameter": "gender", "formula": "female"},{"target": "variable", "parameter": "is", "formula": "unidentified"},{"target": "actor_0", "parameter": "is_aoc", "formula":"false"}]
+          },{
+            "Text": "[actor_1]",
+            "Requirements": [{"target": "variable", "parameter": "isnt", "formula": "unidentified"}]
+          }
+        ]
+      },{
+        "ID": "how_photos_delivered",
+        "Chance": 100,
+        "Values": [
+          {
+            "Text": "An editor at a gossip site sent the photos directly to us and plans to go live with the story later today.\n\n",
+            "Actions": [
+              {"target":"variable", "parameter":"set", "formula": "publication 200000"},
+              {"target":"variable", "parameter":"multiply", "formula": "publication fame"}
+            ]
+          },
+          {
+            "Text": "Several photographs were emailed to us by an anonymous emailer, threatening to expose [actor_0] online if we don't send a wire transfer of [template_var|blackmail:money:red].  This is blackmail!\n\n",
+            "Actions": [
+              {"target":"variable", "parameter":"set", "formula": "blackmail 100000"},
+              {"target":"variable", "parameter":"multiply", "formula": "blackmail fame"}
+            ]
+          },
+          {"Text": "Several photos were anonymously posted to an online message board, and several gossip blogs have started circulating them.\n\n"},
+          {"Text": "The photos were initially posted to social media several days ago, but they don't seem to have gotten much traction.\n\n"}
+        ]
+      },{
+        "ID": "fact_about_photo",
+        "Chance": 30,
+        "Values": [
+          {"Text": "[actor_0] is wearing a sickness mask in the photo, but it's obvious from several close-up photos that it's her.\n\n"},
+          {"Text": "[actor_0]'s head is turned in the photo, obscuring part of her face.\n\n"},
+          {"Text": "The photo is blurry, but the clothes she's wearing in the photo match several other public photos posted the same day the photo was allegedly taken.\n\n"}
+        ],
+        "Actions": [
+          {"target":"variable","parameter":"add","formula":"Can_Deny_Identity 30"}
+        ]
+      },{
+        "ID": "fact_about_fling",
+        "Chance": 30,
+        "Values": [
+          {
+            "Text":"[actor_1] is married, making this especially damaging if true.\n\n",
+            "Actions": [
+              {"target":"variable","parameter":"add","formula":"Damage 150"}
+            ]
+          },
+          {
+            "Text":"[actor_1] is a notorious playboy with a history of dating idols.\n\n",
+            "Actions": [
+              {"target":"variable","parameter":"add","formula":"Damage 50"},
+              {"target":"variable","parameter":"set","formula":"Playboy"},
+              {"target":"variable","parameter":"add","formula":"Can_Deny_Romance -40"},
+              {"target":"variable","parameter":"add","formula":"Can_Deny_Identity -40"}
+            ],
+            "Requirements": [
+              {"target":"actor_1","parameter":"gender","formula":"male"}
+            ]
+          },
+          {
+            "Text":"[actor_1] is more than 20 years older than [actor_0], making this an especially juicy story.\n\n",
+            "Actions": [
+              {"target":"variable","parameter":"add","formula":"Damage 50"}
+            ]
+          },
+          {
+            "Text":"[actor_1] is more than 30 years older than [actor_0], making this an especially juicy story.\n\n",
+            "Actions": [
+              {"target":"variable","parameter":"add","formula":"Damage 100"}
+            ]
+          }
+        ],
+        "Requirements": [
+          {"target": "variable", "parameter": "isnt", "formula": "unidentified"},
+          {"target": "actor_0", "parameter": "is_aoc", "formula":"true"}
+        ]  
+      },{
+        "ID": "fact_about_relationship",
+        "Chance": 15,
+        "Values": [
+          {"Text": "Several people have dug through [actor_1]'s social media history, and found a group photo with [actor_0] from over a month ago.\n\n"}
+        ],
+        "Actions": [
+          {"target":"variable","parameter":"add","formula":"Can_Deny_Identity -40"}
+        ],
+        "Requirements": [{"target": "variable", "parameter": "isnt", "formula": "unidentified"}]
+      },{
+        "ID": "what_girl_admits",
+        "Values": [
+          {
+            "Text": "[actor_0] denies that she's the girl in the photo.\n\n",
+            "Actions": [
+              {"target":"variable","parameter":"add","formula":"Can_Deny_Identity 20"}
+            ]
+          },{
+            "Text": "[actor_0] has admitted to being the girl in the photos, but claims it was just a one-time encounter.\n\n"
+          },{
+            "Text": "[actor_0] says that she is the girl shown in the photos, but claims that the encounter wasn't romantic.\n\n",
+            "Actions": [
+              {"target":"variable","parameter":"add","formula":"Can_Deny_Romance 20"}
+            ]
+          },{
+            "Text": "[actor_0] admits that she has been seeing [actor_1] several times a week over the past month.\n\n",
+            "Actions": [{"target":"variable","parameter":"set","formula":"Admits_Romance"}],
+            "Requirements": [{"target": "variable", "parameter": "isnt", "formula": "unidentified"}]
+          },{
+            "Text": "[actor_0] claims that the [actor_1:manwoman] in the photograph is a relative of hers, and has several old family photos to prove it.\n\n",
+            "Requirements": [
+              {
+                "target":"variable","parameter":"is","formula":"unidentified"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+
+    "Replies": [
+      {
+        "Text":"Do nothing",
+        "Actions":[
+          {"target":"meta","parameter":"custom","formula":"dating_do_nothing"}
+        ]
+      },
+      {
+        "Text":"Pay them [template_var|blackmail:money] not to publish the photos",
+        "Requirements":[
+          {"target":"variable","parameter":"is","formula":"blackmail"}
+        ],
+        "Actions":[
+          {"target":"meta","parameter":"custom","formula":"dating_pay_blackmail"}
+        ]
+      },{
+        "Text":"Pay them [template_var|publication:money] not to publish the photos",
+        "Requirements":[
+          {"target":"variable","parameter":"is","formula":"publication"}
+        ],
+        "Actions":[
+          {"target":"meta","parameter":"custom","formula":"dating_pay_blackmail"}
+        ]
+      },
+      {
+        "Text":"Report this to the police",
+        "Requirements":[
+          {"target":"variable","parameter":"is","formula":"blackmail"}
+        ],
+        "Actions":[
+          {"target":"meta","parameter":"custom","formula":"dating_report_to_police"}
+        ]
+      },
+      {
+        "Text":"Claim that the encounter was not romantic",
+        "Requirements":[
+          {"target":"variable","parameter":"more_than","formula":"Can_Deny_Romance 0"}
+        ],
+        "Actions":[
+          {"target":"meta","parameter":"custom","formula":"dating_deny_romance"}
+        ]
+      },
+      {
+        "Text":"Claim that it's not her in the photos",
+        "Requirements":[
+          {"target":"variable","parameter":"more_than","formula":"Can_Deny_Identity 0"}
+        ],
+        "Actions":[
+          {"target":"meta","parameter":"custom","formula":"dating_deny_identity"}
+        ]
+      },
+      {
+        "Text":"Acknowledge the incident but don't issue an apology",
+        "Actions":[
+          {"target":"meta","parameter":"custom","formula":"dating_no_apology"}
+        ]
+      },
+      {
+        "Text":"Have [actor_0] and [actor_1] make their relationship public",
+        "Requirements":[
+          {"target":"variable","parameter":"is","formula":"Admits_Romance"}
+        ],
+        "Actions":[
+          {"target":"meta","parameter":"custom","formula":"dating_make_public"}
+        ]
+      },
+      {
+        "Text":"Have [actor_0] publicly apologize and put her on probation",
+        "Actions":[
+          {"target":"meta","parameter":"custom","formula":"dating_apologize"}
+        ]
+      },
+      {
+        "Text":"Claim that the other person in the photo is a family member",
+        "Requirements":[
+          {"target":"variable","parameter":"is","formula":"unidentified"}
+        ],
+        "Actions":[
+          {"target":"meta","parameter":"custom","formula":"dating_family"}
+        ]
+      }
+    ]
+  },
+
+  {
+    "ID": "conflict",
+    "Image": "conflict.png",
+    "Formula": "[intro]\n\n[conflict]\n\n[how_to_deal]",
+    "Weight": 100,
+    "Random": false,
+
+    "Actors": [
+      {
+        "Tag": "actor_0"
+      }, {
+        "Tag": "actor_1"
+      }
+    ],
+
+    "Parts": [
+      {
+        "ID": "intro",
+        "Values": [
+          {"Text": "A fight has broken out between [actor_0:full] and [actor_1:full]."},
+          {"Text": "[actor_0:full] and [actor_1:full] were seen fighting in the hallway."},
+          {"Text": "[actor_0:full] and [actor_1:full] got into an argument in the breakroom."},
+          {"Text": "An argument seems to have erupted between [actor_0:full] and [actor_1:full]."},
+          {"Text": "[actor_0:full] and [actor_1:full] exchanged harsh words in front of one of the staffers."},
+          {"Text": "[actor_0:full] and [actor_1:full] got into a shouting match outside the recording studio."}
+        ]
+      },
+      {
+        "ID": "conflict",
+        "Values": [
+          {
+            "ID":"undeserved_center",
+            "Text": "It seems like [actor_0] feels like [actor_1] has been getting more time in the limelight than she deserves, and doesn't have the dancing skills to justify being a center on the latest single."
+          },{
+            "ID":"too_many_dates",
+            "Text": "[actor_0] is apparently upset that [actor_1] has been spending a lot of time with you recently. She seems to be making a vague accusation of some sort."
+          },{
+            "ID":"business",
+            "Text": "[actor_0] seems resentful of the fact that [actor_1] keeps getting gigs for photoshoots and advertisements while she's been ignored in business dealings."
+          },{
+            "ID":"bump1",
+            "Text": "Apparently, [actor_0] bumped into [actor_1] and knocked her in the hallway. [actor_0] claims it was an accident, but [actor_1] refuses to accept the apology."
+          },{
+            "ID":"bump2",
+            "Text": "Apparently, [actor_0] bumped into [actor_1] and knocked her in the hallway. [actor_0] claims it was an accident, but [actor_1] refuses to accept the apology."
+          }
+        ]
+      },
+      {
+        "ID": "how_to_deal",
+        "Values": [
+          {"Text": "How should we deal with this?"},
+          {"Text": "What's the best way to deal with this?"}
+        ]
+      }
+    ],
+
+    "Replies": [
+      {
+        "ID":"undeserved_center",
+        "Text":"Reprimand [actor_0:full] for starting the fight",
+        "Actions":[
+          {"target":"meta","parameter":"custom","formula":"conflict_center_reprimand_0"}
+        ]
+      },{
+        "ID":"undeserved_center",
+        "Text":"Reprimand both [actor_0:full] and [actor_1:full] for getting into a public argument",
+        "Actions":[
+          {"target":"meta","parameter":"custom","formula":"conflict_center_reprimand_both"}
+        ]
+      },{
+        "ID":"undeserved_center",
+        "Text":"Privately reassure [actor_0:full] that her concerns have been heard",
+        "Actions":[
+          {"target":"meta","parameter":"custom","formula":"conflict_center_reassure"}
+        ]
+      },{
+        "ID":"undeserved_center",
+        "Text":"Arrange a counseling session",
+        "Requirements":[
+          {"target":"meta","parameter":"staff","formula":"doctor"}
+        ],
+        "Actions":[
+          {"target":"meta","parameter":"custom","formula":"conflict_center_counseling"}
+        ]
+      },
+
+      {
+        "ID":"too_many_dates",
+        "Text":"Reprimand [actor_0:full] for starting the fight",
+        "Actions":[
+          {"target":"meta","parameter":"custom","formula":"conflict_dates_reprimand_0"}
+        ]
+      },{
+        "ID":"too_many_dates",
+        "Text":"Reprimand both [actor_0:full] and [actor_1:full] for getting into a public argument",
+        "Actions":[
+          {"target":"meta","parameter":"custom","formula":"conflict_dates_reprimand_both"}
+        ]
+      },{
+        "ID":"too_many_dates",
+        "Text":"Privately reassure [actor_0:full] that there's nothing to worry about",
+        "Actions":[
+          {"target":"meta","parameter":"custom","formula":"conflict_dates_reassure"}
+        ]
+      },
+
+      {
+        "ID":"business",
+        "Text":"Reprimand [actor_0:full] for starting the fight",
+        "Actions":[
+          {"target":"meta","parameter":"custom","formula":"conflict_business_reprimand_0"}
+        ]
+      },{
+        "ID":"business",
+        "Text":"Reprimand both [actor_0:full] and [actor_1:full] for getting into a public argument",
+        "Actions":[
+          {"target":"meta","parameter":"custom","formula":"conflict_business_reprimand_both"}
+        ]
+      },{
+        "ID":"business",
+        "Text":"Privately reassure [actor_0:full] that her concerns have been heard",
+        "Actions":[
+          {"target":"meta","parameter":"custom","formula":"conflict_business_reassure"}
+        ]
+      },
+
+      {
+        "ID":"bump1",
+        "Text":"Reprimand [actor_0:full] for bumping into [actor_1:full]",
+        "Actions":[
+          {"target":"meta","parameter":"custom","formula":"conflict_bump1_reprimand_0"}
+        ]
+      },{
+        "ID":"bump1",
+        "Text":"Reprimand [actor_1:full] for refusing to accept [actor_0:full]'s apology",
+        "Actions":[
+          {"target":"meta","parameter":"custom","formula":"conflict_bump1_reprimand_1"}
+        ]
+      },{
+        "ID":"bump1",
+        "Text":"Arrange a counseling session",
+        "Requirements":[
+          {"target":"meta","parameter":"staff","formula":"doctor"}
+        ],
+        "Actions":[
+          {"target":"meta","parameter":"custom","formula":"conflict_bump1_counseling"}
+        ]
+      },
+
+      {
+        "ID":"bump2",
+        "Text":"Reprimand [actor_0:full] for bumping into [actor_1:full]",
+        "Actions":[
+          {"target":"meta","parameter":"custom","formula":"conflict_bump2_reprimand_0"}
+        ]
+      },{
+        "ID":"bump2",
+        "Text":"Reprimand [actor_1:full] for refusing to accept [actor_0:full]'s apology",
+        "Actions":[
+          {"target":"meta","parameter":"custom","formula":"conflict_bump2_reprimand_1"}
+        ]
+      },{
+        "ID":"bump2",
+        "Text":"Arrange a counseling session",
+        "Requirements":[
+          {"target":"meta","parameter":"staff","formula":"doctor"}
+        ],
+        "Actions":[
+          {"target":"meta","parameter":"custom","formula":"conflict_bump2_counseling"}
+        ]
+      }
+    ]
+  }
+]

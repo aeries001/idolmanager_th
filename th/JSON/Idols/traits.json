@@ -1,0 +1,250 @@
+[
+	{
+		type: 			"Prodigy",
+		title: 			"พรสวรรค์",
+		intro:			"intro_prodigy",
+		description:	"ฝึกซ้อมเร็วขึ้น 30%"
+	},
+	{
+		type: 			"Hypochondriac",
+		title: 			"ชอบคิดว่าป่วย",
+		intro:			"intro_hypochondriac",
+		description:	"ใช้พลังงาน 2 เท่า ในอีเว้นท์จับมือ",
+		positive:		false
+	},
+	{
+		type: 			"Thick_Skin",
+		title: 			"คนปล่อยวาง",
+		intro:			"intro_thick_skin",
+		description:	"มีภูมิคุ้มกันต่อการกลั่นแกล้งและการล่วงละเมิดทางออนไลน์"
+	},
+	{
+		type: 			"Clumsy",
+		title: 			"ซุ่มซ่าม",
+		intro:			"intro_clumsy",
+		description:	"เต้นไม่เก่งแต่ตลก"
+	},
+	{
+		type: 			"Jack_of_All_Trades",
+		title: 			"ชำชองไปซะทุกอย่าง",
+		intro:			"intro_jack_of_all_trades",
+		description:	"ไอดอลเรียนรู้เร็วขึ้น 50% เมื่อฝึกค่าที่ต่ำที่สุดในปัจจุบัน"
+	},
+	{
+		type: 			"Annoying",
+		title: 			"จู้จี้จุกจิก",
+		intro:			"intro_annoying",
+		description:	"เมื่อร่วมงานกับคนในกรุ๊ป ทำให้ผู้ร่วมงานเหนื่อยล้ามากขึ้น 1.2 เท่า",
+		positive:		false
+	},
+	{
+		type: 			"Tenacious",
+		title: 			"กัดไม่ปล่อย",
+		intro:			"intro_tenacious",
+		description:	"เมื่อพลังงานของไอดอลลดลงต่ำกว่า 50 เธอมีโอกาส 30% ที่จะไม่ใช้พลังงานเมื่อทำกิจกรรมใดๆก็ตาม"
+	},
+	{
+		type: 			"Lazy",
+		title: 			"ขี้เกียจ",
+		intro:			"intro_lazy",
+		description:	"ลดพลังงานสูงสุด 30 แต้ม",
+		positive:		false
+	},
+	{
+		type: 			"Misandry",
+		title: 			"เกลียดผู้ชาย",
+		intro:			"intro_misandry",
+		description:	"โต้ตอบได้ไม่ดีกับแฟนคลับผู้ชาย (มีโอกาส 20% ที่จะได้รับคะแนนความคิดเห็นเชิงลบจากแฟนคลับผู้ชายหลังงานจับมือ)",
+		positive:		false
+	},
+	{
+		type: 			"Asexual",
+		title: 			"ไม่สนเรื่องเพศ",
+		intro:			"intro_asexual",
+		description:	"ไม่มีความรัก"
+	},
+	{
+		type: 			"Indiscreet",
+		title: 			"ปากโป้ง",
+		intro:			"intro_indiscreet",
+		description:	"เก็บความลับไม่ได้ (ข้อมูลรั่วไหลง่ายในการสัมภาษณ์หรือโซเชียลมีเดีย)",
+		positive:		false
+	},
+	{
+		type: 			"Snitch",
+		title: 			"ขี้ฟ้อง",
+		intro:			"intro_snitch",
+		description:	"แฉเรื่องอื้อฉาว แม้ว่าความสัมพันธ์กับผู้เล่นยังไม่ดีพอ"
+	},
+	{
+		type: 			"Maternal",
+		title: 			"คุณแม่",
+		intro:			"intro_maternal",
+		description:	"ทำงานร่วมกับเมมเบอร์อายุน้อยกว่าได้ดี"
+	},
+	{
+		type: 			"Precocious",
+		title: 			"โตเกินวัย",
+		intro:			"intro_precocious",
+		description:	"ทำงานร่วมกับเมมเบอร์อายุมากกว่าได้ดี"
+	},
+	{
+		type: 			"Weak_vocal_chords",
+		title: 			"เส้นเสียงที่อ่อนแอ",
+		intro:			"intro_weak_vocal_chords",
+		description:	"ใช้พลังงานมากขึ้น 2 เท่าในการแสดง",
+		positive:		false
+	},
+	{
+		type: 			"Underdog",
+		title: 			"ไม่อยากแพ้",
+		intro:			"intro_underdog",
+		description:	"หากซิงเกิ้ลล่าสุดของคุณไม่ติดชาร์ต เพิ่มค่าสถานะทั้งหมด"
+	},
+	{
+		type: 			"Defeatist",
+		title: 			"พวกท้อง่าย",
+		intro:			"intro_defeatist",
+		description:	"หากซิงเกิ้ลล่าสุดของคุณไม่ติดชาร์ต ลดค่าสถานะทั้งหมด",
+		positive:		false
+	},
+	{
+		type: 			"Worrier",
+		title: 			"ขี้กังวล",
+		intro:			"intro_worrier",
+		description:	"เมื่อกรุ๊ปของคุณมีเรื่องอื้อฉาว ลดค่าสถานะทั้งหมด",
+		positive:		false
+	},
+	{
+		type: 			"Arrogant",
+		title: 			"หยิ่งยโส",
+		intro:			"intro_arrogant",
+		description:	"ความชื่นชอบน้อยลง เมื่อเป็นเซ็นเตอร์",
+		positive:		false
+	},
+	{
+		type: 			"Complacent",
+		title: 			"หมดไฟ",
+		intro:			"intro_complacent",
+		description:	"ลดประสิทธิภาพหลังจากเป็นเซ็นเตอร์ในซิงเกิ้ล (ค่าเสียงร้องและเต้นลดลง)",
+		positive:		false
+	},
+	{
+		type: 			"Lone_Wolf",
+		title: 			"สันโดด",
+		intro:			"intro_lone_wolf",
+		description:	"เพิ่มค่าสถานะเมื่อจัดรายการคนเดียว"
+	},
+	{
+		type: 			"Anxiety",
+		title: 			"ขี้กังวล",
+		intro:			"intro_anxiety",
+		description:	"ค่าสถานะทั้งหมดลดลงเล็กน้อย เมื่อคุณให้เธอร่วมงานใหญ่",
+		positive:		false
+	},
+	{
+		type: 			"Live_fast",
+		title: 			"พ่ายแพ้สังขาร",
+		intro:			"intro_live_fast",
+		description:	"ความสามารถลดลงเพราะอายุเพิ่มขึ้น",
+		positive:		false
+	},
+	{
+		type: 			"Late_bloomer",
+		title: 			"ยิ่งแก่ ยิ่งเก่ง",
+		intro:			"intro_late_bloomer",
+		description:	"ยิ่งอายุมากค่าสถานะจะเพิ่มมากกว่าลด"
+	},
+	{
+		type: 			"Forgiving",
+		title: 			"ใจกว้าง",
+		intro:			"intro_forgiving",
+		description:	"ไม่ถือสา"
+	},
+	{
+		type: 			"Paranoid",
+		title: 			"ขี้ระแวง",
+		intro:			"intro_paranoid",
+		description:	"มีท่าทางที่จะรายงานเรื่องอื้อฉาวที่แท้จริงให้ผู้เล่นทราบ บางครั้งก็จะมโนขึ้นมาเอง"
+	},
+	{
+		type: 			"Secretive",
+		title: 			"พวกปากแข็ง",
+		intro:			"intro_secretive",
+		description:	"จะไม่รายงานเรื่องอื้อฉาวให้ผู้เล่นทราบ",
+		positive:		false
+	},
+	{
+		type: 			"Trendy",
+		title: 			"ผู้นำเทรนด์วัยโจ๋",
+		intro:			"intro_trendy",
+		description:	"ดึงดูดแฟนคลับวัยรุ่นและวัยหนุ่มสาว  ลดความดึงดูดแฟนคลับผู้ใหญ่"
+	},
+	{
+		type: 			"Perfectionist",
+		title: 			"สมบูรณ์แบบเกินไป",
+		intro:			"intro_perfectionist",
+		description:	"เมื่ออีเว้นท์ที่เข้าร่วมไม่ราบรื่น สภาพจิตใจจะลดลง",
+		positive:		false
+	},
+	{
+		type: 			"High_maintenance",
+		title: 			"ผู้รักสปา",
+		intro:			"intro_high_maintenance",
+		description:	"ใช้พลังงานทำกิจกรรม 1.5เท่า แต่สปาทรีตเมนต์จะฟื้นฟูพลังงาน 4 เท่า"
+	},
+	{
+		type: 			"Photogenic",
+		title: 			"นางแบบมืออาชีพ",
+		intro:			"intro_photogenic",
+		description:	"ค่าตอบแทนการถ่ายแบบจะเพิ่มเป็น 2 เท่า"
+	},
+	{
+		type: 			"Meme_queen",
+		title: 			"เจ้าแม่มีม",
+		intro:			"intro_meme_queen",
+		description:	"เพิ่มอัตราสำเร็จของการตลาดแบบไวรัล และงานออนไลน์ทั้งหมดเล็กน้อย"
+	},
+	{
+		type: 			"Amorous",
+		title: 			"เจ้าเสน่ห์",
+		intro:			"intro_amorous",
+		description:	"ง่ายต่อการมีความสัมพันธ์ที่โรแมนติก"
+	},
+	{
+		type: 			"Loyal",
+		title: 			"ซื่อสัตย์",
+		intro:			"intro_loyal",
+		description:	"เมื่อเจอเหตุการณ์การความสัมพันธ์ที่แย่ จะได้รับผลกระทบน้อย"
+	},
+	{
+		type: 			"Steadfast",
+		title: 			"คนมุ่งมั่น",
+		intro:			"intro_steadfast",
+		description:	"เมื่อพลังงานต่ำ จะลดลงอย่างมาก"
+	},
+	{
+		type: 			"Resilient",
+		title: 			"ฟื้นตัวไว",
+		intro:			"intro_resilient",
+		description:	"ฟื้นตัวเร็วขึ้นเมื่อพลังงานต่ำกว่า 65%"
+	},
+	{
+		type: 			"Shameless",
+		title: 			"ไร้ยางอาย",
+		intro:			"intro_shameless",
+		description:	"ไม่กลัวเรื่องอื้อฉาว"
+	},
+	{
+		type: 			"Spoiled",
+		title: 			"อ่อนต่อโลก",
+		intro:			"intro_spoiled",
+		description:	"ใช้พลังงานมากขึ้นสองเท่า ฟื้นฟูพลังงานเร็วขึ้นครึ่งหนึ่ง"
+	},
+	{
+		type: 			"Moonlighter",
+		title: 			"ขยันตัวเป็นเกลียว",
+		intro:			"intro_moonlighter",
+		description:	"งานไอดอลเป็นงานเสริม (การฝึกเร็วขึ้น 10 เท่า แต่ใช้พลังงาน 5 เท่า)"
+	}
+]

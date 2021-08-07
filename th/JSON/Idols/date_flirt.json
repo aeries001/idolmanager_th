@@ -1,0 +1,279 @@
+[
+	{
+		"Type": "dialogue",
+		"Categories": ["success","critical_success"],
+		"Text": "ฟุฟุ ฉันว่าคุณดูดีมากเลยล่ะค่ะ"
+	},{
+		"Type": "dialogue",
+		"Categories": ["success","critical_success"],
+		"Text": "ในที่สุดก็สังเกตถึงฉันได้สักที หวังมาโดยตลอดเลยนะ"
+	},{
+		"Type": "dialogue",
+		"Categories": ["success","critical_success"],
+		"Text": "โอ้ย หน้ามืดตาลายคล้ายเป็นลม! หวังว่าคุณจะมาประคองฉันได้ไหมคะ?"
+	},{
+		"Type": "dialogue",
+		"Categories": ["success","critical_success"],
+		"Text": "ดีใจที่ชื่นชมนะ เอาอีก ขอมากกว่านี้อีกนะ"
+	},{
+		"Type": "dialogue",
+		"Categories": ["success","critical_success"],
+		"Text": "อายจังเลย ไม่กล้ามองตรง ๆ เลยล่ะค่ะ"
+	},{
+		"Type": "dialogue",
+		"Categories": ["success","critical_success"],
+		"Text": "คุณกำลังขโมยหัวใจฉันอยู่ใช่ไหม? อืม... เอาอีกเอาอีก เอาไปให้มากกว่านี้อีกสิคะ"
+	},{
+		"Type": "dialogue",
+		"Categories": ["success","critical_success"],
+		"Text": "เดี๋ยวนะ นี่ไม่ใช่ความฝันสินะ? จริง ๆ นะ"
+	},{
+		"Type": "dialogue",
+		"Categories": ["success","critical_success"],
+		"Text": "เอ๊ะ? อะไรนะคะ? จู่ ๆ ก็ได้ยินไม่ชัดเลยค่า เอาล่ะ คราวนี้พูดช้า ๆ ชัด ๆ นะคะ"
+	},{
+		"Type": "dialogue",
+		"Categories": ["success","critical_success"],
+		"Text": "อะเร๊ะ พูดคล่องขนาดนี้ [handsome:male_mc][pretty:female_mc] เป็นพิธีกรก็ไม่แปลกใจเลยนะคะเนี่ย"
+	},{
+		"Type": "dialogue",
+		"Categories": ["success","critical_success"],
+		"Text": "จะยอมรับฟัง ถ้าชมฉันบ่อย ๆ นะคะ"
+	},{
+		"Type": "dialogue",
+		"Categories": ["success","critical_success"],
+		"Text": "นี่คุณรู้หรือเปล่า ฉันรอคำนี้มานานแค่ไหนแล้ว โธ่!"
+	},{
+		"Type": "dialogue",
+		"Categories": ["success","critical_success"],
+		"Text": "อื้ม กะแล้วเชียวว่าคุณคงแทบไม่สังเกตเลยสินะคะ?"
+	},{
+		"Type": "dialogue",
+		"Categories": ["success","critical_success"],
+		"Text": "นั่นพูดกับใครอยู่รึคะ? เป็นผู้หญิงที่ชื่อ [girl] ที่มีหน้าคล้าย ๆ กับฉันผู้นี้หริอเปล่านะ"
+	},{
+		"Type": "dialogue",
+		"Categories": ["success","critical_success"],
+		"Text": "เคยคิดมาโดยตลอดว่ามันเป็นวันที่น่าเบื่อ วันนี้มันไม่ใช่แบบนั้นแล้วล่ะค่ะ"
+	},{
+		"Type": "dialogue",
+		"Categories": ["success","critical_success"],
+		"Text": "ช่วยชมให้มากกว่านี้ได้ไหมคะ? อยากได้รับคำชมเหล่านี้มาโดยตลอดค่ะ"
+	},{
+		"Type": "dialogue",
+		"Categories": ["success","critical_success"],
+		"Text": "เอ้า พอแค่นี้ ข้ามเรื่องเล็ก ๆ น้อย ๆ นี่ แล้วมาพูดถึงสำคัญกันดีกว่านะคะ!"
+	},{
+		"Type": "dialogue",
+		"Categories": ["success","critical_success"],
+		"Text": "รู้ไหม อยากได้ยินคำนี้เรื่อยไป จะได้ไหมคะ?"
+	},{
+		"Type": "dialogue",
+		"Categories": ["success","critical_success"],
+		"Text": "ห้ามพูดถึงผู้หญิงคนอื่น ต้องพูดกับฉันคนนี้เท่านั้นนะ? เข้าใจนะ?"
+	},{
+		"Type": "dialogue",
+		"Categories": ["success","critical_success"],
+		"Text": "เอ๊ะ [player] คิดเหมีอนกันแล้วนะคะ"
+	},{
+		"Type": "dialogue",
+		"Categories": ["success","critical_success"],
+		"Text": "คำ ๆ นั้น ฉันรอคอยมาตลอดเลยนะ"
+	},{
+		"Type": "dialogue",
+		"Categories": ["success","critical_success"],
+		"Text": "หยุดเลย ไม่สมกับมืออาชีพเลยนะ ให้ตายสิ แต่ไม่ต้องกังวล ฉันไม่บอกคนอื่นหรอก ...มีเรื่องจะพูดอีกสินะ ว่ามาเลยสิคะ"
+	},{
+		"Type": "dialogue",
+		"Categories": ["success","critical_success"],
+		"Text": "เรากำลังข้ามเส้นเรื่องต้องห้ามอยู่ใช่ไหม? แต่ฉันก็มีความสุขนะ"
+	},{
+		"Type": "outcome",
+		"Categories": ["success"],
+		"Text": "[girl] ดูมีความสุขเอามาก ๆ"
+	},{
+		"Type": "outcome",
+		"Categories": ["success"],
+		"Text": "[girl] ดูเหมือนจะมีช่วงเวลาที่ดีแล้ว"
+	},{
+		"Type": "outcome",
+		"Categories": ["critical_success"],
+		"Text": "[girl] เต็มไปด้วยความสุข "
+	},{
+		"Type": "outcome",
+		"Categories": ["critical_success"],
+		"Text": "[girl] ยิ้มไม่หุบเลย"
+	},{
+		"Type": "dialogue",
+		"Categories": ["catastrophic_failure"],
+		"Text": "อ่า...นั่นไม่ใช่คุณสมบัติของมืออาชีพที่จะทำกัน"
+	},{
+		"Type": "dialogue",
+		"Categories": ["catastrophic_failure"],
+		"Text": "...ฉันมีงานต้องไปทำค่ะ"
+	},{
+		"Type": "dialogue",
+		"Categories": ["catastrophic_failure"],
+		"Text": "คุณกำลังทำเรื่องไม่สมควรอยู่นะคะ?"
+	},{
+		"Type": "dialogue",
+		"Categories": ["catastrophic_failure"],
+		"Text": "หวา อีกแล้วเหรอเนี่ย"
+	},{
+		"Type": "dialogue",
+		"Categories": ["catastrophic_failure"],
+		"Text": "ได้ โปรด หยุด จะได้ไหมคะ?"
+	},{
+		"Type": "dialogue",
+		"Categories": ["catastrophic_failure"],
+		"Text": "ไม่ชอบคำนั้นเลย ถึงที่สุดด้วย"
+	},{
+		"Type": "dialogue",
+		"Categories": ["catastrophic_failure"],
+		"Text": "ทำอะไรที่ไม่เป็นตัวคุณเลยนะ?"
+	},{
+		"Type": "dialogue",
+		"Categories": ["catastrophic_failure"],
+		"Text": "ถามจริง คิดว่ามันจะจบยังไง? พูดตรง ๆ ไม่มีทางเป็นไปได้ด้วยซ้ำ"
+	},{
+		"Type": "outcome",
+		"Categories": ["catastrophic_failure"],
+		"Text": "ไม่ได้ผลสักนิด..."
+	},{
+		"Type": "outcome",
+		"Categories": ["failure", "taken"],
+		"Text": "มีหญิงอื่นอยู่แล้วนี่"
+	},{
+		"Type": "outcome",
+		"Categories": ["failure", "too_fast"],
+		"Text": "ดูเหมือนเธอจะไม่ยอมรับ..."
+	},{
+		"Type": "outcome",
+		"Categories": ["failure", "wrong_gender"],
+		"Text": "ไม่ได้สนใจ [men:male_mc][women:female_mc] เลยสักนิด"
+	},{
+		"Type": "outcome",
+		"Categories": ["failure", "uninterested"],
+		"Text": "ไม่ได้สนใจที่จะมีคู่ควง"
+	},{
+		"Type": "outcome",
+		"Categories": ["failure", "uncomfortable"],
+		"Text": "อยู่ที่นี่มีแต่อึดอัดเปล่า ๆ"
+	},{
+		"Type": "outcome",
+		"Categories": ["failure", "oblivious"],
+		"Text": "ไม่ได้สนใจเรื่องที่พูดเลยสักนิด..."
+	},{
+		"Type": "dialogue",
+		"Categories": ["failure", "uninterested"],
+		"Text": "ไม่ได้อยากให้คุณพูดอะไรแบบนั้นเลยนะ..."
+	},{
+		"Type": "dialogue",
+		"Categories": ["failure", "taken"],
+		"Text": "โทษที ฉันมีคนที่มองไว้แล้ว"
+	},{
+		"Type": "dialogue",
+		"Categories": ["failure", "taken"],
+		"Text": "คงต้องพูดให้คุณรู้ ฉันมี 'คนพิเศษ' แล้ว"
+	},{
+		"Type": "dialogue",
+		"Categories": ["failure", "taken"],
+		"Text": "ดีใจนะ แต่ฉันมีของฉันอยู่แล้ว"
+	},{
+		"Type": "dialogue",
+		"Categories": ["failure", "uninterested"],
+		"Text": "ฉันขอโทษ ฉันไม่สนใจเรื่องแบบนี้"
+	},{
+		"Type": "dialogue",
+		"Categories": ["failure", "uninterested"],
+		"Text": "คุณไม่ใช่ ...แนวที่ฉันชอบเลย"
+	},{
+		"Type": "dialogue",
+		"Categories": ["failure", "too_fast"],
+		"Text": "เอาจริงหรือคะ? ก็ไม่ได้เกลียด แต่ก็..."
+	},{
+		"Type": "dialogue",
+		"Categories": ["failure", "too_fast"],
+		"Text": "หืม? แล้ว?..."
+	},{
+		"Type": "dialogue",
+		"Categories": ["failure", "too_fast"],
+		"Text": "เอ๊ะ... จะให้พูดเรื่องแบบนี้เหรอ? คุณเป็นคนดีนะ แต่มัน...."
+	},{
+		"Type": "dialogue",
+		"Categories": ["failure", "wrong_gender"],
+		"Text": "[player] ก็ดูเป็นคนดีนะคะ [men:male_mc][women:female_mc] ไม่ได้สนใจเลยค่ะ"
+	},{
+		"Type": "dialogue",
+		"Categories": ["failure", "wrong_gender"],
+		"Text": "ฉันขอโทษ ฉัน ... ฉันไม่ค่อยสนใจ [men:male_mc][women:female_mc] ไม่ได้พูดถึง [player] เลยนะคะ"
+	},{
+		"Type": "dialogue",
+		"Categories": ["failure", "uncomfortable"],
+		"Text":"อ๋อ พูดถึงเรื่องฝนตกเมื่อวานสินะคะ? คาดไม่ถึงเลยนะคะเนี่ย"
+	},{
+		"Type": "dialogue",
+		"Categories": ["failure", "uncomfortable"],
+		"Text": "เห..."
+	},{
+		"Type": "dialogue",
+		"Categories": ["failure", "uncomfortable"],
+		"Text": "จะให้เสียเวลากว่านี้ก็ไม่ดีด้วย... 'ขอ โทษ นะ คะ' "
+	},{
+		"Type": "dialogue",
+		"Categories": ["failure", "wrong_gender"],
+		"Text": "ฉันชอบกับคำชมนี้ แต่ฉันไม่ค่อยสนใจ [guys: male_mc] [girls: female_mc] "
+	},{
+		"Type": "dialogue",
+		"Categories": ["failure", "taken"],
+		"Text": "เอ๊ะ พูดถึงฉันหรือคะ?  ชอบคำนี้อยู่หรอก แต่ฉันมี 'คนพิเศษ' แล้วค่ะ"
+	},{
+		"Type": "dialogue",
+		"Categories": ["failure", "oblivious"],
+		"Text": "ที่นี่เป็นสถานที่ที่ดี มีไว้เพื่อ [player] โดยเฉพาะ"
+	},{
+		"Type": "dialogue",
+		"Categories": ["failure", "oblivious"],
+		"Text": "ถึงอย่างนั้น ฉันตั้งตารอคอนเสิร์ตครั้งต่อไปอยู่นะ! "
+	},{
+		"Type": "dialogue",
+		"Categories": ["failure", "oblivious"],
+		"Text": "ช่วงนี้ ทีวีไม่มีอะไรจะให้ดูแล้วหรือคะเนี่ย?"
+	},{
+		"Type": "dialogue",
+		"Categories": ["failure", "oblivious"],
+		"Text": "คุณรู้เรื่องราวที่เกิดขึ้นในโทโฮคุเมื่อวันก่อนไหมคะ?"
+	},{
+		"Type": "action",
+		"Categories": ["failure", "taken", "too_fast", "wrong_gender", "uncomfortable"],
+		"Text": "[girl] เปลี่ยนท่าทาง และพยายามหลีกเลี่ยงการสบตา"
+	},{
+		"Type": "action",
+		"Categories": ["failure", "taken", "wrong_gender", "uninterested"],
+		"Text": "[girl] หัวเราะ แต่อึดอัดอย่างเห็นได้ชัด "
+	},{
+		"Type": "action",
+		"Categories": ["failure", "oblivious"],
+		"Text": "[girl] พูดไปเรื่อยไม่ขาดสาย"
+	},{
+		"Type": "action",
+		"Categories": ["failure", "taken", "too_fast", "uncomfortable"],
+		"Text": "[girl] รู้สึกทึ่งกับสิ่งที่คุณพูด"
+	},{
+		"Type": "action",
+		"Categories": ["failure", "oblivious"],
+		"Text": "[girl] สีหน้าไร้การตอบสนอง"
+	},{
+		"Type": "action",
+		"Categories": ["failure", "uninterested"],
+		"Text": "[girl] ขมวดคิ้วเล็กน้อย "
+	},{
+		"Type": "action",
+		"Categories": ["failure", "uncomfortable"],
+		"Text": "[girl] หัวเราะเสียงแข็ง บรรยากาศน่าอึดอัดยิ่งกว่าเดิม "
+	},{
+		"Type": "action",
+		"Categories": ["failure", "uninterested"],
+		"Text": "[girl] หัวเราะที่ดูถูกเหยียดหยาม"
+	}
+]
