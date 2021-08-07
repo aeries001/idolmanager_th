@@ -144,7 +144,7 @@
 	},
 	{
 		type: 			"Live_fast",
-		title: 			"พ่ายแพ้สังขาร",
+		title: 			"แพ้สังขาร",
 		intro:			"intro_live_fast",
 		description:	"ความสามารถลดลงเพราะอายุเพิ่มขึ้น",
 		positive:		false
@@ -178,7 +178,7 @@
 		type: 			"Trendy",
 		title: 			"ผู้นำเทรนด์วัยโจ๋",
 		intro:			"intro_trendy",
-		description:	"ดึงดูดแฟนคลับวัยรุ่นและวัยหนุ่มสาว  ลดความดึงดูดแฟนคลับผู้ใหญ่"
+		description:	"ดึงดูดแฟนคลับเด็กและวัยรุ่น  ลดความดึงดูดแฟนคลับผู้ใหญ่"
 	},
 	{
 		type: 			"Perfectionist",
