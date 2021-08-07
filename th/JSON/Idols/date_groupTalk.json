@@ -1,265 +1,265 @@
 [
 	{
 		"Categories": ["gossip","nothing_to_report","dialog"],
-		"Text": "What's been going on lately? Hmm, not much that I've heard of."
+		"Text": "เกิดอะไรขึ้นเมื่อเร็ว ๆ นี้? อืม... ไม่ค่อยรู้อะไรเท่าไหร่"
 	},{
 		"Categories": ["gossip","nothing_to_report","dialog"],
-		"Text": "I don't think there's anything going on...why, did you hear something?"
+		"Text": "ฉันไม่คิดว่าจะเรื่องเกิดอะไรขึ้น... แล้วคุณได้ยินเรื่องอะไรบ้างไหม?"
 	},{
 		"Categories": ["gossip","nothing_to_report","dialog"],
-		"Text": "I haven't heard any gossip lately. Is there anything you're worried about?"
+		"Text": "ช่วงนี้ฉันไม่ได้ยินเรื่องซุบซิบอะไรเลย มีอะไรที่คุณกังวลอยู่ใช่ไหม?"
 	},{
 		"Categories": ["gossip","nothing_to_report","dialog"],
-		"Text": "Honestly, things have been pretty uneventful lately. Apart from work, of course."
+		"Text": "พูดตามตรง สิ่งต่าง ๆ ค่อนข้างไม่ราบรื่นในช่วงที่ผ่านมา นอกเหนือจากงาน แน่นอนค่ะ"
 	},{
 		"Categories": ["gossip","nothing_to_report","dialog"],
-		"Text": "These days, it seems to just be business as usual."
+		"Text": "ทุก ๆ วันล้วนไม่มีอะไรเลย นอกจากงาน งาน งาน"
 	},{
 		"Categories": ["gossip","nothing_to_report","dialog"],
-		"Text": "I wish I had some juicy gossip to share, but honestly there doesn't seem to be anything going on."
+		"Text": "ฉันหวังว่าจะให้มีเรื่องซุบซิบแบบฉ่ำ ๆ มาแบ่งปัน แต่จริง ๆ แล้วไม่มีอะไรเกิดขึ้นเลย"
 	},{
 		"Categories": ["gossip","nothing_to_report","dialog"],
-		"Text": "These days, it seems to be business as usual."
+		"Text": "ฉันหวังว่าจะมีข่าวลือที่น่าสนใจมาบ้าง ...ก็ไม่เห็นมีอะไรเลยค่า"
 	},{
 		"Categories": ["gossip","nothing_to_report","dialog"],
-		"Text": "I'm not sure that there's much going on.  But hey, no news is good news, right?"
+		"Text": "ไม่มีเรื่องพวกนี้เลย แต่ไม่เป็นไรใช่ไหมคะ?"
 	},
 
 	{
 		"Categories": ["gossip","nothing_to_report","message"],
-		"Text": "There doesn't seem to be anything amiss."
+		"Text": "ไม่มีอะไรเป็นพิเศษ"
 	},{
 		"Categories": ["gossip","nothing_to_report","message"],
-		"Text": "It seems like [girl] doesn't have any gossip to report."
+		"Text": "ดูเหมือนว่า [girl] จะไม่มีเรื่องซุบซิบ"
 	},{
 		"Categories": ["gossip","nothing_to_report","message"],
-		"Text": "It doesn't seem like there's anything going on."
+		"Text": "ดูเหมือนไม่มีอะไรเกิดขึ้น"
 	},{
 		"Categories": ["gossip","nothing_to_report","message"],
-		"Text": "[girl] has nothing to report."
+		"Text": "[สาว] ไม่มีอะไรจะรายงาน "
 	},{
 		"Categories": ["gossip","nothing_to_report","message"],
-		"Text": "[girl] doesn't have any inside info on things that might be happening."
+		"Text": "[girl] ไม่มีข้อมูลวงในเกี่ยวกับเรื่องที่อาจเกิดขึ้น"
 	},
 
 	{
 		"Categories": ["gossip","refuses","dialog"],
-		"Text": "Sorry, but my lips are sealed."
+		"Text": "ขออภัย แต่ริมฝีปากของฉันถูกปิดผนึกเอาไว้ค่ะ"
 	},{
 		"Categories": ["gossip","refuses","dialog"],
-		"Text": "Umm...can we talk about something else?"
+		"Text": "อืม... เราคุยกันเรื่องอื่นกันดีไหม? "
 	},{
 		"Categories": ["gossip","refuses","dialog"],
-		"Text": "Maybe I've heard some rumors, maybe I haven't, but either way I don't think it's any of my business."
+		"Text": "บางทีฉันอาจเคยได้ยินข่าวลือมาบ้าง บางทีฉันอาจจะยังไม่เคยได้ยิน แต่ไม่ว่าจะด้วยวิธีไหน ฉันก็ไม่คิดว่ามันจะเป็นเรื่องเกี่ยวกับฉัน"
 	},{
 		"Categories": ["gossip","refuses","dialog"],
-		"Text": "Sorry, but I'm not about to spill someone else's secrets."
+		"Text": "ขอโทษนะ แต่ฉันไม่ได้อยากที่จะเปิดเผยความลับของคนอื่น"
 	},{
 		"Categories": ["gossip","refuses","dialog"],
-		"Text": "I'd rather not talk about that right now."
+		"Text": "ฉันไม่อยากพูดถึงเรื่องนี้ในตอนนี้"
 	},{
 		"Categories": ["gossip","refuses","dialog"],
-		"Text": "I'd rather not talk about that kind of thing."
+		"Text": "กรุณางดเว้นเรื่องพวกนี้ดีกว่านะคะ"
 	},{
 		"Categories": ["gossip","refuses","dialog"],
-		"Text": "Let's change the subject, shall we?"
+		"Text": "เรามาเปลี่ยนเรื่องกันดีกว่าไหม?"
 	},{
 		"Categories": ["gossip","refuses","dialog"],
-		"Text": "Should we really be talking about that kind of thing?  I'd really rather not..."
+		"Text": "เราควรพูดถึงเรื่องแบบนั้นจริง ๆ เหรอ? ฉันขอไม่ดีกว่า... "
 	},
 
 	{
 		"Categories": ["gossip","refuses","message"],
-		"Text": "It seems like [girl] doesn't trust you enough to share that kind of gossip."
+		"Text": "ดูเหมือนว่า [girl] ไม่เชื่อใจคุณมากพอที่จะเล่าเรื่องซุบซิบแบบนั้น"
 	},{
 		"Categories": ["gossip","refuses","message"],
-		"Text": "[girl] is being evasive. She's not comfortable enough around you to start sharing secrets."
+		"Text": "[girl] หลีกเลี่ยงการพูดถึงเรื่องนี้ ไม่อยากให้คุณรู้"
 	},{
 		"Categories": ["gossip","refuses","message"],
-		"Text": "[girl] seems unwilling to share gossip. Maybe she'd be more willing if she trusted you more."
+		"Text": "[girl] ดูเหมือนไม่เต็มใจที่จะพูดถึงเรื่องซุบซิบ บางทีเธออาจจะเต็มใจมากกว่านี้ถ้าเธอเชื่อใจคุณมากกว่านี้"
 	},
 
 	{
 		"Categories": ["gossip","intro"],
-		"Text": "I really shouldn't be telling you this, but"
+		"Text": "ฉันไม่ควรบอกคุณเรื่องนี้จริง ๆ แต่..."
 	},{
 		"Categories": ["gossip","intro"],
-		"Text": "Promise not to tell anyone? I heard that"
+		"Text": "สัญญาว่าจะไม่บอกใครนะ? ฉันได้ยินมาว่า..."
 	},{
 		"Categories": ["gossip","intro"],
-		"Text": "Oh, wait 'til you hear this. I just found out that"
+		"Text": "โอ้ะ รู้เรื่องนี้บ้างสินะ ฉันเพิ่งรู้ว่า..."
 	},{
 		"Categories": ["gossip","intro"],
-		"Text": "You may have already heard about this, but"
+		"Text": "คุณอาจเคยได้ยินเกี่ยวกับเรื่องนี้แล้ว แต่..."
 	},{
 		"Categories": ["gossip","intro"],
-		"Text": "Nobody's listening, right? Okay."
+		"Text": "ไม่มีใครฟังใช่ไหม? ก่อนอื่น..."
 	},{
 		"Categories": ["gossip","intro"],
-		"Text": "You know, I've been hearing a lot of rumors that"
+		"Text": "รู้ไหม ฉันได้ยินข่าวลือมามากมายว่า..."
 	},{
 		"Categories": ["gossip","intro"],
-		"Text": "Okay, I'm not supposed to tell you this, but"
+		"Text": "โอเค ฉันไม่ควรบอกคุณเรื่องนี้ แต่..."
 	},{
 		"Categories": ["gossip","intro"],
-		"Text": "I recently saw some private photos showing that"
+		"Text": "ฉันเพิ่งเห็นรูปถ่ายส่วนตัวบางรูปที่แสดงว่า..."
 	},{
 		"Categories": ["gossip","intro"],
-		"Text": "Well, by now you've probably heard that"
+		"Text": "ถึงตอนนี้คุณคงเคยได้ยินว่า..."
 	},{
 		"Categories": ["gossip","intro"],
-		"Text": "Listen, this isn't my secret to tell, but since it's you asking...I need to let you know that"
+		"Text": "ฟังนะ นี่ไม่ใช่ความลับที่ฉันจะต้องไปบอกใครต่อใคร แต่ในเมื่อคุณถาม...ฉันต้องบอกคุณให้รู้บ้าง"
 	},{
 		"Categories": ["gossip","intro"],
-		"Text": "You didn't hear this from me, but rumor has it that"
+		"Text": "คุณไม่ได้ยินสิ่งนี้จากฉัน แต่มีข่าวลือว่า..."
 	},{
 		"Categories": ["gossip","intro"],
-		"Text": "Listen, I've been really worried ever since I found out that"
+		"Text": "ฟังนะ ฉันกังวลมากตั้งแต่ที่รู้ว่า..."
 	},{
 		"Categories": ["gossip","intro"],
-		"Text": "I really need to get this off my chest: you have to know that"
+		"Text": "ฉันต้องเอามันออกจากอก คุณต้องรู้แล้วล่ะ..."
 	},{
 		"Categories": ["gossip","intro"],
-		"Text": "You probably already know this, but"
+		"Text": "คุณคงรู้เรื่องนี้แล้ว แต่..."
 	},
 
 	{
 		"Categories": ["gossip","dating_idol","dialog"],
-		"Text": "[girl1] and [girl2] are dating."
+		"Text": "[girl1] และ [girl2] กำลังคบกันอบู่ "
 	},{
 		"Categories": ["gossip","dating_idol","dialog"],
-		"Text": "[girl1] and [girl2] are getting romantically involved."
+		"Text": "[girl1] และ [girl2] คบกันอย่างหวานแหวว"
 	},{
 		"Categories": ["gossip","dating_idol","dialog"],
-		"Text": "things between [girl1] and [girl2] are getting pretty hot and heavy."
+		"Text": "ระหว่าง [girl1] และ [girl2] เริ่มที่จะร้อนแรงและจุดไฟราคะกันแล้ว"
 	},{
 		"Categories": ["gossip","dating_idol","dialog"],
-		"Text": "[girl1] and [girl2] have been flirting pretty shamelessly."
+		"Text": "[girl1] และ [girl2] จีบกันอย่างไร้ยางอายเลยค่า"
 	},{
 		"Categories": ["gossip","dating_idol","dialog"],
-		"Text": "[girl1] totally has the hots for [girl2], and the feeling is absolutely mutual."
+		"Text": "ดูเหมือนว่า [girl1] จะกระตือรือร้นเกี่ยวกับ [girl2] ดูเหมือนทั้งสองความรู้สึกเหมือนกันแล้ว"
 	},{
 		"Categories": ["gossip","dating_idol","dialog"],
-		"Text": "[girl1] and [girl2] are kind of an item right now."
+		"Text": "[girl1] และ [girl2] เทียบจะเป็นอันหนึ่งอันเดียวกันแล้วล่ะค่ะ"
 	},{
 		"Categories": ["gossip","dating_idol","message"],
-		"Text": "It seems like [girl1] and [girl2] are dating each other."
+		"Text": "ดูเหมือนว่า [girl1] และ [girl2] กำลังคบกัน"
 	},
 
 	{
 		"Categories": ["gossip","dating_guy","dialog"],
-		"Text": "[girl1] has a secret boyfriend."
+		"Text": "[girl1] มีแฟนหนุ่มแบบลับ ๆ อยู่ค่ะ"
 	},{
 		"Categories": ["gossip","dating_guy","dialog"],
-		"Text": "[girl1] is seeing some guy."
+		"Text": "[girl1] กำลังคยผู้ชายบางคนอยู่ค่ะ"
 	},{
 		"Categories": ["gossip","dating_guy","dialog"],
-		"Text": "[girl1] has been secretly dating some hot guy."
+		"Text": "[girl1] แอบออกเดทกับหนุ่มฮอตบางคนอยู่นะตะ"
 	},{
 		"Categories": ["gossip","dating_guy","dialog"],
-		"Text": "[girl1] has been sneaking out to go on dates with some guy she met."
+		"Text": "[girl1] แอบออกไปเดทกับผู้ชายที่เธอเพิ่งรู้จัก"
 	},{
 		"Categories": ["gossip","dating_guy","dialog"],
-		"Text": "[girl1] has been exchanging flirty messages with some guy."
+		"Text": "[girl1] แอบส่งข้อความหาผู้ชายบางคนอยู่ค่ะ"
 	},{
 		"Categories": ["gossip","dating_guy","message"],
-		"Text": "It seems like [girl1] has a boyfriend."
+		"Text": "ดูเหมือนว่า [girl1] จะมีแฟนหนุ่มแล้ว"
 	},
 
 	{
 		"Categories": ["gossip","dating_girl","dialog"],
-		"Text": "[girl1] has a secret girlfriend."
+		"Text": "[girl1] มีแฟนสาวแบบลับ ๆ อยู่ค่ะ"
 	},{
 		"Categories": ["gossip","dating_girl","dialog"],
-		"Text": "[girl1] has been sneaking out to go on dates with some girl."
+		"Text": "[girl1] เคยไปเดทกับสาวบางคนอยู่ค่ะ"
 	},{
 		"Categories": ["gossip","dating_girl","dialog"],
-		"Text": "[girl1] has been spending a lot of time with someone she met outside the group."
+		"Text": "[girl1] ใช้เวลาส่วนใหญ่กับสาวบางคนที่อยู่นอกวงของเราค่ะ"
 	},{
 		"Categories": ["gossip","dating_girl","dialog"],
-		"Text": "[girl1] was kissing some girl I've never seen before."
+		"Text": "[girl1] กำลังจูบผู้หญิงที่ฉันไม่เคยเห็นมาก่อนเลยนะคะ"
 	},{
 		"Categories": ["gossip","dating_girl","dialog"],
-		"Text": "[girl1] has been exchanging flirty messages with some girl."
+		"Text": "[girl1] แอบส่งข้อความหาผู้หญิงบางคนอยู่ค่ะ"
 	},{
 		"Categories": ["gossip","dating_girl","message"],
-		"Text": "It seems like [girl1] has found a girlfriend outside the group."
+		"Text": "ดูเหมือนว่า [girl1] จะมีแฟนนอกวงของเราอยู่ค่ะ"
 	},
 
 	{
 		"Categories": ["gossip","bullied","dialog"],
-		"Text": "[girl2] has been getting harassed by [girl1] and a few of her friends."
+		"Text": "[girl2] ถูกแกล้งโดย [girl1] และเพื่อนของเธอบางคน "
 	},{
 		"Categories": ["gossip","bullied","dialog"],
-		"Text": "[girl1] and her friends have been ganging up on [girl2] recently."
+		"Text": "เมื่อเร็ว ๆ นี้ [girl1] และสมาชิกบางคนรุมล้อม [girl2]"
 	},{
 		"Categories": ["gossip","bullied","dialog"],
-		"Text": "[girl2] has been getting a lot of grief from [girl1] and her friends."
+		"Text": "[girl2] รู้สึกเสียใจหลังจากที่ [girl1] และเพื่อน ๆ ของเธอทำอะไรบางอย่าง"
 	},{
 		"Categories": ["gossip","bullied","dialog"],
-		"Text": "[girl1] really seems to have it out for [girl2]."
+		"Text": "ดูเหมือนว่า [girl1] จะไม่สนใจ [girl2] อีกต่อไป"
 	},{
 		"Categories": ["gossip","bullied","dialog"],
-		"Text": "[girl1] has been acting like a real jerk toward [girl2]."
+		"Text": "[girl1] ทำตัวแย่ ๆ ใส่ [girl2]"
 	},{
 		"Categories": ["gossip","bullied","dialog"],
-		"Text": "[girl1] and her friends won't leave [girl2] alone."
+		"Text": "[girl1] และเพื่อนพ้องอีกสองสามคน คอยรังควาน [girl2] ตลอดเวลา "
 	},{
 		"Categories": ["gossip","bullied","message"],
-		"Text": "It seems like [girl2] is getting bullied by [girl1]'s clique."
+		"Text": "ดูเหมือนว่า [girl2] จะถูกรังแกโดยกลุ่มของ [girl1] "
 	},
 
 
 
 	{
 		"Categories": ["mentor","refuses_both_bad","dialog"],
-		"Text": "That's...kind of a big ask. I'd really rather not."
+		"Text": "อืม... เป็นคำถามเรื่องใหญ่น่าดูนะ ขอไม่ตอบล่ะกัน"
 	},{
 		"Categories": ["mentor","refuses_both_bad","dialog"],
-		"Text": "Sorry, but I really don't think that mentoring [girl2] is worth my time."
+		"Text": "ขอโทษนะ แต่มันเป็นการเสียเวลาที่จะคุยเรื่องของ [girl2]"
 	},{
 		"Categories": ["mentor","refuses_both_bad","dialog"],
-		"Text": "I'd rather not spend any more time with [girl2] than I'd have to. Sorry."
+		"Text": "กับ [girl2] แล้วฉันอยากรักษาความสัมพันธ์ดี ๆ ให้น้อยที่สุด ขอโทษด้วย"
 	},{
 		"Categories": ["mentor","refuses_both_bad","dialog"],
-		"Text": "Now's not a really good time, and [girl2] isn't a really good fit for me. Sorry."
+		"Text": "ฉันไม่ต้องการเสียเวลากับเรื่องของ [girl2] ไปมากกว่านี้ ขอโทษด้วย"
 	},{
 		"Categories": ["mentor","refuses_both_bad","dialog"],
-		"Text": "I think [girl2] would be better off with someone who doesn't find her to be so...unpleasant."
+		"Text": "อืม... แล้ว [girl2] ไม่หาพรรคพวกที่เข้ากันได้ล่ะ?"
 	},{
 		"Categories": ["mentor","refuses_both_bad","dialog"],
-		"Text": "Nah, I don't think that [girl2] and I would really get along."
+		"Text": "ไม่ย่ะ [girl2] เนี่ยไม่ถูกโฉลกด้วยหรอกนะ"
 	},{
 		"Categories": ["mentor","refuses_both_bad","message"],
-		"Text": "It seems like [girl] doesn't like [girl2] and isn't willing to mentor her"
+		"Text": "ดูเหมือนว่า [girl] จะไม่ชอบ [girl2] และไม่เต็มใจที่จะรับฟังเลย"
 	},
 
 	{
 		"Categories": ["mentor","refuses_stats","dialog"],
-		"Text": "You want me to mentor [girl2]? I don't know...she's already so good at everything, I don't think I'd have anything to teach her."
+		"Text": "คุณต้องการให้ฉันเป็นพี่เลี้ยง [girl2] จริงเหรอ? ฉันไม่รู้ เธอเก่งทุกอย่างอยู่แล้ว ฉันไม่คิดว่าจะมีอะไรจะสอนเธอ"
 	},{
 		"Categories": ["mentor","refuses_stats","dialog"],
-		"Text": "Me? Mentor [girl2]? Honestly, I think she's the one who should be mentoring me. But it would be pretty awkward to get mentored by your kohai."
+		"Text": "ฉันเนี่ยนะ? พี่เลี้ยงของ [girl2]? พูดตามตรง ฉันคิดว่าเธอเป็นคนที่ควรเป็นที่ปรึกษาให้กับฉันแทน \nแต่มันค่อนข้างจะน่าอึดอัดใจที่จะได้รับคำแนะนำจากรุ่นน้องของตนเอง"
 	},{
 		"Categories": ["mentor","refuses_stats","dialog"],
-		"Text": "I'm flattered that you'd ask, but I really don't think I'm qualified to mentor [girl2]. She's in a league of her own."
+		"Text": "ฉันรู้สึกเป็นเกียรติที่ได้ถูกเลือก แต่มันเป็นไปไม่ได้ที่จะสอน [girl2] \n คุณไม่จำเป็นชี้แนะให้ด้วยซ้ำ"
 	},{
 		"Categories": ["mentor","refuses_stats","message"],
-		"Text": "[girl] doesn't feel qualified to mentor [girl2]."
+		"Text": "[girl] รู้สึกว่าไม่มีคุณสมบัติเพียงพอที่จะเป็นที่ปรึกษาให้กับ [girl2]"
 	},
 
 	{
 		"Categories": ["mentor","agrees_likes_you","dialog"],
-		"Text": "Honestly, I'd rather not be forced to spend a bunch of time with [girl2] asking. But since you're the one asking...I'll give it a shot."
+		"Text": "บอกตามตรง ฉันไม่ต้องการใช้เวลาให้ [girl2] \n แต่ว่าคุณถามฉันนี่ จะลองดูนะ"
 	},{
 		"Categories": ["mentor","agrees_likes_you","dialog"],
-		"Text": "[girl2] and I don't really have any chemistry, you know? But if you think she'd benefit from my teaching, I guess I'll help her out."
+		"Text": "[girl2] และฉันไม่มีความเข้ากันเลย รู้ไหม? \nแต่ถ้าคุณคิดว่าเธอควรจะได้ประโยชน์จากการสอนของฉัน ฉันยินดีที่จะช่วยเธอ"
 	},{
 		"Categories": ["mentor","agrees_likes_you","dialog"],
-		"Text": "Sure, I'd be happy to mentor my kohai, even if it is [girl2]."
+		"Text": "แน่นอน ฉันยินดีที่จะให้คำปรึกษาแก่รุ่นน้องของฉัน แม้ว่าจะเป็น [girl2] ก็ตาม"
 	},{
 		"Categories": ["mentor","agrees_likes_you","message"],
-		"Text": "It seems like [girl] is willing to mentor [girl2], even if the two aren't on the best of terms."
+		"Text": "ดูเหมือนว่า [girl] เต็มใจที่จะพี่เลี้ยงให้ [girl2] แม้ว่าทั้งสองจะไม่เข้ากันก็ตาม"
 	},
 
 	{
@@ -491,4 +491,4 @@
 		"Categories": ["group","nothing_to_report","message"],
 		"Text": "It sounds like there isn't anything new going on."
 	}
-]r
+]
