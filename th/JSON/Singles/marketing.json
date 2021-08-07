@@ -1,13 +1,13 @@
 ﻿[
 	{
 		"id": 0,
-		"title": "การเปิดตัวแบบดิจิทัลเท่านั้น",
+		"title": "ดิจิทัลดาวน์โหลดเท่านั้น",
 		"unlocked": true,
 		"cost": -1,
 		"physical": false,
 		"digital_only": true,
 		"max_level": 1,
-		"description": "{green}ลดค่าใช้จ่ายที่เกี่ยวข้องกับการเปิดตัว{/color}{linebreak}{red}แฟนๆ ไม่สามารถซื้อได้มากกว่า 1 ชุด\nไม่มีแพ็กเกจสิทธิประโยชน์{/color}"
+		"description": "{green}ประหยัดค่าใช้จ่ายในการเปิดตัว{/color}{linebreak}{red}แฟนคลับซื้อเพียงคนละ 1 ดาวน์โหลดเท่านั้น\nไม่มีสิทธิประโยชน์หรือของแถมอื่นๆ{/color}"
 	},
 
 	{
@@ -19,7 +19,7 @@
 		"cost_stamina": 50,
 		"girl_multiplier": true,
 		"individual_handshake": true,
-		"description": "แฟนๆ รับบัตรจับมือกับหนึ่งในไอดอล{linebreak}แฟนพันธุ์แท้ซื้ออีก {hardcore_multi} ชุด\n({hardcore} ต่อไอดอล){linebreak}พลังงาน: {cost_stamina} สำหรับทุกไอดอลในกรุ๊ป\nราคาต่อซีดี: {cost_CD}",
+		"description": "แฟนคลับซื้อแผ่นซีดีพร้อมได้รับบัตรจับมือแบบเดี่ยว{linebreak}แฟนพันธุ์แท้ซื้อมากขึ้น {hardcore_multi}\n({hardcore} ต่อไอดอล){linebreak}พลังงาน: {cost_stamina} สำหรับทุกคนในวง\nต้นทุนต่อซีดี: {cost_CD}",
 		"appeal": {
 			"hardcore": [0.05, 0.06, 0.07, 0.08, 0.09, 0.1, 0.11, 0.12, 0.13, 0.15]
 		}
@@ -31,7 +31,7 @@
 		"physical": true,
 		"cost_stamina": 20,
 		"group_handshake": true,
-		"description": "แฟนๆ ได้บัตรไปจับมือกับเหล่าไอดอล{linebreak}แฟนพันธุ์แท้ซื้ออีก {hardcore} ชุด{linebreak}พลังงาน: {cost_stamina} สำหรับทุกไอดอลในกรุ๊ป\nราคาต่อซีดี: {cost_CD}",
+		"description": "แฟนคลับซื้อแผ่นซีดีพร้อมได้รับบัตรจับมือแบบกลุ่ม{linebreak}แฟนพันธุ์แท้ซื้อมากขึ้น {hardcore}{linebreak}พลังงาน: {cost_stamina} สำหรับทุกคนในว\nต้นทุนต่อซีดี: {cost_CD}",
 		"appeal": {
 			"hardcore": [0.3, 0.32, 0.34, 0.36, 0.38, 0.4, 0.42, 0.44, 0.48, 0.5]
 		}
