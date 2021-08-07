@@ -264,19 +264,19 @@
 
 	{
 		"Categories": ["mentor","agrees_likes_kohai","dialog"],
-		"Text": "That's kind of a big ask. But if it's for [girl2], I guess I can agree to that."
+		"Text": "นั่นเป็นบทบาทที่สำคัญมาก แต่ถ้ามันทำให้เพื่อ [girl2] ฉันยินดีเป็นอย่างยิ่ง"
 	},{
 		"Categories": ["mentor","agrees_likes_kohai","dialog"],
-		"Text": "You seem to expect a lot out of me. But if it would be helpful for [girl2], I'll give it a try."
+		"Text": "ดูเหมือนคุณจะคาดหวังจากฉันมาก แต่ถ้าจะเป็นประโยชน์สำหรับ [girl2] \nฉันจะลองดู"
 	},{
 		"Categories": ["mentor","agrees_likes_kohai","dialog"],
-		"Text": "What's in it for me? Just kidding, I'll do it. But seriously, you owe me one."
+		"Text": "ฉันมันจะไปมีประโยชน์อะไร? เรื่องตลกน่า ฉันจะทำมัน \n เพียงแต่คุณเป็นหนี้ฉํนอย่างนึงแล้วนะ"
 	},{
 		"Categories": ["mentor","agrees_likes_kohai","dialog"],
-		"Text": "I've been really busy lately and I barely have any spare time as it is, but I guess I'll do it for [girl2]'s sake."
+		"Text": "ช่วงนี้ฉันยุ่งและไม่ค่อยมีเวลา... \n แต่ถ้ามันดีสำหรับ [girl2] ฉันก็จะทำ"
 	},{
 		"Categories": ["mentor","agrees_likes_kohai","message"],
-		"Text": "[girl] reluctantly agrees."
+		"Text": "[girl] ลงมือทำเต็มที่ อย่างไม่เต็มใจ"
 	},
 
 	{
