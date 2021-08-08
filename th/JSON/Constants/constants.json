@@ -2190,10 +2190,10 @@
 
 	{
 		id: "BD__TITLE_1",
-		text: "@มี"
+		text: "@"
 	},{
 		id: "BD__TITLE_2",
-		text: "วันเกิดครบ@ปี"
+		text: "มีวันเกิดครบ@ปี"
 	},{
 		id: "BD__AGE",
 		text: "อายุ @ ปี"
@@ -2795,7 +2795,7 @@
 		text: "ประวัติเครดิต"
 	},{
 		id: "LOANS__PAY_OFF",
-		text: "จ่ายแล้ว"
+		text: "จ่ายหนี้"
 	},{
 		id: "LOANS__CREDITOR",
 		text: "เจ้าหนี้"
