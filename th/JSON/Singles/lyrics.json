@@ -2,7 +2,7 @@
 	{
     "id": 10,
     "type": "lyrics",
-    "title": "รัก",
+    "title": "ความรัก",
     "trend_points": 3000,
     "unlocked": true,
     "level": 0,
@@ -14,7 +14,7 @@
   {
     "id": 11,
     "type": "lyrics",
-    "title": "ต่อต้าน",
+    "title": "ประชดประชัน",
     "unlocked": true,
     "level": 0,
     "appeal": {
@@ -26,7 +26,7 @@
   {
     "id": 12,
     "type": "lyrics",
-    "title": "ปาร์ตี้",
+    "title": "ปาร์ตี้แด๊นซ์",
     "unlocked": true,
     "level": 0,
     "appeal": {
@@ -39,7 +39,7 @@
   {
     "id": 13,
     "type": "lyrics",
-    "title": "เหงา",
+    "title": "ความเหงา",
     "unlocked": true,
     "level": 0,
     "appeal": {
@@ -51,7 +51,7 @@
   {
     "id": 14,
     "type": "lyrics",
-    "title": "เพื่อน",
+    "title": "มิตรภาพ",
     "unlocked": true,
     "level": 0,
     "appeal": {
@@ -63,7 +63,7 @@
   {
     "id": 15,
     "type": "lyrics",
-    "title": "เศร้า",
+    "title": "ความเศร้า",
     "unlocked": true,
     "level": 0,
     "appeal": {
@@ -90,7 +90,7 @@
   {
     "id": 17,
     "type": "lyrics",
-    "title": "การเมือง",
+    "title": "เสียดสีการเมือง",
     "unlocked": true,
     "level": 0,
     "appeal": {
@@ -101,7 +101,7 @@
   {
     "id": 18,
     "type": "lyrics",
-    "title": "ความกังวล",
+    "title": "ความวิตกกังวล",
     "unlocked": true,
     "level": 0,
     "appeal": {
