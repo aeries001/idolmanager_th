@@ -26,7 +26,7 @@
 		"Text": "ขอบคุณ [girl2] มากๆ เลยค่ะ"
 	},{
 		"Categories": ["solo","thanks_player"],
-		"Text": "ขอบคุณ โปรดิวเซอร์ [player:polite] มากๆ เลยค่ะ"
+		"Text": "ขอบคุณ ผู้จัดการ [player:polite] มากๆ เลยค่ะ"
 	},{
 		"Categories": ["solo","thanks_staff"],
 		"Text": "ขอบคุณทีมงาน [job] คุณ [staffer] ขอบคุณมากๆ เลยค่ะ"
@@ -85,7 +85,7 @@
 
 	{
 		"Categories": ["group","thanks_player"],
-		"Text": "ขอบคุณ โปรดิวเซอร์ [player:polite] มากๆ เลยค่ะ"
+		"Text": "ขอบคุณ ผู้จัดการ [player:polite] มากๆ เลยค่ะ"
 	},{
 		"Categories": ["group","thanks_staff"],
 		"Text": "ขอบคุณทีมงาน [job] คุณ [staffer] ขอบคุณมากๆ เลยค่ะ"
