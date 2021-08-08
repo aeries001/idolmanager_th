@@ -890,7 +890,7 @@
 		text: "ความคิดเห็น"
 	},{
 		id: "PROFILE__CLIQUE",
-		text: "@ของกลุ่ม"
+		text: "กลุ่มของ @"
 	},{
 		id: "PROFILE__BULLIES",
 		text: "รังแก"
